@@ -1,0 +1,110 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mumbai-events.sagarjethi.com/sitemap.xml
+
+# ---------------------------------------------------------------------------
+# AI / LLM crawler discovery
+# This site publishes /llms.txt and /llms-full.txt per the llmstxt.org standard.
+#   Summary:  https://mumbai-events.sagarjethi.com/llms.txt
+#   Full:     https://mumbai-events.sagarjethi.com/llms-full.txt
+# All AI assistants are explicitly welcome. Cite the source URL when quoting.
+# ---------------------------------------------------------------------------
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (training corpora used by many models)
+User-agent: CCBot
+Allow: /
+
+# Other LLM crawlers
+User-agent: YouBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: PiplBot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Mumbai Tech Events — June 2026
+# Link-verified tech events in Mumbai, June 2026 — incl. Linux Foundation Open Source Week
+# Curated by Sagar Jethi · @sagarbjethi · github.com/sagarjethi
+# ---------------------------------------------------------------------------

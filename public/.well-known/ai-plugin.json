@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Mumbai Tech Events",
+  "name_for_model": "mumbai_events",
+  "description_for_human": "A link-verified guide to tech events, conferences and meetups in Mumbai, June 2026 — including the Linux Foundation's Open Source Week.",
+  "description_for_model": "Use this to find tech events, conferences, startup events, and meetups happening in Mumbai, India in June 2026. Includes event names, dates, venues, costs and registration links. The headline is the Linux Foundation's Open Source Week Mumbai (Jun 14-19 at Jio World Convention Centre, BKC): KubeCon + CloudNativeCon India, Open Source Summit India, OpenSearchCon India and the MCP Dev Summit. Also Microsoft Build //localhost, the Data & Gen AI Summit, the IBM Agentic AI Summit and developer/founder meetups. Full event data available at /llms-full.txt and /events.md.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "none",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://mumbai-events.sagarjethi.com/og-image.png",
+  "contact_email": "sagar.jethi007@gmail.com",
+  "legal_info_url": "https://mumbai-events.sagarjethi.com"
+}

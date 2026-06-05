@@ -1,0 +1,36 @@
+// Linear day strip used by HackathonsPage's calendar filter (and historically
+// by the homepage CalendarView). Most consumers now derive days from
+// `events` directly via `MonthCalendar` — keep this file for the legacy
+// HackathonsPage strip until it migrates.
+export const calendarDays = [
+  { date: '2026-04-15', label: 'Apr 15', day: 'Wed' },
+  { date: '2026-04-16', label: 'Apr 16', day: 'Thu' },
+  { date: '2026-04-17', label: 'Apr 17', day: 'Fri' },
+  { date: '2026-04-18', label: 'Apr 18', day: 'Sat' },
+  { date: '2026-04-19', label: 'Apr 19', day: 'Sun' },
+  { date: '2026-04-20', label: 'Apr 20', day: 'Mon' },
+  { date: '2026-04-21', label: 'Apr 21', day: 'Tue' },
+  { date: '2026-04-22', label: 'Apr 22', day: 'Wed' },
+  { date: '2026-04-23', label: 'Apr 23', day: 'Thu' },
+  { date: '2026-04-24', label: 'Apr 24', day: 'Fri' },
+  { date: '2026-04-25', label: 'Apr 25', day: 'Sat' },
+  { date: '2026-04-26', label: 'Apr 26', day: 'Sun' },
+  { date: '2026-04-27', label: 'Apr 27', day: 'Mon' },
+  { date: '2026-04-28', label: 'Apr 28', day: 'Tue' },
+  { date: '2026-04-29', label: 'Apr 29', day: 'Wed' },
+  { date: '2026-04-30', label: 'Apr 30', day: 'Thu' },
+  { date: '2026-05-01', label: 'May 1', day: 'Fri' },
+  { date: '2026-05-02', label: 'May 2', day: 'Sat' },
+  { date: '2026-05-06', label: 'May 6', day: 'Wed' },
+  { date: '2026-05-07', label: 'May 7', day: 'Thu' },
+  { date: '2026-05-09', label: 'May 9', day: 'Sat' },
+  { date: '2026-05-10', label: 'May 10', day: 'Sun' },
+  { date: '2026-05-13', label: 'May 13', day: 'Wed' },
+  { date: '2026-05-14', label: 'May 14', day: 'Thu' },
+  { date: '2026-05-16', label: 'May 16', day: 'Sat' },
+  { date: '2026-05-18', label: 'May 18', day: 'Mon' },
+  { date: '2026-05-22', label: 'May 22', day: 'Fri' },
+  { date: '2026-05-23', label: 'May 23', day: 'Sat' },
+  { date: '2026-05-24', label: 'May 24', day: 'Sun' },
+  { date: '2026-05-30', label: 'May 30', day: 'Sat' },
+];

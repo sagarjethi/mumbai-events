@@ -1,0 +1,21 @@
+{
+  "_note": "Hosts here are manually verified via WebFetch or browser. `hosts` = block HEAD/GET with 403/429 (bot-blocked). `certErrorHosts` = real sites that fail Node's strict TLS (self-signed chain or older CA), reachable in browsers. In both cases the verify script emits a warning rather than an error.",
+  "hosts": [
+    "x.com",
+    "twitter.com",
+    "www.linkedin.com",
+    "linkedin.com",
+    "www.instagram.com",
+    "instagram.com",
+    "medium.com",
+    "www.medium.com",
+    "platform.openai.com",
+    "forms.gle",
+    "docs.google.com"
+  ],
+  "certErrorHosts": [
+    "startup.netapp.in",
+    "www.ccamp.res.in",
+    "ccamp.res.in"
+  ]
+}

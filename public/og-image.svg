@@ -1,0 +1,57 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f5ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fdf2f8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a78f2"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Badge -->
+  <rect x="440" y="140" width="320" height="40" rx="20" fill="#e0ebff"/>
+  <text x="600" y="166" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#3443cb">38+ Events in 12 Days</text>
+
+  <!-- Title -->
+  <text x="600" y="250" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="800" fill="#0f172a">Mumbai Events</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="url(#accent)">June 15–26, 2026</text>
+
+  <!-- Description -->
+  <text x="600" y="390" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#64748b">Tech conferences, hackathons, startup events &amp; meetups</text>
+
+  <!-- Tags -->
+  <rect x="200" y="440" width="100" height="32" rx="16" fill="#f5f3ff"/>
+  <text x="250" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#7c3aed">OpenAI</text>
+
+  <rect x="320" y="440" width="60" height="32" rx="16" fill="#ecfdf5"/>
+  <text x="350" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#047857">YC</text>
+
+  <rect x="400" y="440" width="80" height="32" rx="16" fill="#fff7ed"/>
+  <text x="440" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#c2410c">AWS</text>
+
+  <rect x="500" y="440" width="80" height="32" rx="16" fill="#eff6ff"/>
+  <text x="540" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8">Meta</text>
+
+  <rect x="600" y="440" width="100" height="32" rx="16" fill="#fdf2f8"/>
+  <text x="650" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#be185d">VibeCon</text>
+
+  <rect x="720" y="440" width="80" height="32" rx="16" fill="#ecfeff"/>
+  <text x="760" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0891b2">GIDS</text>
+
+  <rect x="820" y="440" width="80" height="32" rx="16" fill="#f0fdf4"/>
+  <text x="860" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#15803d">Rust</text>
+
+  <rect x="920" y="440" width="80" height="32" rx="16" fill="#fefce8"/>
+  <text x="960" y="461" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#a16207">Web3</text>
+
+  <!-- Footer -->
+  <text x="600" y="560" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#94a3b8">mumbai-events.sagarjethi.com</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="624" width="1200" height="6" fill="url(#accent)"/>
+</svg>

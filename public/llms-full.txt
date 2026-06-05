@@ -1,0 +1,263 @@
+# Mumbai Tech Events — Full Event Listing
+# Tech events, hackathons, conferences, startup events & meetups
+# in Mumbai, India · June 2026
+# Website: https://mumbai-events.sagarjethi.com
+# Author: Sagar Jethi (@sagarbjethi)
+# Last updated: Friday, June 5, 2026 (2026-06-05)
+
+## Summary
+
+16 tracked tech events. 16 upcoming as of 2026-06-05.
+7 conferences · 4 meetups · 4 startup events.
+8+ free to attend.
+
+Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
+Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
+eChai Ventures.
+
+---
+
+## EVENTS BY DATE
+
+### Mumbai Tech Mixer & Social
+- ID: 3
+- Date: Fridays · Jun 5–26
+- Start: 2026-06-05
+- Venue: British Brewing Company, Mathuradas Mill Compound, Lower Parel, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Free
+- Category: meetup
+- Tags: Tech, AI, Data, Networking, Weekly
+- Status: Live today
+- Description: A recurring free Friday-evening tech networking social for AI, data and IT professionals in Lower Parel. Runs every Friday through June (5, 12, 19, 26).
+- Register: https://www.eventbrite.com/e/mumbai-tech-mixer-and-social-tech-ai-data-it-tickets-1987417417997
+- Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-tech-mixer-social
+
+### JS Mumbai
+- ID: 1
+- Date: Jun 6
+- Start: 2026-06-06
+- Venue: ITM Institute of Design and Media, Andheri West, Mumbai
+- Time: 10:00 AM onwards
+- Cost: Free
+- Category: conference
+- Tags: JavaScript, Web, Frontend, AI Agents, Community
+- Status: Upcoming
+- Description: Inaugural JavaScript community conference with talks on design, AI agents, freelancing and analytics, followed by networking. Free, first-come-first-served (waitlist when full).
+- Register: https://luma.com/q86g8d3w
+- Detail page: https://mumbai-events.sagarjethi.com/events/js-mumbai
+
+### Mumbai Startup Meetup (eChai Ventures)
+- ID: 2
+- Date: Jun 6
+- Start: 2026-06-06
+- Venue: DevX, 215 Atrium, J B Nagar, Andheri East, Mumbai
+- Time: 11:00 AM – 1:00 PM
+- Cost: Free
+- Category: startup
+- Tags: Startups, Founders, Networking, eChai
+- Status: Upcoming
+- Description: eChai Ventures
+- Register: https://echai.ventures/events/mumbai-startup-meetup-jun-06-2026
+- Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-startup-meetup-echai-ventures
+
+### MumbAI AI Saturdays — Get Funded to Co-Work
+- ID: 4
+- Date: Saturdays · Jun 6–27
+- Start: 2026-06-06
+- Venue: BHIVE Platinum Plus, Inspire BKC, Bandra East, Mumbai
+- Time: 6:00 PM – 8:00 PM
+- Cost: Free (₹75 co-working day pass)
+- Category: meetup
+- Tags: AI, Builders, Co-working, Community, Weekly
+- Status: Upcoming
+- Description: A grassroots AI builder co-working meetup every Saturday at BHIVE Inspire BKC, with a sponsorship mechanism that funds day passes. Runs every Saturday through June (6, 13, 20, 27).
+- Register: https://www.eventbrite.com/e/mumbai-ai-saturdaysget-funded-to-co-work-adani-inspire-bkc-bhive-tickets-1983158010996
+- Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-ai-saturdays-get-funded-to-co-work
+
+### Data & Gen AI Summit 2026 (Mumbai)
+- ID: 5
+- Date: Jun 11
+- Start: 2026-06-11
+- Venue: ITC Maratha, Sahar Road, Andheri East, Mumbai
+- Time: 9:00 AM – 6:00 PM
+- Cost: ₹15,000+ (See event page)
+- Category: conference
+- Tags: Data, Generative AI, Enterprise, Snowflake, Analytics
+- Status: Upcoming
+- Description: UBS Forums
+- Register: https://dataandai.in/
+- Website: https://dataandai.in/venue.html
+- Detail page: https://mumbai-events.sagarjethi.com/events/data-gen-ai-summit-2026-mumbai
+
+### Microsoft Build //localhost: Mumbai
+- ID: 6
+- Date: Jun 13
+- Start: 2026-06-13
+- Venue: Mumbai (venue revealed on registration)
+- Time: 10:00 AM – 3:00 PM
+- Cost: Free (approval required)
+- Category: conference
+- Tags: Microsoft, Azure AI, GitHub Copilot, Developers
+- Status: Upcoming
+- Description: A community-run Microsoft Build //localhost developer event bringing Build 2026 keynote highlights, Azure AI and GitHub Copilot sessions to Mumbai. Registration requires host approval.
+- Register: https://luma.com/db7jfokl
+- Detail page: https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai
+
+### Mumbai Founders Breakfast Club 2026
+- ID: 7
+- Date: Jun 13
+- Start: 2026-06-13
+- Venue: Mutuswami Cafe, Ramee Guestline Hotel, Dadar East, Mumbai
+- Time: 9:00 AM – 11:00 AM
+- Cost: ₹1,000
+- Category: startup
+- Tags: Startups, Founders, Networking, Breakfast
+- Status: Upcoming
+- Description: A founders
+- Register: https://allevents.in/mumbai/mumbai-founders-breakfast-club-2026-tickets/80003253363756
+- Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-founders-breakfast-club-2026
+
+### How Food Brands Scale Through Franchisees — Mumbai Edition (eChai)
+- ID: 8
+- Date: Jun 13
+- Start: 2026-06-13
+- Venue: DevX, 215 Atrium, J B Nagar, Andheri East, Mumbai
+- Time: 11:00 AM – 1:00 PM
+- Cost: Free
+- Category: startup
+- Tags: Startups, F&B, Franchising, eChai
+- Status: Upcoming
+- Description: An eChai Ventures panel (co-hosted with Petpooja and DevX) on how food & beverage brands scale through franchisee models — unit economics and franchise strategy.
+- Register: https://echai.ventures/events/how-food-brands-scale-through-franchisees-mumbai-edition-jun-13-2026
+- Detail page: https://mumbai-events.sagarjethi.com/events/how-food-brands-scale-through-franchisees-mumbai-edition-echai
+
+### MCP Dev Summit Mumbai
+- ID: 9
+- Date: Jun 14–15
+- Start: 2026-06-14  End: 2026-06-15
+- Venue: Jio World Convention Centre, BKC, Mumbai
+- Time: 2 days
+- Cost: ₹11,500 (Academic ₹2,300)
+- Category: conference
+- Tags: AI Agents, MCP, Open Source, Linux Foundation, Open Source Week
+- Status: Upcoming
+- Description: A technical summit for developers building AI agents with the Model Context Protocol (MCP). Hosted by the Agentic AI Foundation as part of Open Source Week Mumbai.
+- Register: https://events.linuxfoundation.org/mcp-dev-summit-mumbai/
+- Website: https://events.linuxfoundation.org/mumbai-2026-events/
+- Detail page: https://mumbai-events.sagarjethi.com/events/mcp-dev-summit-mumbai
+
+### OpenSearchCon India 2026
+- ID: 10
+- Date: Jun 15–16
+- Start: 2026-06-15  End: 2026-06-16
+- Venue: Jio World Convention Centre, BKC, Mumbai
+- Time: 2 days
+- Cost: $149 / ₹13,400 (Academic $49)
+- Category: conference
+- Tags: OpenSearch, Search, Observability, Open Source, Open Source Week
+- Status: Upcoming
+- Description: The annual OpenSearch community conference on search, observability and security applications. Hosted by the OpenSearch Software Foundation alongside KubeCon + CloudNativeCon India.
+- Register: https://events.linuxfoundation.org/opensearchcon-india/
+- Website: https://events.linuxfoundation.org/mumbai-2026-events/
+- Detail page: https://mumbai-events.sagarjethi.com/events/opensearchcon-india-2026
+
+### Open Source Summit India 2026
+- ID: 11
+- Date: Jun 16–17
+- Start: 2026-06-16  End: 2026-06-17
+- Venue: Jio World Convention Centre, BKC, Mumbai
+- Time: 2 days
+- Cost: $225 / ₹20,000 (Academic & Hobbyist $55)
+- Category: conference
+- Tags: Open Source, Linux, Cloud Native, Open AI & Data, Linux Foundation
+- Status: Upcoming
+- Description: The Linux Foundation
+- Register: https://events.linuxfoundation.org/open-source-summit-india/
+- Website: https://events.linuxfoundation.org/mumbai-2026-events/
+- Detail page: https://mumbai-events.sagarjethi.com/events/open-source-summit-india-2026
+
+### Agentic AI Summit 2026 (IBM Developer Accelerator — Mumbai)
+- ID: 12
+- Date: Jun 17–18
+- Start: 2026-06-17  End: 2026-06-18
+- Venue: Virtual
+- Time: 10:00 AM IST · 2 days
+- Cost: Free
+- Category: meetup
+- Tags: IBM, Agentic AI, watsonx, Enterprise, Virtual
+- Status: Upcoming
+- Description: A two-day virtual summit by the IBM Developer Accelerator — Mumbai Chapter on building enterprise agentic-AI systems, with hands-on tracks and live demos.
+- Register: https://www.meetup.com/data-ai-meetup-mumbai/events/314842434/
+- Detail page: https://mumbai-events.sagarjethi.com/events/agentic-ai-summit-2026-ibm-developer-accelerator-mumbai
+
+### KubeCon + CloudNativeCon India 2026
+- ID: 13
+- Date: Jun 18–19
+- Start: 2026-06-18  End: 2026-06-19
+- Venue: Jio World Convention Centre, BKC, Mumbai
+- Time: 2 days
+- Cost: Corporate $299 · Individual $99 · Academic $50
+- Category: conference
+- Tags: Kubernetes, Cloud Native, CNCF, Platform Engineering, Open Source Week
+- Status: Upcoming
+- Description: CNCF
+- Register: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
+- Website: https://events.linuxfoundation.org/mumbai-2026-events/
+- Detail page: https://mumbai-events.sagarjethi.com/events/kubecon-cloudnativecon-india-2026
+
+### Bharat MSME Expo 2026 — Mumbai
+- ID: 14
+- Date: Jun 19
+- Start: 2026-06-19
+- Venue: Mumbai (venue on registration)
+- Time: See event page
+- Cost: See event page
+- Category: expo
+- Tags: MSME, Startups, B2B, Exhibition
+- Status: Upcoming
+- Description: A B2B/B2C MSME exhibition for startups, brands, manufacturers and traders to showcase products, with the Mumbai edition in June.
+- Register: https://allevents.in/mumbai/bharat-msme-expo-2026/80002887743636
+- Detail page: https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
+
+### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
+- ID: 15
+- Date: Jun 20
+- Start: 2026-06-20
+- Venue: Microsoft Office, Central Salsette Tramway Rd, Andheri East, Mumbai
+- Time: 9:30 AM – 3:30 PM
+- Cost: Free
+- Category: meetup
+- Tags: Microsoft, Build, Azure AI, GitHub Copilot, Security
+- Status: Upcoming
+- Description: A community-run Microsoft Build //localhost recap at Microsoft
+- Register: https://www.meetup.com/mumbai-technology-meetup/events/314975810/
+- Detail page: https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai-mumbai-technology-meetup
+
+### EDGE Masterclass: Those Who Tell Stories, Rule the World (Capt. Raghu Raman)
+- ID: 16
+- Date: Jun 27
+- Start: 2026-06-27
+- Venue: The Quorum, One World Center, Lower Parel, Mumbai
+- Time: 9:00 AM
+- Cost: By application (30 seats)
+- Category: startup
+- Tags: Leadership, Storytelling, Founders, Masterclass
+- Status: Upcoming
+- Description: A leadership-storytelling masterclass with Capt. Raghu Raman (founding CEO of NATGRID) on narrative frameworks for founders and senior leaders. In-person only, limited to 30 attendees.
+- Register: https://luma.com/e80kox95
+- Detail page: https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
+
+
+---
+
+## ABOUT
+
+Built and maintained by Sagar Jethi (@sagarbjethi).
+- Twitter/X: https://x.com/sagarbjethi
+- LinkedIn: https://www.linkedin.com/in/sagarjethi
+- GitHub: https://github.com/sagarjethi
+- Topmate (1:1 consult): https://topmate.io/sagarjethi
+- Source code: https://github.com/sagarjethi/mumbai-events-2026
+
+This file regenerates from the live event database whenever it changes.
