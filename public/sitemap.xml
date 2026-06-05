@@ -181,6 +181,24 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/the-shipyard</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/axilor-ventures</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>

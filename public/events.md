@@ -1,6 +1,6 @@
 # Mumbai Tech Events — June 2026
 
-> 16 events | 8 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
+> 19 events | 11 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
 > Last updated: Friday, June 5, 2026 (2026-06-05)
@@ -109,6 +109,16 @@
 - **Register:** https://www.meetup.com/data-ai-meetup-mumbai/events/314842434/
 - **Details:** https://mumbai-events.sagarjethi.com/events/agentic-ai-summit-2026-ibm-developer-accelerator-mumbai
 
+### Agents, Graphs & The Road to Production (AI Mumbai × Neo4j)
+- **Date:** Jun 17
+- **Venue:** ATLAS SkillTech University, Bldg 2, BKC, Mumbai
+- **Time:** 2:00 PM – 5:30 PM
+- **Cost:** Free (approval required)
+- **Tags:** AI, AI Agents, Knowledge Graphs, Neo4j, GraphRAG
+- An AI Mumbai meetup with Neo4j on building production-grade agentic systems and graph-powered AI — talks, demos and networking for engineers, founders and developers.
+- **Register:** https://luma.com/8339ewui
+- **Details:** https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
+
 ### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
 - **Date:** Jun 20
 - **Venue:** Microsoft Office, Central Salsette Tramway Rd, Andheri East, Mumbai
@@ -172,4 +182,26 @@
 - A B2B/B2C MSME exhibition for startups, brands, manufacturers and traders to showcase products, with the Mumbai edition in June.
 - **Register:** https://allevents.in/mumbai/bharat-msme-expo-2026/80002887743636
 - **Details:** https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
+
+## Hackathon
+
+### The Shipyard
+- **Date:** Jun 6
+- **Venue:** Zonko Labs, The Summit Business Bay, Gundavali, Andheri East, Mumbai
+- **Time:** 4:00 PM – 8:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Builders, AI Agents, Devtools, MCP, Infra
+- A heads-down Saturday builder session by Zonko.ai — a small group ships AI agents, devtools, MCPs and infra together, with an optional show-and-tell at 7pm.
+- **Register:** https://luma.com/u7gd6eyt
+- **Details:** https://mumbai-events.sagarjethi.com/events/the-shipyard
+
+### Mumbai | Claude Impact Lab
+- **Date:** Jun 27
+- **Venue:** Mumbai (venue revealed on registration)
+- **Time:** 8:00 AM – 8:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** AI, Claude, Anthropic, Civic Tech, Kumbh Mela
+- India
+- **Register:** https://luma.com/5426n7o6
+- **Details:** https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
 

@@ -4,7 +4,7 @@ This app was cloned from the Bangalore events directory and rebranded to **Mumba
 
 ## ✅ Real & verified (June 2026)
 
-`src/data/events/june-2026.js` — **16 link-verified Mumbai tech events** for June 2026.
+`src/data/events/june-2026.js` — **19 link-verified Mumbai tech events** for June 2026.
 Every event was cross-checked by opening its source page (Linux Foundation, Lu.ma, Meetup, eChai, Eventbrite, allevents.in). Highlights:
 
 - **Open Source Week Mumbai (Jun 14–19, Jio World Convention Centre, BKC)** — MCP Dev Summit, OpenSearchCon India, Open Source Summit India, KubeCon + CloudNativeCon India.

@@ -7,9 +7,9 @@
 
 ## Summary
 
-16 tracked tech events. 16 upcoming as of 2026-06-05.
-7 conferences · 4 meetups · 4 startup events.
-8+ free to attend.
+19 tracked tech events. 19 upcoming as of 2026-06-05.
+7 conferences · 5 meetups · 4 startup events.
+11+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -74,6 +74,20 @@ eChai Ventures.
 - Description: A grassroots AI builder co-working meetup every Saturday at BHIVE Inspire BKC, with a sponsorship mechanism that funds day passes. Runs every Saturday through June (6, 13, 20, 27).
 - Register: https://www.eventbrite.com/e/mumbai-ai-saturdaysget-funded-to-co-work-adani-inspire-bkc-bhive-tickets-1983158010996
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-ai-saturdays-get-funded-to-co-work
+
+### The Shipyard
+- ID: 17
+- Date: Jun 6
+- Start: 2026-06-06
+- Venue: Zonko Labs, The Summit Business Bay, Gundavali, Andheri East, Mumbai
+- Time: 4:00 PM – 8:00 PM
+- Cost: Free (approval required)
+- Category: hackathon
+- Tags: Builders, AI Agents, Devtools, MCP, Infra
+- Status: Upcoming
+- Description: A heads-down Saturday builder session by Zonko.ai — a small group ships AI agents, devtools, MCPs and infra together, with an optional show-and-tell at 7pm.
+- Register: https://luma.com/u7gd6eyt
+- Detail page: https://mumbai-events.sagarjethi.com/events/the-shipyard
 
 ### Data & Gen AI Summit 2026 (Mumbai)
 - ID: 5
@@ -191,6 +205,20 @@ eChai Ventures.
 - Register: https://www.meetup.com/data-ai-meetup-mumbai/events/314842434/
 - Detail page: https://mumbai-events.sagarjethi.com/events/agentic-ai-summit-2026-ibm-developer-accelerator-mumbai
 
+### Agents, Graphs & The Road to Production (AI Mumbai × Neo4j)
+- ID: 18
+- Date: Jun 17
+- Start: 2026-06-17
+- Venue: ATLAS SkillTech University, Bldg 2, BKC, Mumbai
+- Time: 2:00 PM – 5:30 PM
+- Cost: Free (approval required)
+- Category: meetup
+- Tags: AI, AI Agents, Knowledge Graphs, Neo4j, GraphRAG
+- Status: Upcoming
+- Description: An AI Mumbai meetup with Neo4j on building production-grade agentic systems and graph-powered AI — talks, demos and networking for engineers, founders and developers.
+- Register: https://luma.com/8339ewui
+- Detail page: https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
+
 ### KubeCon + CloudNativeCon India 2026
 - ID: 13
 - Date: Jun 18–19
@@ -247,6 +275,20 @@ eChai Ventures.
 - Description: A leadership-storytelling masterclass with Capt. Raghu Raman (founding CEO of NATGRID) on narrative frameworks for founders and senior leaders. In-person only, limited to 30 attendees.
 - Register: https://luma.com/e80kox95
 - Detail page: https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
+
+### Mumbai | Claude Impact Lab
+- ID: 19
+- Date: Jun 27
+- Start: 2026-06-27
+- Venue: Mumbai (venue revealed on registration)
+- Time: 8:00 AM – 8:00 PM
+- Cost: Free (approval required)
+- Category: hackathon
+- Tags: AI, Claude, Anthropic, Civic Tech, Kumbh Mela
+- Status: Upcoming
+- Description: India
+- Register: https://luma.com/5426n7o6
+- Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
 
 
 ---
