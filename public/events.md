@@ -1,6 +1,6 @@
 # Mumbai Tech Events — June 2026
 
-> 19 events | 11 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
+> 20 events | 12 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
 > Last updated: Friday, June 5, 2026 (2026-06-05)
@@ -118,6 +118,16 @@
 - An AI Mumbai meetup with Neo4j on building production-grade agentic systems and graph-powered AI — talks, demos and networking for engineers, founders and developers.
 - **Register:** https://luma.com/8339ewui
 - **Details:** https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
+
+### Vibe Coding / Father
+- **Date:** Jun 19
+- **Venue:** Mumbai (venue revealed on registration)
+- **Time:** 12:30 PM – 3:30 PM
+- **Cost:** Free
+- **Tags:** AI, Vibe Coding, Coding, Builders
+- A Father
+- **Register:** https://luma.com/6gcu7ud0
+- **Details:** https://mumbai-events.sagarjethi.com/events/vibe-coding-father
 
 ### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
 - **Date:** Jun 20

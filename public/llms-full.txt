@@ -7,9 +7,9 @@
 
 ## Summary
 
-19 tracked tech events. 19 upcoming as of 2026-06-05.
-7 conferences · 5 meetups · 4 startup events.
-11+ free to attend.
+20 tracked tech events. 20 upcoming as of 2026-06-05.
+7 conferences · 6 meetups · 4 startup events.
+12+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -247,6 +247,20 @@ eChai Ventures.
 - Description: A B2B/B2C MSME exhibition for startups, brands, manufacturers and traders to showcase products, with the Mumbai edition in June.
 - Register: https://allevents.in/mumbai/bharat-msme-expo-2026/80002887743636
 - Detail page: https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
+
+### Vibe Coding / Father
+- ID: 20
+- Date: Jun 19
+- Start: 2026-06-19
+- Venue: Mumbai (venue revealed on registration)
+- Time: 12:30 PM – 3:30 PM
+- Cost: Free
+- Category: meetup
+- Tags: AI, Vibe Coding, Coding, Builders
+- Status: Upcoming
+- Description: A Father
+- Register: https://luma.com/6gcu7ud0
+- Detail page: https://mumbai-events.sagarjethi.com/events/vibe-coding-father
 
 ### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
 - ID: 15
