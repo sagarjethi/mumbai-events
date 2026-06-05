@@ -6,6 +6,3 @@ export { events } from './events/index';
 export { CATEGORIES } from './categories';
 export { calendarDays } from './calendar-days';
 export { platforms } from './platforms';
-
-// socialBuzz still lives here in step 2; step 3 will move it to social/x-posts.js
-export { socialBuzz } from './social/buzz';

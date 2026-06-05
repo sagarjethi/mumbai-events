@@ -22,7 +22,6 @@ const DISCOVER_GROUPS = [
     label: 'Browse',
     items: [
       { to: '/map', label: 'Event map', icon: MapPin, desc: 'All venues on a Leaflet map' },
-      { to: '/social', label: 'Social buzz', icon: MessageCircle, desc: 'X / LinkedIn posts and creators' },
       { to: '/cards', label: 'Shareable cards', icon: ImageIcon, desc: 'Weekly + monthly cards for X / LinkedIn / IG' },
     ],
   },

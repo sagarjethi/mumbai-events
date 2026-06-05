@@ -45,17 +45,5 @@ export { platforms } from './platforms';
 export { COLLECTIONS, isFree, matchesAi, matchesWeb3 } from './seo-collections';
 export { FESTS as collegeFests } from './college-fests';
 
-// Social
-export { socialBuzz } from './social/buzz';
-// Re-export all the richer SocialPage arrays
-export {
-  xPosts,
-  linkedinPosts,
-  instagramReels,
-  notablePeople,
-  lumaEvents,
-  couponsAndDeals,
-} from './social';
-
 // Accelerators (already in its own module)
 export { accelerators } from './accelerators';

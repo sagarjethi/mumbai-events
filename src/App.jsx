@@ -14,7 +14,6 @@ import SubscribeBar from './components/SubscribeBar';
 import CardsCallout from './components/CardsCallout';
 
 // Below-the-fold on home: lazy so the homepage TTI is faster.
-const SocialBuzz = lazy(() => import('./components/SocialBuzz'));
 const Platforms = lazy(() => import('./components/Platforms'));
 
 // Per-route components: lazy-loaded so each route is its own chunk.
@@ -24,7 +23,6 @@ const MonthsIndexPage = lazy(() => import('./components/MonthEventsPage').then((
 const MonthEventsPage = lazy(() => import('./components/MonthEventsPage'));
 const CollectionPage = lazy(() => import('./components/CollectionPage'));
 const CollegeFestsPage = lazy(() => import('./components/CollegeFestsPage'));
-const SocialPage = lazy(() => import('./components/SocialPage'));
 const MapPage = lazy(() => import('./components/MapPage'));
 const AcceleratorsPage = lazy(() => import('./components/AcceleratorsPage'));
 const AcceleratorDetail = lazy(() => import('./components/AcceleratorDetail'));
@@ -53,7 +51,6 @@ function HomePage() {
       <HomeCalendar selectedDate={selectedDate} onDateSelect={setSelectedDate} />
       <EventsGrid selectedDate={selectedDate} onClearDate={() => setSelectedDate(null)} />
       <Suspense fallback={null}>
-        <SocialBuzz />
         <Platforms />
       </Suspense>
       <Footer />
@@ -82,7 +79,6 @@ export default function App() {
           <Route path="/college-fests-mumbai-2026" element={<CollegeFestsPage />} />
           <Route path="/accelerators" element={<AcceleratorsPage />} />
           <Route path="/accelerators/:slug" element={<AcceleratorDetail />} />
-          <Route path="/social" element={<SocialPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/editorial" element={<EditorialPage />} />

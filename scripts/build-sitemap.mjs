@@ -40,7 +40,6 @@ add('/', { changefreq: 'daily', priority: 1.0 });
 add('/events', { changefreq: 'daily', priority: 0.95 });
 add('/events/june-2026', { changefreq: 'daily', priority: 0.95 });
 add('/accelerators', { changefreq: 'weekly', priority: 0.9 });
-add('/social', { changefreq: 'weekly', priority: 0.8 });
 add('/map', { changefreq: 'weekly', priority: 0.8 });
 
 // SEO landing pages — keyword-rich URLs that target high-intent searches
