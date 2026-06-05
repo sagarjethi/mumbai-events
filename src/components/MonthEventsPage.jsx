@@ -36,6 +36,14 @@ const MONTHS = {
     blurb:
       "June is Mumbai's open-source month — the Linux Foundation brings Open Source Week to Jio World Convention Centre (KubeCon + CloudNativeCon India, Open Source Summit India, OpenSearchCon, MCP Dev Summit), alongside Microsoft Build //localhost, a Data & Gen AI Summit, and a busy run of founder and AI community meetups.",
   },
+  'july-2026': {
+    label: 'July 2026',
+    short: 'July',
+    year: 2026,
+    monthNum: 7,
+    blurb:
+      "July adds the Postman Agents & APIs developer meetup and the Automation Expo at NESCO Goregaon. More community meetups (GDG, AWS UG, eChai) typically publish closer to the date — this page refreshes as they're confirmed.",
+  },
 };
 const MONTH_ORDER = Object.keys(MONTHS);
 

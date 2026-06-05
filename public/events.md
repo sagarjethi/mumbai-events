@@ -1,6 +1,6 @@
 # Mumbai Tech Events — June 2026
 
-> 20 events | 12 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
+> 22 events | 13 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
 > Last updated: Friday, June 5, 2026 (2026-06-05)
@@ -139,6 +139,16 @@
 - **Register:** https://www.meetup.com/mumbai-technology-meetup/events/314975810/
 - **Details:** https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai-mumbai-technology-meetup
 
+### Agents & APIs Mumbai Developer Meetup (Postman)
+- **Date:** Jul 18
+- **Venue:** Mumbai (Andheri East area, venue on RSVP)
+- **Time:** 10:00 AM – 2:00 PM
+- **Cost:** See event page (approval required)
+- **Tags:** AI Agents, APIs, Postman, Developers
+- A Postman-hosted developer meetup on AI agents and APIs — talks, live demos, networking and small bites for the Mumbai developer community.
+- **Register:** https://luma.com/july-mumbai-meetup
+- **Details:** https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
+
 ## Startup
 
 ### Mumbai Startup Meetup (eChai Ventures)
@@ -192,6 +202,16 @@
 - A B2B/B2C MSME exhibition for startups, brands, manufacturers and traders to showcase products, with the Mumbai edition in June.
 - **Register:** https://allevents.in/mumbai/bharat-msme-expo-2026/80002887743636
 - **Details:** https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
+
+### Automation Expo 2026
+- **Date:** Jul 22–25
+- **Venue:** Bombay Exhibition Centre (NESCO), Goregaon East, Mumbai
+- **Time:** 10:00 AM – 6:00 PM
+- **Cost:** Free (visitor registration)
+- **Tags:** Automation, Robotics, IIoT, Industry 4.0, Smart Manufacturing
+- The 19th edition of Asia
+- **Register:** https://www.automationindiaexpo.com/
+- **Details:** https://mumbai-events.sagarjethi.com/events/automation-expo-2026
 
 ## Hackathon
 

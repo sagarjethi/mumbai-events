@@ -11,6 +11,7 @@ import EventDateStrip from './EventDateStrip';
 export default function HomeCalendar({ selectedDate, onDateSelect }) {
   const monthCounts = useMemo(() => ({
     jun: ALL_EVENTS.filter((e) => (e.startDate || '').startsWith('2026-06')).length,
+    jul: ALL_EVENTS.filter((e) => (e.startDate || '').startsWith('2026-07')).length,
   }), []);
 
   const onAfterSelect = () => {
@@ -21,16 +22,18 @@ export default function HomeCalendar({ selectedDate, onDateSelect }) {
   };
 
   return (
-    <section id="calendar" aria-label="Event calendar — June 2026" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <section id="calendar" aria-label="Event calendar — June–July 2026" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="inline-flex items-center gap-2 text-sm text-slate-500">
           <CalendarRange className="w-4 h-4 text-slate-400" />
           <span className="font-medium text-slate-700">Event calendar</span>
           <span className="text-slate-300">·</span>
-          <span className="text-xs text-slate-500">June 2026</span>
+          <span className="text-xs text-slate-500">June–July 2026</span>
         </div>
         <div className="hidden sm:inline-flex items-center gap-1.5 text-xs text-slate-500">
-          <span className="font-medium text-slate-700">June {monthCounts.jun} events</span>
+          <span className="font-medium text-slate-700">June {monthCounts.jun}</span>
+          <span className="text-slate-300">·</span>
+          <span className="font-medium text-slate-700">July {monthCounts.jul}</span>
         </div>
       </div>
 

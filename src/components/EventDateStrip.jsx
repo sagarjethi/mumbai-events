@@ -15,6 +15,7 @@ import { CATEGORIES } from '../data';
 
 const DEFAULT_MONTHS = [
   { year: 2026, monthNum: 6, short: 'June' },
+  { year: 2026, monthNum: 7, short: 'July' },
 ];
 
 function pad(n) { return n < 10 ? `0${n}` : `${n}`; }

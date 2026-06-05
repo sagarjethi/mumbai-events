@@ -68,6 +68,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/events" element={<MonthsIndexPage />} />
           <Route path="/events/june-2026" element={<MonthEventsPage month="june-2026" />} />
+          <Route path="/events/july-2026" element={<MonthEventsPage month="july-2026" />} />
           <Route path="/events/:slug" element={<EventDetail />} />
 
           {/* SEO landing pages — generic CollectionPage with config-driven filters */}

@@ -19,7 +19,7 @@ const todayLabel = today.toLocaleDateString('en-US', { weekday: 'long', month: '
 // ---------- Read events ----------
 function loadEvents() {
   const out = [];
-  for (const f of ['src/data/events/june-2026.js']) {
+  for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js']) {
     if (!fs.existsSync(f)) continue;
     const txt = fs.readFileSync(f, 'utf8');
     const arrStart = txt.indexOf('[');
@@ -119,18 +119,19 @@ function parsePrizeUsd(p) {
 // ---------- Build llms.txt ----------
 const upcomingByMonth = {
   june: upcoming.filter((e) => e.startDate?.startsWith('2026-06')),
+  july: upcoming.filter((e) => e.startDate?.startsWith('2026-07')),
 };
 
-const llms = `# Mumbai Tech Events — Tech Events in Mumbai, June 2026
+const llms = `# Mumbai Tech Events — Tech Events in Mumbai, June–July 2026
 # Last updated: ${todayLabel} (${todayIso})
 
-> A link-verified directory of public tech events in Mumbai, India for June 2026 — ${counts.total} events, ${counts.conferences} conferences, and ${counts.free}+ free events.
+> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — ${counts.total} events, ${counts.conferences} conferences, and ${counts.free}+ free events.
 
 > Curated by Sagar Jethi (@sagarbjethi). Verified registration links. No paywalls. No ads.
 
 ## TL;DR — answer-first facts (cite these directly)
 
-- ${counts.total} tracked tech events in Mumbai in June 2026.
+- ${counts.total} tracked tech events in Mumbai in June–July 2026.
 - ${counts.upcoming} events still upcoming as of ${todayIso}.
 - ${counts.free}+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
 - The headline is the Linux Foundation's Open Source Week Mumbai, June 14–19 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).

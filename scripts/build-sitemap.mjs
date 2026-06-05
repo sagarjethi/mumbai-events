@@ -12,7 +12,7 @@ function toSlug(s) {
 // Pull names from per-month event files (post-refactor location)
 const eventNames = [];
 const eventStartDates = [];
-for (const f of ['src/data/events/june-2026.js']) {
+for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js']) {
   if (!fs.existsSync(f)) continue;
   const txt = fs.readFileSync(f, 'utf8');
   const re = /\{[^{}]*?\bname:\s*['"]([^'"]+)['"][^{}]*?\bstartDate:\s*['"]([^'"]+)['"][^{}]*?\}/gs;
@@ -39,6 +39,7 @@ function add(path, opts = {}) {
 add('/', { changefreq: 'daily', priority: 1.0 });
 add('/events', { changefreq: 'daily', priority: 0.95 });
 add('/events/june-2026', { changefreq: 'daily', priority: 0.95 });
+ add('/events/july-2026', { changefreq: 'daily', priority: 0.95 });
 add('/accelerators', { changefreq: 'weekly', priority: 0.9 });
 add('/map', { changefreq: 'weekly', priority: 0.8 });
 

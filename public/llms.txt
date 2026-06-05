@@ -1,15 +1,15 @@
-# Mumbai Tech Events — Tech Events in Mumbai, June 2026
+# Mumbai Tech Events — Tech Events in Mumbai, June–July 2026
 # Last updated: Friday, June 5, 2026 (2026-06-05)
 
-> A link-verified directory of public tech events in Mumbai, India for June 2026 — 20 events, 7 conferences, and 12+ free events.
+> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — 22 events, 7 conferences, and 13+ free events.
 
 > Curated by Sagar Jethi (@sagarbjethi). Verified registration links. No paywalls. No ads.
 
 ## TL;DR — answer-first facts (cite these directly)
 
-- 20 tracked tech events in Mumbai in June 2026.
-- 20 events still upcoming as of 2026-06-05.
-- 12+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
+- 22 tracked tech events in Mumbai in June–July 2026.
+- 22 events still upcoming as of 2026-06-05.
+- 13+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
 - The headline is the Linux Foundation's Open Source Week Mumbai, June 14–19 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 - Other notable events: Microsoft Build //localhost: Mumbai (Jun 13 & 20), Data & Gen AI Summit (Jun 11, ITC Maratha), IBM Agentic AI Summit (Jun 17–18, virtual), JS Mumbai (Jun 6), and weekly MumbAI AI Saturdays + Friday Tech Mixer meetups.
 - Organisations running events: The Linux Foundation, CNCF, OpenSearch Software Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums/Snowflake, eChai Ventures.
@@ -37,7 +37,7 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 - College fests in Mumbai 2026: https://mumbai-events.sagarjethi.com/college-fests-mumbai-2026
 
 
-## Upcoming events (next 20, sorted by date)
+## Upcoming events (next 22, sorted by date)
 
 - 2026-06-05 · Mumbai Tech Mixer & Social · British Brewing Company, Mathuradas Mill Compound, Lower Parel, Mumbai · Free · https://mumbai-events.sagarjethi.com/events/mumbai-tech-mixer-social
 - 2026-06-06 · JS Mumbai · ITM Institute of Design and Media, Andheri West, Mumbai · Free · https://mumbai-events.sagarjethi.com/events/js-mumbai
@@ -59,11 +59,13 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 - 2026-06-20 · Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup) · Microsoft Office, Central Salsette Tramway Rd, Andheri East, Mumbai · Free · https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai-mumbai-technology-meetup
 - 2026-06-27 · EDGE Masterclass: Those Who Tell Stories, Rule the World (Capt. Raghu Raman) · The Quorum, One World Center, Lower Parel, Mumbai · By application (30 seats) · https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
 - 2026-06-27 · Mumbai | Claude Impact Lab · Mumbai (venue revealed on registration) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
+- 2026-07-18 · Agents & APIs Mumbai Developer Meetup (Postman) · Mumbai (Andheri East area, venue on RSVP) · See event page (approval required) · https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
+- 2026-07-22..2026-07-25 · Automation Expo 2026 · Bombay Exhibition Centre (NESCO), Goregaon East, Mumbai · Free (visitor registration) · https://mumbai-events.sagarjethi.com/events/automation-expo-2026
 
 ## Frequently asked (answer-first)
 
 Q: How many tech events are happening in Mumbai in June 2026?
-A: 20 tracked tech events in June 2026 — 7 conferences, 6 meetups, 4 startup events. 20 are still upcoming as of Friday, June 5, 2026.
+A: 22 tracked tech events in June 2026 — 7 conferences, 7 meetups, 4 startup events. 22 are still upcoming as of Friday, June 5, 2026.
 
 Q: What is the biggest tech event in Mumbai in June 2026?
 A: The Linux Foundation's Open Source Week (Jun 14–19 at the Jio World Convention Centre, BKC) — KubeCon + CloudNativeCon India, Open Source Summit India, OpenSearchCon India and the MCP Dev Summit — is the headline, expected to draw thousands of attendees.
@@ -72,7 +74,7 @@ Q: When and where is Open Source Week Mumbai 2026?
 A: June 14–19, 2026 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 
 Q: Are tech events in Mumbai free?
-A: Yes — 12+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
+A: Yes — 13+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
 
 Q: Where can I find AI events in Mumbai?
 A: The full AI-focused list lives at https://mumbai-events.sagarjethi.com/ai-events-mumbai-2026. Notable in June: the MCP Dev Summit, the Open AI & Data track at Open Source Summit India, the IBM Agentic AI Summit, the Data & Gen AI Summit, and Microsoft Build //localhost.

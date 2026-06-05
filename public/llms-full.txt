@@ -7,9 +7,9 @@
 
 ## Summary
 
-20 tracked tech events. 20 upcoming as of 2026-06-05.
-7 conferences · 6 meetups · 4 startup events.
-12+ free to attend.
+22 tracked tech events. 22 upcoming as of 2026-06-05.
+7 conferences · 7 meetups · 4 startup events.
+13+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -303,6 +303,35 @@ eChai Ventures.
 - Description: India
 - Register: https://luma.com/5426n7o6
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
+
+### Agents & APIs Mumbai Developer Meetup (Postman)
+- ID: 21
+- Date: Jul 18
+- Start: 2026-07-18
+- Venue: Mumbai (Andheri East area, venue on RSVP)
+- Time: 10:00 AM – 2:00 PM
+- Cost: See event page (approval required)
+- Category: meetup
+- Tags: AI Agents, APIs, Postman, Developers
+- Status: Upcoming
+- Description: A Postman-hosted developer meetup on AI agents and APIs — talks, live demos, networking and small bites for the Mumbai developer community.
+- Register: https://luma.com/july-mumbai-meetup
+- Detail page: https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
+
+### Automation Expo 2026
+- ID: 22
+- Date: Jul 22–25
+- Start: 2026-07-22  End: 2026-07-25
+- Venue: Bombay Exhibition Centre (NESCO), Goregaon East, Mumbai
+- Time: 10:00 AM – 6:00 PM
+- Cost: Free (visitor registration)
+- Category: expo
+- Tags: Automation, Robotics, IIoT, Industry 4.0, Smart Manufacturing
+- Status: Upcoming
+- Description: The 19th edition of Asia
+- Register: https://www.automationindiaexpo.com/
+- Website: https://www.automationindiaexpo.com/
+- Detail page: https://mumbai-events.sagarjethi.com/events/automation-expo-2026
 
 
 ---

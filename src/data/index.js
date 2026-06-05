@@ -35,6 +35,7 @@
 // Core events surface
 export { events } from './events/index';
 export { juneEvents } from './events/june-2026';
+export { julyEvents } from './events/july-2026';
 
 // Reference / chrome data
 export { CATEGORIES } from './categories';
