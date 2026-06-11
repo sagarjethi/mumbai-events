@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   CalendarRange, Code, Rocket, Menu, X, ChevronDown,
-  MapPin, MessageCircle, GraduationCap, Wrench, Tag, Bot,
+  MapPin, MessageCircle, GraduationCap, Wrench, Tag, Bot, Ticket,
   Trophy, Coins, CalendarClock, BookOpen, ArrowUpRight,
   Image as ImageIcon,
 } from 'lucide-react';
@@ -21,6 +21,7 @@ const DISCOVER_GROUPS = [
   {
     label: 'Browse',
     items: [
+      { to: '/deals', label: 'Discount codes', icon: Ticket, desc: 'Verified promo codes & deals' },
       { to: '/map', label: 'Event map', icon: MapPin, desc: 'All venues on a Leaflet map' },
       { to: '/cards', label: 'Shareable cards', icon: ImageIcon, desc: 'Weekly + monthly cards for X / LinkedIn / IG' },
     ],

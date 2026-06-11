@@ -159,6 +159,7 @@ Full event data with descriptions: ${SITE}/llms-full.txt
 - Web3 & crypto events in Mumbai: ${SITE}/web3-events-mumbai-2026
 - Tech events this weekend in Mumbai: ${SITE}/tech-events-this-weekend-mumbai
 - College fests in Mumbai 2026: ${SITE}/college-fests-mumbai-2026
+- Tech-event discount codes & deals: ${SITE}/deals
 
 ${topHackathons.length ? `## Top hackathons by prize pool
 

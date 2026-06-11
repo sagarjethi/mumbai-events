@@ -29,6 +29,7 @@ const AcceleratorDetail = lazy(() => import('./components/AcceleratorDetail'));
 const AboutPage = lazy(() => import('./components/AboutPage'));
 const EditorialPage = lazy(() => import('./components/EditorialPage'));
 const CardsPage = lazy(() => import('./components/CardsPage'));
+const DealsPage = lazy(() => import('./components/DealsPage'));
 
 // Minimal route-level loading fallback. Keeps CLS low — same height as a hero.
 function RouteFallback() {
@@ -84,6 +85,7 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/editorial" element={<EditorialPage />} />
           <Route path="/cards" element={<CardsPage />} />
+          <Route path="/deals" element={<DealsPage />} />
         </Routes>
       </Suspense>
     </ErrorBoundary>

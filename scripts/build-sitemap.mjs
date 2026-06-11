@@ -58,6 +58,9 @@ add('/editorial', { changefreq: 'monthly', priority: 0.6 });
 // Shareable-card studio
 add('/cards', { changefreq: 'weekly', priority: 0.85 });
 
+// Deals / discount-codes hub
+add('/deals', { changefreq: 'daily', priority: 0.9 });
+
 // Per-event
 const seen = new Set();
 eventNames.forEach((n, i) => {

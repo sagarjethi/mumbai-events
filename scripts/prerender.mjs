@@ -85,6 +85,7 @@ const STATIC_ROUTES = [
   '/web3-events-mumbai-2026',
   '/tech-events-this-weekend-mumbai',
   '/college-fests-mumbai-2026',
+  '/deals',
   '/about',
   '/editorial',
   '/cards',
