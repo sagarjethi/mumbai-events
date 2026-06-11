@@ -1,9 +1,9 @@
 # Mumbai Tech Events — June 2026
 
-> 22 events | 13 free | 7 conferences | Open Source Week Mumbai (Jun 14–19)
+> 27 events | 18 free | 9 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
-> Last updated: Friday, June 5, 2026 (2026-06-05)
+> Last updated: Thursday, June 11, 2026 (2026-06-11)
 
 ## Conference
 
@@ -67,6 +67,26 @@
 - **Register:** https://events.linuxfoundation.org/open-source-summit-india/
 - **Details:** https://mumbai-events.sagarjethi.com/events/open-source-summit-india-2026
 
+### Distributed SQL Summit (DSS) Mumbai 2026
+- **Date:** Jun 17
+- **Venue:** Trident BKC, Bandra Kurla Complex, Mumbai (≈5 min from KubeCon)
+- **Time:** Full day (see event page for timing)
+- **Cost:** Free (registration required)
+- **Tags:** Distributed SQL, Databases, PostgreSQL, Cloud Native, YugabyteDB, Open Source Week
+- YugabyteDB
+- **Register:** https://events.ringcentral.com/events/distributed-sql-summit-mumbai-2026
+- **Details:** https://mumbai-events.sagarjethi.com/events/distributed-sql-summit-dss-mumbai-2026
+
+### VKS Community Day: Building AI-Ready Platforms (Broadcom)
+- **Date:** Jun 17
+- **Venue:** Novotel Mumbai International Airport, Mumbai
+- **Time:** 12:30 PM onwards
+- **Cost:** Free (separate registration required)
+- **Tags:** Kubernetes, VMware, VKS, Platform Engineering, GPU, Open Source Week
+- A Broadcom-hosted half-day co-located event on VMware vSphere Kubernetes Service (VKS) — building AI-ready internal developer platforms, GPU management and secure infrastructure foundations.
+- **Register:** https://go-vmware.broadcom.com/vks-community-day-mumbai
+- **Details:** https://mumbai-events.sagarjethi.com/events/vks-community-day-building-ai-ready-platforms-broadcom
+
 ### KubeCon + CloudNativeCon India 2026
 - **Date:** Jun 18–19
 - **Venue:** Jio World Convention Centre, BKC, Mumbai
@@ -119,6 +139,16 @@
 - **Register:** https://luma.com/8339ewui
 - **Details:** https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
 
+### After Open Source Summit India: Community Mixer Mumbai
+- **Date:** Jun 17
+- **Venue:** Bandra Kurla Complex, Mumbai (address shared on approval)
+- **Time:** 5:30 PM – 8:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Open Source, AI, Networking, Speed Networking, Open Source Week
+- An intimate (~50-person) mixer for India\
+- **Register:** https://luma.com/5r86uitl
+- **Details:** https://mumbai-events.sagarjethi.com/events/after-open-source-summit-india-community-mixer-mumbai
+
 ### Vibe Coding / Father
 - **Date:** Jun 19
 - **Venue:** Mumbai (venue revealed on registration)
@@ -128,6 +158,16 @@
 - A Father
 - **Register:** https://luma.com/6gcu7ud0
 - **Details:** https://mumbai-events.sagarjethi.com/events/vibe-coding-father
+
+### OpenStack & StarlingX Meetup (OpenInfra India User Group)
+- **Date:** Jun 19
+- **Venue:** Pondichéry Café, Sofitel Mumbai BKC, Bandra East, Mumbai
+- **Time:** 6:00 PM – 10:00 PM
+- **Cost:** Free (RSVP required, first-come)
+- **Tags:** OpenStack, StarlingX, Kata Containers, Ceph, AI Infrastructure, Open Source Week
+- An OpenInfra Foundation networking dinner for contributors and open-source enthusiasts around OpenStack, StarlingX, Kata Containers, Kubernetes, Ceph and AI infrastructure — timed with KubeCon.
+- **Register:** https://openinfrafoundation.formstack.com/forms/openstack_starlingx_meetup_india
+- **Details:** https://mumbai-events.sagarjethi.com/events/openstack-starlingx-meetup-openinfra-india-user-group
 
 ### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
 - **Date:** Jun 20
@@ -180,6 +220,16 @@
 - An eChai Ventures panel (co-hosted with Petpooja and DevX) on how food & beverage brands scale through franchisee models — unit economics and franchise strategy.
 - **Register:** https://echai.ventures/events/how-food-brands-scale-through-franchisees-mumbai-edition-jun-13-2026
 - **Details:** https://mumbai-events.sagarjethi.com/events/how-food-brands-scale-through-franchisees-mumbai-edition-echai
+
+### Investor of the Month feat. Sasha Mirchandani (Kae Capital)
+- **Date:** Jun 17
+- **Venue:** Launchpad by Spotlight, Chakala, Andheri East, Mumbai
+- **Time:** 5:30 PM – 7:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Startups, Venture Capital, Fundraising, Mumbai Angels, Kae Capital
+- A fireside session with Sasha Mirchandani (co-founder of Mumbai Angels, MD of Kae Capital) on what makes startups stand out, common fundraising mistakes and how investors evaluate founders.
+- **Register:** https://luma.com/pd0to9w7
+- **Details:** https://mumbai-events.sagarjethi.com/events/investor-of-the-month-feat-sasha-mirchandani-kae-capital
 
 ### EDGE Masterclass: Those Who Tell Stories, Rule the World (Capt. Raghu Raman)
 - **Date:** Jun 27

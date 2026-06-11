@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Clock, Tag, ExternalLink, Trophy } from 'lucide-react';
+import { MapPin, Clock, Tag, ExternalLink, Trophy, Ticket } from 'lucide-react';
 import { CATEGORIES } from '../data';
 import { toSlug } from '../utils/slug';
 import { addUtm } from '../utils/utm';
+import EventCover from './EventCover';
 
 function pad(n) { return n < 10 ? `0${n}` : `${n}`; }
 function todayIso() {
@@ -53,6 +54,8 @@ export default function EventCard({ event }) {
   const overflowTags = tags.length - visibleTags.length;
   const relevance = relevanceBadge(event.startDate, event.endDate);
   const isPast = relevance?.tone === 'past';
+  const bestDiscount = (event.coupons || []).find((c) => c.discount)?.discount;
+  const couponCount = (event.coupons || []).length;
 
   return (
     <article
@@ -65,11 +68,28 @@ export default function EventCard({ event }) {
         isPast ? 'opacity-70 hover:opacity-100' : '',
       ].join(' ')}
     >
-      {event.featured && (
-        <div className="bg-gradient-to-r from-primary-500 to-accent-500 text-white text-[11px] font-semibold tracking-wide px-4 py-1 text-center" aria-label="Featured event">
-          FEATURED EVENT
+      {/* Cover — real artwork when available, branded gradient otherwise */}
+      <EventCover event={event} className="h-32 sm:h-36 w-full">
+        {/* Top ribbons */}
+        <div className="absolute top-2.5 left-2.5 right-2.5 flex items-start justify-between gap-2">
+          {event.featured ? (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-white/90 text-primary-700 shadow-sm backdrop-blur-sm">
+              ★ Featured
+            </span>
+          ) : <span />}
+          {bestDiscount && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500 text-white shadow-sm">
+              <Ticket className="w-3 h-3" aria-hidden="true" />
+              Save {bestDiscount}
+            </span>
+          )}
         </div>
-      )}
+        {/* Category pill, bottom-left over the scrim */}
+        <span className="absolute bottom-2.5 left-2.5 inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-white/90 text-slate-700 shadow-sm backdrop-blur-sm">
+          <span className={`w-1.5 h-1.5 rounded-full ${cat?.dot || 'bg-slate-400'}`} />
+          {cat?.label || event.category}
+        </span>
+      </EventCover>
 
       <div className="flex flex-col flex-1 p-5">
         {/* Badges row — always present, fixed height */}
@@ -83,13 +103,15 @@ export default function EventCard({ event }) {
               {relevance.label}
             </span>
           )}
-          <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium ${cat?.color || 'bg-slate-100 text-slate-600'}`}>
-            <span className={`w-1.5 h-1.5 rounded-full ${cat?.dot || 'bg-slate-400'}`} />
-            {cat?.label || event.category}
-          </span>
           {isFree && (
             <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700">
               Free
+            </span>
+          )}
+          {couponCount > 0 && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700">
+              <Ticket className="w-3 h-3" aria-hidden="true" />
+              {couponCount === 1 ? 'Promo code' : `${couponCount} promo codes`}
             </span>
           )}
           {event.prize && (

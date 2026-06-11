@@ -36,6 +36,7 @@ function LinkedInIcon({ className = 'w-4 h-4' }) {
   );
 }
 import EventMap from './EventMap';
+import CouponCard from './CouponCard';
 import { events, CATEGORIES } from '../data/events';
 import { findEventBySlug, toSlug } from '../utils/slug';
 import { addUtm } from '../utils/utm';
@@ -55,6 +56,7 @@ function getCategoryGradient(category) {
     sports: 'from-emerald-500 to-emerald-700',
     expo: 'from-slate-600 to-slate-800',
     cybersecurity: 'from-rose-600 to-rose-800',
+    workshop: 'from-indigo-600 to-indigo-800',
   };
   return gradients[category] || 'from-primary-600 to-primary-800';
 }
@@ -70,6 +72,7 @@ function getCategoryIcon(category) {
     sports: '🏃',
     expo: '🏛️',
     cybersecurity: '🔒',
+    workshop: '🛠️',
   };
   return icons[category] || '📅';
 }
@@ -247,6 +250,19 @@ export default function EventDetail() {
 
         {/* Hero Banner */}
         <div className={`bg-gradient-to-br ${gradient} relative overflow-hidden`}>
+          {event.image && (
+            <div className="absolute inset-0" aria-hidden="true">
+              <img
+                src={event.image}
+                alt=""
+                loading="eager"
+                decoding="async"
+                className="w-full h-full object-cover"
+              />
+              {/* Dark scrim keeps the white hero text readable over any photo */}
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-slate-900/55 to-slate-900/70" />
+            </div>
+          )}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute -top-24 -right-24 w-96 h-96 bg-white rounded-full blur-3xl" />
             <div className="absolute -bottom-24 -left-24 w-72 h-72 bg-white rounded-full blur-3xl" />
@@ -343,6 +359,9 @@ export default function EventDetail() {
                   </div>
                 )}
               </div>
+
+              {/* Discount / promo codes */}
+              <CouponCard event={event} />
 
               {/* Share */}
               <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
@@ -505,6 +524,19 @@ export default function EventDetail() {
                     </div>
                   )}
                 </div>
+
+                {/* Promo nudge — points to the Discount codes card */}
+                {event.coupons?.length > 0 && (
+                  <a
+                    href="#discount-codes"
+                    className="mb-4 flex items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2.5 text-sm font-semibold text-emerald-800 hover:bg-emerald-100 transition-colors"
+                  >
+                    <Tag className="w-4 h-4 shrink-0" />
+                    {event.coupons.find((c) => c.discount)
+                      ? `Save ${event.coupons.find((c) => c.discount).discount} with a promo code`
+                      : 'Promo codes available'}
+                  </a>
+                )}
 
                 {/* CTA Buttons */}
                 <div className="space-y-2">

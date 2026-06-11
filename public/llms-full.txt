@@ -3,13 +3,13 @@
 # in Mumbai, India · June 2026
 # Website: https://mumbai-events.sagarjethi.com
 # Author: Sagar Jethi (@sagarbjethi)
-# Last updated: Friday, June 5, 2026 (2026-06-05)
+# Last updated: Thursday, June 11, 2026 (2026-06-11)
 
 ## Summary
 
-22 tracked tech events. 22 upcoming as of 2026-06-05.
-7 conferences · 7 meetups · 4 startup events.
-13+ free to attend.
+27 tracked tech events. 22 upcoming as of 2026-06-11.
+9 conferences · 9 meetups · 5 startup events.
+18+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -28,7 +28,7 @@ eChai Ventures.
 - Cost: Free
 - Category: meetup
 - Tags: Tech, AI, Data, Networking, Weekly
-- Status: Live today
+- Status: Past
 - Description: A recurring free Friday-evening tech networking social for AI, data and IT professionals in Lower Parel. Runs every Friday through June (5, 12, 19, 26).
 - Register: https://www.eventbrite.com/e/mumbai-tech-mixer-and-social-tech-ai-data-it-tickets-1987417417997
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-tech-mixer-social
@@ -42,7 +42,7 @@ eChai Ventures.
 - Cost: Free
 - Category: conference
 - Tags: JavaScript, Web, Frontend, AI Agents, Community
-- Status: Upcoming
+- Status: Past
 - Description: Inaugural JavaScript community conference with talks on design, AI agents, freelancing and analytics, followed by networking. Free, first-come-first-served (waitlist when full).
 - Register: https://luma.com/q86g8d3w
 - Detail page: https://mumbai-events.sagarjethi.com/events/js-mumbai
@@ -56,7 +56,7 @@ eChai Ventures.
 - Cost: Free
 - Category: startup
 - Tags: Startups, Founders, Networking, eChai
-- Status: Upcoming
+- Status: Past
 - Description: eChai Ventures
 - Register: https://echai.ventures/events/mumbai-startup-meetup-jun-06-2026
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-startup-meetup-echai-ventures
@@ -70,7 +70,7 @@ eChai Ventures.
 - Cost: Free (₹75 co-working day pass)
 - Category: meetup
 - Tags: AI, Builders, Co-working, Community, Weekly
-- Status: Upcoming
+- Status: Past
 - Description: A grassroots AI builder co-working meetup every Saturday at BHIVE Inspire BKC, with a sponsorship mechanism that funds day passes. Runs every Saturday through June (6, 13, 20, 27).
 - Register: https://www.eventbrite.com/e/mumbai-ai-saturdaysget-funded-to-co-work-adani-inspire-bkc-bhive-tickets-1983158010996
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-ai-saturdays-get-funded-to-co-work
@@ -84,7 +84,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: hackathon
 - Tags: Builders, AI Agents, Devtools, MCP, Infra
-- Status: Upcoming
+- Status: Past
 - Description: A heads-down Saturday builder session by Zonko.ai — a small group ships AI agents, devtools, MCPs and infra together, with an optional show-and-tell at 7pm.
 - Register: https://luma.com/u7gd6eyt
 - Detail page: https://mumbai-events.sagarjethi.com/events/the-shipyard
@@ -98,7 +98,7 @@ eChai Ventures.
 - Cost: ₹15,000+ (See event page)
 - Category: conference
 - Tags: Data, Generative AI, Enterprise, Snowflake, Analytics
-- Status: Upcoming
+- Status: Live today
 - Description: UBS Forums
 - Register: https://dataandai.in/
 - Website: https://dataandai.in/venue.html
@@ -219,6 +219,62 @@ eChai Ventures.
 - Register: https://luma.com/8339ewui
 - Detail page: https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
 
+### Distributed SQL Summit (DSS) Mumbai 2026
+- ID: 23
+- Date: Jun 17
+- Start: 2026-06-17
+- Venue: Trident BKC, Bandra Kurla Complex, Mumbai (≈5 min from KubeCon)
+- Time: Full day (see event page for timing)
+- Cost: Free (registration required)
+- Category: conference
+- Tags: Distributed SQL, Databases, PostgreSQL, Cloud Native, YugabyteDB, Open Source Week
+- Status: Upcoming
+- Description: YugabyteDB
+- Register: https://events.ringcentral.com/events/distributed-sql-summit-mumbai-2026
+- Detail page: https://mumbai-events.sagarjethi.com/events/distributed-sql-summit-dss-mumbai-2026
+
+### VKS Community Day: Building AI-Ready Platforms (Broadcom)
+- ID: 24
+- Date: Jun 17
+- Start: 2026-06-17
+- Venue: Novotel Mumbai International Airport, Mumbai
+- Time: 12:30 PM onwards
+- Cost: Free (separate registration required)
+- Category: conference
+- Tags: Kubernetes, VMware, VKS, Platform Engineering, GPU, Open Source Week
+- Status: Upcoming
+- Description: A Broadcom-hosted half-day co-located event on VMware vSphere Kubernetes Service (VKS) — building AI-ready internal developer platforms, GPU management and secure infrastructure foundations.
+- Register: https://go-vmware.broadcom.com/vks-community-day-mumbai
+- Detail page: https://mumbai-events.sagarjethi.com/events/vks-community-day-building-ai-ready-platforms-broadcom
+
+### After Open Source Summit India: Community Mixer Mumbai
+- ID: 26
+- Date: Jun 17
+- Start: 2026-06-17
+- Venue: Bandra Kurla Complex, Mumbai (address shared on approval)
+- Time: 5:30 PM – 8:00 PM
+- Cost: Free (approval required)
+- Category: meetup
+- Tags: Open Source, AI, Networking, Speed Networking, Open Source Week
+- Status: Upcoming
+- Description: An intimate (~50-person) mixer for India\
+- Register: https://luma.com/5r86uitl
+- Detail page: https://mumbai-events.sagarjethi.com/events/after-open-source-summit-india-community-mixer-mumbai
+
+### Investor of the Month feat. Sasha Mirchandani (Kae Capital)
+- ID: 27
+- Date: Jun 17
+- Start: 2026-06-17
+- Venue: Launchpad by Spotlight, Chakala, Andheri East, Mumbai
+- Time: 5:30 PM – 7:00 PM
+- Cost: Free (approval required)
+- Category: startup
+- Tags: Startups, Venture Capital, Fundraising, Mumbai Angels, Kae Capital
+- Status: Upcoming
+- Description: A fireside session with Sasha Mirchandani (co-founder of Mumbai Angels, MD of Kae Capital) on what makes startups stand out, common fundraising mistakes and how investors evaluate founders.
+- Register: https://luma.com/pd0to9w7
+- Detail page: https://mumbai-events.sagarjethi.com/events/investor-of-the-month-feat-sasha-mirchandani-kae-capital
+
 ### KubeCon + CloudNativeCon India 2026
 - ID: 13
 - Date: Jun 18–19
@@ -261,6 +317,20 @@ eChai Ventures.
 - Description: A Father
 - Register: https://luma.com/6gcu7ud0
 - Detail page: https://mumbai-events.sagarjethi.com/events/vibe-coding-father
+
+### OpenStack & StarlingX Meetup (OpenInfra India User Group)
+- ID: 25
+- Date: Jun 19
+- Start: 2026-06-19
+- Venue: Pondichéry Café, Sofitel Mumbai BKC, Bandra East, Mumbai
+- Time: 6:00 PM – 10:00 PM
+- Cost: Free (RSVP required, first-come)
+- Category: meetup
+- Tags: OpenStack, StarlingX, Kata Containers, Ceph, AI Infrastructure, Open Source Week
+- Status: Upcoming
+- Description: An OpenInfra Foundation networking dinner for contributors and open-source enthusiasts around OpenStack, StarlingX, Kata Containers, Kubernetes, Ceph and AI infrastructure — timed with KubeCon.
+- Register: https://openinfrafoundation.formstack.com/forms/openstack_starlingx_meetup_india
+- Detail page: https://mumbai-events.sagarjethi.com/events/openstack-starlingx-meetup-openinfra-india-user-group
 
 ### Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup)
 - ID: 15
