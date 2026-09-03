@@ -51,9 +51,9 @@ function HomePage() {
       <SEO />
       <Header />
       <Stats />
+      <HomeCalendar selectedDate={selectedDate} onDateSelect={setSelectedDate} />
       <FeaturedSpotlight />
       <CardsCallout />
-      <HomeCalendar selectedDate={selectedDate} onDateSelect={setSelectedDate} />
       <EventsGrid selectedDate={selectedDate} onClearDate={() => setSelectedDate(null)} />
       <Suspense fallback={null}>
         <Platforms />

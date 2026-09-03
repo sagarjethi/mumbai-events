@@ -175,8 +175,8 @@ export default function FintechWeekPage() {
         <img src={series.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="eager" decoding="async" fetchPriority="high" />
         <div className="absolute inset-0 bg-[#1a19b3]/80" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#12118a] via-[#12118a]/60 to-transparent" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 sm:pt-14 sm:pb-16">
-          <nav className="flex items-center gap-2 text-sm text-white/70 mb-6" aria-label="Breadcrumb">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8 sm:pt-8 sm:pb-10">
+          <nav className="flex items-center gap-2 text-sm text-white/70 mb-4" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white">Home</Link>
             <span className="text-white/40">/</span>
             <Link to="/events" className="hover:text-white">Events</Link>
@@ -187,19 +187,19 @@ export default function FintechWeekPage() {
           <div className="grid lg:grid-cols-12 gap-10 items-end">
             <div className="lg:col-span-7">
               <p className="text-base font-semibold text-[#7dd3fc]">{series.weekLabel}</p>
-              <h1 className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.02]">
+              <h1 className="mt-1 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.02]">
                 Global Fintech Fest <span className="text-[#7dd3fc]">2026</span>
               </h1>
-              <p className="mt-4 text-xl sm:text-2xl font-bold">8 to 11 September, 2026</p>
+              <p className="mt-3 text-lg sm:text-xl font-bold">8 to 11 September, 2026</p>
               <p className="mt-1 inline-flex items-center gap-1.5 text-sm sm:text-base text-white/90">
                 <MapPin className="w-4 h-4" /> Jio World Centre | Trident BKC, Mumbai, India
               </p>
-              <div className="mt-6">
-                <p className="text-lg sm:text-xl font-bold">{series.theme}</p>
-                <p className="text-lg sm:text-xl font-bold text-[#ff7a4d]">{series.tracks.join(' | ')}</p>
+              <div className="mt-4">
+                <p className="text-base sm:text-lg font-bold">{series.theme}</p>
+                <p className="text-base sm:text-lg font-bold text-[#ff7a4d]">{series.tracks.join(' | ')}</p>
                 <p className="mt-1 text-sm sm:text-base text-white/85">{series.tagline}</p>
               </div>
-              <div className="mt-7 flex flex-wrap gap-2.5">
+              <div className="mt-5 flex flex-wrap gap-2.5">
                 <a
                   href={addUtm(series.register, 'fintech-week-hero', 'gff-2026')}
                   target="_blank" rel="noopener noreferrer nofollow"

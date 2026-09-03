@@ -29,7 +29,7 @@ export default function FeaturedSpotlight({ compact = false }) {
   const hub = `/${series.slug}`;
 
   return (
-    <section aria-labelledby="spotlight-heading" className={compact ? 'mt-10' : 'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10'}>
+    <section aria-labelledby="spotlight-heading" className={compact ? 'mt-10' : 'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-2 pb-8'}>
       <div className="flex items-end justify-between gap-3 mb-4">
         <div>
           <h2 id="spotlight-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
@@ -49,20 +49,20 @@ export default function FeaturedSpotlight({ compact = false }) {
         {/* Headline */}
         <Link
           to={hub}
-          className="group relative lg:col-span-3 min-h-[300px] sm:min-h-[340px] rounded-2xl overflow-hidden bg-[#1a19b3] text-white ring-1 ring-[#2323e0]/30 focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
+          className="group relative lg:col-span-3 min-h-[220px] sm:min-h-[260px] rounded-2xl overflow-hidden bg-[#1a19b3] text-white ring-1 ring-[#2323e0]/30 focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
           aria-label={`${headline.name}: open the Fintech Week guide`}
         >
           <img src={series.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#12118a] via-[#1d1cc4]/70 to-[#2323e0]/40" />
-          <div className="relative h-full flex flex-col justify-end p-6 sm:p-8">
+          <div className="relative h-full flex flex-col justify-end p-5 sm:p-6">
             <p className="text-sm font-semibold text-white/85">{series.weekLabel}</p>
-            <h3 className="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight leading-[1.05]">
+            <h3 className="mt-1 text-2xl sm:text-3xl font-extrabold tracking-tight leading-[1.05]">
               Global Fintech Fest <span className="text-[#7dd3fc]">2026</span>
             </h3>
             <p className="mt-2 text-base sm:text-lg font-semibold">8 to 11 September, 2026</p>
             <p className="inline-flex items-center gap-1.5 text-sm text-white/85"><MapPin className="w-3.5 h-3.5" /> Jio World Centre | Trident BKC, Mumbai</p>
             <p className="mt-3 text-sm font-semibold text-[#ff8a5c]">{series.tracks.join('  |  ')}</p>
-            <div className="mt-5 flex flex-wrap gap-2">
+            <div className="mt-4 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-white text-[#1a19b3] text-sm font-semibold px-4 py-2 group-hover:bg-[#e6f6ff] transition-colors">
                 See the whole week <ArrowRight className="w-4 h-4" />
               </span>

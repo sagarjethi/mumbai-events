@@ -30,7 +30,7 @@ export default function HomeCalendar({ selectedDate, onDateSelect }) {
   };
 
   return (
-    <section id="calendar" aria-label={`Event calendar, ${rangeLabel}`} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <section id="calendar" aria-label={`Event calendar, ${rangeLabel}`} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8">
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="inline-flex items-center gap-2 text-sm text-slate-500">
           <CalendarRange className="w-4 h-4 text-slate-400" />
