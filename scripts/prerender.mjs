@@ -51,7 +51,7 @@ try {
 // ---------- routes ----------
 function loadEventSlugs() {
   const out = [];
-  for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js']) {
+  for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js', 'src/data/events/september-2026.js']) {
     if (!fs.existsSync(f)) continue;
     const txt = fs.readFileSync(f, 'utf8');
     for (const m of txt.matchAll(/\bname:\s*['"]([^'"]+)['"]/g)) {
@@ -77,6 +77,8 @@ const STATIC_ROUTES = [
   '/events',
   '/events/june-2026',
   '/events/july-2026',
+  '/events/september-2026',
+  '/fintech-week-mumbai-2026',
   '/accelerators',
   '/map',
   '/free-tech-events-mumbai',

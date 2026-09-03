@@ -1,5 +1,5 @@
 {
-  "_note": "Hosts here are manually verified via WebFetch or browser. `hosts` = block HEAD/GET with 403/429 (bot-blocked). `certErrorHosts` = real sites that fail Node's strict TLS (self-signed chain or older CA), reachable in browsers. In both cases the verify script emits a warning rather than an error.",
+  "_note": "Hosts here are manually verified via WebFetch or browser. `hosts` = block HEAD/GET with 403/429 (bot-blocked). `certErrorHosts` = real sites that fail Node's strict TLS (self-signed chain or older CA), reachable in browsers. In both cases the verify script emits a warning rather than an error. `knownDownHosts` = hosts that refused connections from multiple networks on the date noted; the verifier warns instead of failing so unrelated deploys are not blocked. Re-check them and remove the entry (or fix the accelerator URL) once they are back.",
   "hosts": [
     "x.com",
     "twitter.com",
@@ -11,11 +11,18 @@
     "www.medium.com",
     "platform.openai.com",
     "forms.gle",
-    "docs.google.com"
+    "docs.google.com",
+    "apply.accel-atoms.com"
   ],
   "certErrorHosts": [
     "startup.netapp.in",
     "www.ccamp.res.in",
     "ccamp.res.in"
-  ]
+  ],
+  "knownDownHosts": {
+    "www.nsrcel.org": "2026-09-03",
+    "nsrcel.org": "2026-09-03",
+    "www.ginserv.com": "2026-09-03",
+    "ginserv.com": "2026-09-03"
+  }
 }

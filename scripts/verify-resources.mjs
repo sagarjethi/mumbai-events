@@ -141,6 +141,11 @@ async function main() {
         warnings.push(`link ${r.u}: ${r.error} — ${r.host} allowlisted (TLS/WAF quirk), manually verified`);
         continue;
       }
+      const knownDown = allowed403.knownDownHosts || {};
+      if (knownDown[r.host]) {
+        warnings.push(`link ${r.u}: ${r.error} — ${r.host} known down since ${knownDown[r.host]}, re-check and remove from knownDownHosts`);
+        continue;
+      }
       errors.push(`link error: ${r.u} — ${r.error} (used by ${r.labels.join(', ')})`);
       continue;
     }
