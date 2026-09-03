@@ -11,7 +11,7 @@ export default function Header() {
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 text-center">
         <div className="inline-flex items-center gap-2 bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold mb-5">
           <Sparkles className="w-3.5 h-3.5" />
-          {EVENT_COUNT}+ events · June 2026 · Mumbai
+          {EVENT_COUNT}+ events · June–September 2026 · Mumbai
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.05]">

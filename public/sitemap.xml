@@ -2,97 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mumbai-events.sagarjethi.com/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/events</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/events/june-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/events/july-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/september-2026</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/fintech-week-mumbai-2026</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/map</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/free-tech-events-mumbai</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/ai-events-mumbai-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/conferences-mumbai-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/web3-events-mumbai-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/tech-events-this-weekend-mumbai</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/college-fests-mumbai-2026</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/about</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/editorial</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/cards</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/deals</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -247,80 +259,266 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/global-fintech-fest-2026</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/pre-gff-reception-uk-india-fintech-leaders</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/fraud-intelligence-in-the-boardroom-with-cedar-hill-capital</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/leadership-social-the-product-folks-mixpanel</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/fintech-sundowner-decoding-the-agentic-future</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/cccl-claude-from-ai-to-roi-curated-for-fintech-leaders</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/fintech-happy-hour-by-playbook-vobiz-assurekit</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/ceos</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/rewiring-financial-flows-ai-real-time-rails-global-services-citi</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/innovation-leadership-dinner-by-hsbc-india</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/persistent-leadership-circle-reimagining-financial-services-in-the-age-of-ai</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/global-fintech-women</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/scapia-sundowner-with-salim-sulaiman</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/ai-sundowner-activate-aws-anthropic-gff-2026-soir-e</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/off-the-record-with-elevenlabs-lightspeed</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/adyen-beyond-the-dialogue</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/the-impact-leadership-dinner-by-karix</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-open-financial</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/uptik-after-dark</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-getepay</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/global-fintech-awards-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/gff-2026-hackathon-grand-finales-sbi-sebi-techsprint-nabard-psb-series</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/github-dev-days-mumbai-agent-driven-engineering-copilot-in-action</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/zero-one-ghost-in-the-ledger-ctf-finals</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/the-bioeconomy-table</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/bitcoin-wallet-architecture-bitshala</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/ship-it-replit-the-product-folks</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/elastic-ai-connect-mumbai</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/js-mumbai-3</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mumbai-events.sagarjethi.com/events/claude-conversation-mumbai</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/axilor-ventures</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/nsrcel</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/surge</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/accel-atoms</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/turbostart</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/anthill-ventures</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/rainmatter</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/netapp-excellerator</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/flipkart-leap</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/google-for-startups-accelerator-india</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/microsoft-for-startups</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/c-camp</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mumbai-events.sagarjethi.com/accelerators/ginserv</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

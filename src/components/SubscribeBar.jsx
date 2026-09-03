@@ -9,7 +9,7 @@
 //     and competes with primary content.
 //   - A single dedicated row is non-disruptive, accessible, and easy to A/B.
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Mail, Check, X, Loader2, ArrowRight } from 'lucide-react';
 
 const STORAGE_KEY = 'subscribe-bar-state';
@@ -35,6 +35,7 @@ export default function SubscribeBar() {
   // Optimistic: show immediately on SSR / first paint, hide after we read
   // localStorage. Keeps prerendered HTML showing the bar to crawlers.
   const [hidden, setHidden] = useState(false);
+  const rootRef = useRef(null);
   const [hydrated, setHydrated] = useState(false);
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
@@ -45,6 +46,22 @@ export default function SubscribeBar() {
     if (s.hidden) setHidden(true);
     setHydrated(true);
   }, []);
+
+  // Publish how far this bar extends below the 4rem nav so other sticky
+  // elements (e.g. the Fintech Week filter bar) can sit underneath it.
+  useEffect(() => {
+    const root = document.documentElement;
+    const el = rootRef.current;
+    if (hidden || !el) { root.style.setProperty('--subscribe-bar-h', '0px'); return undefined; }
+    const update = () => {
+      const extra = Math.max(0, Math.round(el.getBoundingClientRect().height - 8));
+      root.style.setProperty('--subscribe-bar-h', `${extra}px`);
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => { ro.disconnect(); root.style.setProperty('--subscribe-bar-h', '0px'); };
+  }, [hidden]);
 
   if (hidden) return null;
 
@@ -73,7 +90,7 @@ export default function SubscribeBar() {
       writeState('subscribed');
       // Auto-hide after 4s success message
       setTimeout(() => setHidden(true), 4000);
-    } catch (err) {
+    } catch {
       setStatus('error');
       setErrorMsg('Something went wrong. Try again?');
     }
@@ -84,6 +101,7 @@ export default function SubscribeBar() {
   // to crawlers, who don't run useEffect).
   return (
     <div
+      ref={rootRef}
       role="region"
       aria-label="Subscribe to weekly digest"
       className={[

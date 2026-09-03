@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
@@ -25,6 +24,7 @@ const CATEGORY_COLORS = {
   sports: '#059669',
   expo: '#64748b',
   cybersecurity: '#e11d48',
+  networking: '#f97316',
 };
 
 function createCategoryIcon(category) {

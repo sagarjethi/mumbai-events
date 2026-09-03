@@ -24,6 +24,7 @@ import EmailCapture from './EmailCapture';
 import MonthCalendar from './MonthCalendar';
 import EventDateStrip from './EventDateStrip';
 import Footer from './Footer';
+import FeaturedSpotlight from './FeaturedSpotlight';
 
 const SITE = 'https://mumbai-events.sagarjethi.com';
 
@@ -43,6 +44,14 @@ const MONTHS = {
     monthNum: 7,
     blurb:
       "July adds the Postman Agents & APIs developer meetup and the Automation Expo at NESCO Goregaon. More community meetups (GDG, AWS UG, eChai) typically publish closer to the date — this page refreshes as they're confirmed.",
+  },
+  'september-2026': {
+    label: 'September 2026',
+    short: 'September',
+    year: 2026,
+    monthNum: 9,
+    blurb:
+      "September is Fintech Week — Global Fintech Fest 2026 takes over Jio World Centre and Trident BKC (Sep 8–11) with a dense run of official dinners, sundowners, night fests and community side events around it. Also this month: GitHub Dev Days, a CTF final, JS Mumbai #3, Elastic AI Connect and two Claude community events.",
   },
 };
 const MONTH_ORDER = Object.keys(MONTHS);
@@ -198,6 +207,8 @@ export function MonthsIndexPage() {
             </div>
           </div>
         </div>
+
+        <FeaturedSpotlight compact />
 
         {/* Month cards with highlights */}
         <h2 className="sr-only">Pick a month</h2>

@@ -1,9 +1,9 @@
 # Mumbai Tech Events — June 2026
 
-> 27 events | 18 free | 9 conferences | Open Source Week Mumbai (Jun 14–19)
+> 58 events | 36 free | 12 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
-> Last updated: Thursday, June 11, 2026 (2026-06-11)
+> Last updated: Thursday, September 3, 2026 (2026-09-03)
 
 ## Conference
 
@@ -97,6 +97,36 @@
 - **Register:** https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
 - **Details:** https://mumbai-events.sagarjethi.com/events/kubecon-cloudnativecon-india-2026
 
+### Global Fintech Fest 2026
+- **Date:** Sep 8–11
+- **Venue:** Jio World Centre & Trident BKC, Bandra Kurla Complex, Mumbai
+- **Time:** 8:00 AM – 5:30 PM daily
+- **Cost:** Delegate passes ₹15,000 (Silver) / ₹35,000 (Gold) / ₹75,000 (Platinum) + taxes; 25% off for PCI & FCC members
+- **Tags:** Fintech, Agentic AI, Tokenisation, Quantum, Payments, GFF Week
+- The world
+- **Register:** https://register.globalfintechfest.com/
+- **Details:** https://mumbai-events.sagarjethi.com/events/global-fintech-fest-2026
+
+### Global Fintech Awards 2026
+- **Date:** Sep 9
+- **Venue:** NMACC, Jio World Centre, BKC, Mumbai
+- **Time:** 5:00 PM onwards
+- **Cost:** For GFF delegates and nominees
+- **Tags:** Fintech, Awards, Banking Tech, AI in BFSI, GFF Week
+- GFF
+- **Register:** https://awards.globalfintechfest.com/
+- **Details:** https://mumbai-events.sagarjethi.com/events/global-fintech-awards-2026
+
+### GFF 2026 CXO Roundtables
+- **Date:** Sep 9–10
+- **Venue:** Halls 102–206 & Arts Cafe, Jio World Convention Centre, BKC, Mumbai
+- **Time:** Across both days (slot per roundtable)
+- **Cost:** Invite only (request per roundtable)
+- **Tags:** Fintech, CXO, Agentic AI, Cybersecurity, DPI, GFF Week
+- 17 invitation-only, moderator-free roundtables for C-suite, regulators and policymakers - AI-native banks, agentic security, composable wealth, SOC capacity, the India–UK fintech corridor and more. Request an invite per session on the GFF roundtables page.
+- **Register:** https://www.globalfintechfest.com/gff-roundtables
+- **Details:** https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables
+
 ## Meetup
 
 ### Mumbai Tech Mixer & Social
@@ -189,6 +219,56 @@
 - **Register:** https://luma.com/july-mumbai-meetup
 - **Details:** https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
 
+### GitHub Dev Days Mumbai: Agent-Driven Engineering & Copilot in Action
+- **Date:** Sep 5
+- **Venue:** Paytm Office, Andheri East, Mumbai
+- **Time:** 9:00 AM – 3:30 PM
+- **Cost:** Free (approval required)
+- **Tags:** GitHub, Copilot, AI Agents, Developers, Paytm
+- A builder-first GitHub Dev Days edition hosted at the Paytm office - deep dives on autonomous AI agents, multi-agent orchestration and taking issues from backlog to merge with the GitHub Copilot app and CLI.
+- **Register:** https://luma.com/s1905j5v
+- **Details:** https://mumbai-events.sagarjethi.com/events/github-dev-days-mumbai-agent-driven-engineering-copilot-in-action
+
+### Ship It: Replit × The Product Folks
+- **Date:** Sep 12
+- **Venue:** BKC, Mumbai (address shared on approval)
+- **Time:** 12:00 PM – 4:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Replit, Vibe Coding, AI, Builders, Product
+- A hands-on build session - open floor to build on Replit, live demos from the room, on-the-spot teaming up, food and drinks on the house. No coding experience needed; walk out with a working app and Replit credits.
+- **Register:** https://luma.com/b37r69rs
+- **Details:** https://mumbai-events.sagarjethi.com/events/ship-it-replit-the-product-folks
+
+### Elastic AI Connect: Mumbai
+- **Date:** Sep 26
+- **Venue:** BKC, Mumbai (address shared on approval)
+- **Time:** 10:00 AM – 2:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Elastic, GenAI, AI Agents, Search, Observability
+- An Elastic community meetup on GenAI, AI agents, search relevance, observability and security - practical use cases and community conversations ahead of ElasticON Mumbai 2026.
+- **Register:** https://luma.com/ssouxw3c
+- **Details:** https://mumbai-events.sagarjethi.com/events/elastic-ai-connect-mumbai
+
+### JS Mumbai #3
+- **Date:** Sep 26
+- **Venue:** Waterstones Hotel, Andheri East, Mumbai
+- **Time:** 10:00 AM – 3:00 PM
+- **Cost:** Free (Lu.ma registration mandatory, auto-approved)
+- **Tags:** JavaScript, Frontend, Web, Developers, Paytm
+- One Saturday, a room full of JavaScript developers - talks, hiring conversations and framework arguments with people who get it. Community partner Paytm; registration on Lu.ma is mandatory for entry.
+- **Register:** https://luma.com/jolbsr2c
+- **Details:** https://mumbai-events.sagarjethi.com/events/js-mumbai-3
+
+### Claude Conversation: Mumbai
+- **Date:** Sep 26
+- **Venue:** South Mumbai (address shared on approval)
+- **Time:** 11:00 AM – 1:30 PM
+- **Cost:** Free (approval required, ~30 seats)
+- **Tags:** AI, Claude, Anthropic, Community, Future of Work
+- India
+- **Register:** https://luma.com/claude-ley0
+- **Details:** https://mumbai-events.sagarjethi.com/events/claude-conversation-mumbai
+
 ## Startup
 
 ### Mumbai Startup Meetup (eChai Ventures)
@@ -241,6 +321,16 @@
 - **Register:** https://luma.com/e80kox95
 - **Details:** https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
 
+### The Bioeconomy Table
+- **Date:** Sep 11
+- **Venue:** 3 Art House, Bandra, Mumbai
+- **Time:** 3:30 PM – 6:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Biotech, Climate Tech, Deep Tech, Founders, Investors
+- Mumbai
+- **Register:** https://luma.com/rny3szqq
+- **Details:** https://mumbai-events.sagarjethi.com/events/the-bioeconomy-table
+
 ## Expo
 
 ### Bharat MSME Expo 2026 — Mumbai
@@ -263,6 +353,18 @@
 - **Register:** https://www.automationindiaexpo.com/
 - **Details:** https://mumbai-events.sagarjethi.com/events/automation-expo-2026
 
+## Web3
+
+### Bitcoin Wallet Architecture (Bitshala)
+- **Date:** Sep 12
+- **Venue:** Andheri, Mumbai (address shared on approval)
+- **Time:** 11:00 AM – 2:00 PM
+- **Cost:** Free (approval required)
+- **Tags:** Bitcoin, Cryptography, Wallets, Self-custody
+- A technical Bitshala meetup that goes beneath wallet interfaces - how entropy, mnemonic phrases, elliptic-curve keys, HD derivation paths and output descriptors combine into a usable self-custody system.
+- **Register:** https://luma.com/e9wu2nfb
+- **Details:** https://mumbai-events.sagarjethi.com/events/bitcoin-wallet-architecture-bitshala
+
 ## Hackathon
 
 ### The Shipyard
@@ -284,4 +386,27 @@
 - India
 - **Register:** https://luma.com/5426n7o6
 - **Details:** https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
+
+### GFF 2026 Hackathon Grand Finales (SBI, SEBI TechSprint, NABARD, PSB Series)
+- **Date:** Sep 8–11
+- **Venue:** Jio World Centre & Trident BKC, Mumbai
+- **Time:** During GFF (finale slots per hackathon)
+- **Cost:** Finalists only (applications closed); open to delegates to watch
+- **Tags:** Hackathon, Agentic AI, RegTech, Rural Fintech, Cybersecurity, GFF Week
+- **Prize:** ₹2,50,000
+- Four official hackathons pitch and award on the GFF floor: the SBI Agentic AI Hackathon (₹2.5L top prize), the SEBI Securities Market TechSprint (₹2.5L top prize, four RegTech and WealthTech tracks), the NABARD rural-credit hackathon (₹1L) and the DFS/IBA PSB Hackathon Series on GenAI, cybersecurity and fraud.
+- **Register:** https://www.globalfintechfest.com/gff-hackathons/sbi-hackathon
+- **Details:** https://mumbai-events.sagarjethi.com/events/gff-2026-hackathon-grand-finales-sbi-sebi-techsprint-nabard-psb-series
+
+## Cybersecurity
+
+### ZERO ONE: Ghost in the Ledger CTF Finals
+- **Date:** Sep 5
+- **Venue:** Mumbai (venue emailed to qualifying teams)
+- **Time:** 10:00 AM – 6:00 PM
+- **Cost:** Free (top 20 teams from the online qualifier)
+- **Tags:** CTF, Cybersecurity, Web Exploitation, Cryptography, Forensics
+- Cyber Unbound × Zeron
+- **Register:** https://luma.com/ay8ehg6p
+- **Details:** https://mumbai-events.sagarjethi.com/events/zero-one-ghost-in-the-ledger-ctf-finals
 

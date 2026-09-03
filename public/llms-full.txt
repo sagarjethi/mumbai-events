@@ -3,13 +3,13 @@
 # in Mumbai, India · June 2026
 # Website: https://mumbai-events.sagarjethi.com
 # Author: Sagar Jethi (@sagarbjethi)
-# Last updated: Thursday, June 11, 2026 (2026-06-11)
+# Last updated: Thursday, September 3, 2026 (2026-09-03)
 
 ## Summary
 
-27 tracked tech events. 22 upcoming as of 2026-06-11.
-9 conferences · 9 meetups · 5 startup events.
-18+ free to attend.
+58 tracked tech events. 31 upcoming as of 2026-09-03.
+12 conferences · 14 meetups · 6 startup events.
+36+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -98,7 +98,7 @@ eChai Ventures.
 - Cost: ₹15,000+ (See event page)
 - Category: conference
 - Tags: Data, Generative AI, Enterprise, Snowflake, Analytics
-- Status: Live today
+- Status: Past
 - Description: UBS Forums
 - Register: https://dataandai.in/
 - Website: https://dataandai.in/venue.html
@@ -113,7 +113,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: conference
 - Tags: Microsoft, Azure AI, GitHub Copilot, Developers
-- Status: Upcoming
+- Status: Past
 - Description: A community-run Microsoft Build //localhost developer event bringing Build 2026 keynote highlights, Azure AI and GitHub Copilot sessions to Mumbai. Registration requires host approval.
 - Register: https://luma.com/db7jfokl
 - Detail page: https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai
@@ -127,7 +127,7 @@ eChai Ventures.
 - Cost: ₹1,000
 - Category: startup
 - Tags: Startups, Founders, Networking, Breakfast
-- Status: Upcoming
+- Status: Past
 - Description: A founders
 - Register: https://allevents.in/mumbai/mumbai-founders-breakfast-club-2026-tickets/80003253363756
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-founders-breakfast-club-2026
@@ -141,7 +141,7 @@ eChai Ventures.
 - Cost: Free
 - Category: startup
 - Tags: Startups, F&B, Franchising, eChai
-- Status: Upcoming
+- Status: Past
 - Description: An eChai Ventures panel (co-hosted with Petpooja and DevX) on how food & beverage brands scale through franchisee models — unit economics and franchise strategy.
 - Register: https://echai.ventures/events/how-food-brands-scale-through-franchisees-mumbai-edition-jun-13-2026
 - Detail page: https://mumbai-events.sagarjethi.com/events/how-food-brands-scale-through-franchisees-mumbai-edition-echai
@@ -155,7 +155,7 @@ eChai Ventures.
 - Cost: ₹11,500 (Academic ₹2,300)
 - Category: conference
 - Tags: AI Agents, MCP, Open Source, Linux Foundation, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: A technical summit for developers building AI agents with the Model Context Protocol (MCP). Hosted by the Agentic AI Foundation as part of Open Source Week Mumbai.
 - Register: https://events.linuxfoundation.org/mcp-dev-summit-mumbai/
 - Website: https://events.linuxfoundation.org/mumbai-2026-events/
@@ -170,7 +170,7 @@ eChai Ventures.
 - Cost: $149 / ₹13,400 (Academic $49)
 - Category: conference
 - Tags: OpenSearch, Search, Observability, Open Source, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: The annual OpenSearch community conference on search, observability and security applications. Hosted by the OpenSearch Software Foundation alongside KubeCon + CloudNativeCon India.
 - Register: https://events.linuxfoundation.org/opensearchcon-india/
 - Website: https://events.linuxfoundation.org/mumbai-2026-events/
@@ -185,7 +185,7 @@ eChai Ventures.
 - Cost: $225 / ₹20,000 (Academic & Hobbyist $55)
 - Category: conference
 - Tags: Open Source, Linux, Cloud Native, Open AI & Data, Linux Foundation
-- Status: Upcoming
+- Status: Past
 - Description: The Linux Foundation
 - Register: https://events.linuxfoundation.org/open-source-summit-india/
 - Website: https://events.linuxfoundation.org/mumbai-2026-events/
@@ -200,7 +200,7 @@ eChai Ventures.
 - Cost: Free
 - Category: meetup
 - Tags: IBM, Agentic AI, watsonx, Enterprise, Virtual
-- Status: Upcoming
+- Status: Past
 - Description: A two-day virtual summit by the IBM Developer Accelerator — Mumbai Chapter on building enterprise agentic-AI systems, with hands-on tracks and live demos.
 - Register: https://www.meetup.com/data-ai-meetup-mumbai/events/314842434/
 - Detail page: https://mumbai-events.sagarjethi.com/events/agentic-ai-summit-2026-ibm-developer-accelerator-mumbai
@@ -214,7 +214,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: meetup
 - Tags: AI, AI Agents, Knowledge Graphs, Neo4j, GraphRAG
-- Status: Upcoming
+- Status: Past
 - Description: An AI Mumbai meetup with Neo4j on building production-grade agentic systems and graph-powered AI — talks, demos and networking for engineers, founders and developers.
 - Register: https://luma.com/8339ewui
 - Detail page: https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
@@ -228,7 +228,7 @@ eChai Ventures.
 - Cost: Free (registration required)
 - Category: conference
 - Tags: Distributed SQL, Databases, PostgreSQL, Cloud Native, YugabyteDB, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: YugabyteDB
 - Register: https://events.ringcentral.com/events/distributed-sql-summit-mumbai-2026
 - Detail page: https://mumbai-events.sagarjethi.com/events/distributed-sql-summit-dss-mumbai-2026
@@ -242,7 +242,7 @@ eChai Ventures.
 - Cost: Free (separate registration required)
 - Category: conference
 - Tags: Kubernetes, VMware, VKS, Platform Engineering, GPU, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: A Broadcom-hosted half-day co-located event on VMware vSphere Kubernetes Service (VKS) — building AI-ready internal developer platforms, GPU management and secure infrastructure foundations.
 - Register: https://go-vmware.broadcom.com/vks-community-day-mumbai
 - Detail page: https://mumbai-events.sagarjethi.com/events/vks-community-day-building-ai-ready-platforms-broadcom
@@ -256,7 +256,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: meetup
 - Tags: Open Source, AI, Networking, Speed Networking, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: An intimate (~50-person) mixer for India\
 - Register: https://luma.com/5r86uitl
 - Detail page: https://mumbai-events.sagarjethi.com/events/after-open-source-summit-india-community-mixer-mumbai
@@ -270,7 +270,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: startup
 - Tags: Startups, Venture Capital, Fundraising, Mumbai Angels, Kae Capital
-- Status: Upcoming
+- Status: Past
 - Description: A fireside session with Sasha Mirchandani (co-founder of Mumbai Angels, MD of Kae Capital) on what makes startups stand out, common fundraising mistakes and how investors evaluate founders.
 - Register: https://luma.com/pd0to9w7
 - Detail page: https://mumbai-events.sagarjethi.com/events/investor-of-the-month-feat-sasha-mirchandani-kae-capital
@@ -284,7 +284,7 @@ eChai Ventures.
 - Cost: Corporate $299 · Individual $99 · Academic $50
 - Category: conference
 - Tags: Kubernetes, Cloud Native, CNCF, Platform Engineering, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: CNCF
 - Register: https://events.linuxfoundation.org/kubecon-cloudnativecon-india/
 - Website: https://events.linuxfoundation.org/mumbai-2026-events/
@@ -299,7 +299,7 @@ eChai Ventures.
 - Cost: See event page
 - Category: expo
 - Tags: MSME, Startups, B2B, Exhibition
-- Status: Upcoming
+- Status: Past
 - Description: A B2B/B2C MSME exhibition for startups, brands, manufacturers and traders to showcase products, with the Mumbai edition in June.
 - Register: https://allevents.in/mumbai/bharat-msme-expo-2026/80002887743636
 - Detail page: https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
@@ -313,7 +313,7 @@ eChai Ventures.
 - Cost: Free
 - Category: meetup
 - Tags: AI, Vibe Coding, Coding, Builders
-- Status: Upcoming
+- Status: Past
 - Description: A Father
 - Register: https://luma.com/6gcu7ud0
 - Detail page: https://mumbai-events.sagarjethi.com/events/vibe-coding-father
@@ -327,7 +327,7 @@ eChai Ventures.
 - Cost: Free (RSVP required, first-come)
 - Category: meetup
 - Tags: OpenStack, StarlingX, Kata Containers, Ceph, AI Infrastructure, Open Source Week
-- Status: Upcoming
+- Status: Past
 - Description: An OpenInfra Foundation networking dinner for contributors and open-source enthusiasts around OpenStack, StarlingX, Kata Containers, Kubernetes, Ceph and AI infrastructure — timed with KubeCon.
 - Register: https://openinfrafoundation.formstack.com/forms/openstack_starlingx_meetup_india
 - Detail page: https://mumbai-events.sagarjethi.com/events/openstack-starlingx-meetup-openinfra-india-user-group
@@ -341,7 +341,7 @@ eChai Ventures.
 - Cost: Free
 - Category: meetup
 - Tags: Microsoft, Build, Azure AI, GitHub Copilot, Security
-- Status: Upcoming
+- Status: Past
 - Description: A community-run Microsoft Build //localhost recap at Microsoft
 - Register: https://www.meetup.com/mumbai-technology-meetup/events/314975810/
 - Detail page: https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai-mumbai-technology-meetup
@@ -355,7 +355,7 @@ eChai Ventures.
 - Cost: By application (30 seats)
 - Category: startup
 - Tags: Leadership, Storytelling, Founders, Masterclass
-- Status: Upcoming
+- Status: Past
 - Description: A leadership-storytelling masterclass with Capt. Raghu Raman (founding CEO of NATGRID) on narrative frameworks for founders and senior leaders. In-person only, limited to 30 attendees.
 - Register: https://luma.com/e80kox95
 - Detail page: https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
@@ -369,7 +369,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: hackathon
 - Tags: AI, Claude, Anthropic, Civic Tech, Kumbh Mela
-- Status: Upcoming
+- Status: Past
 - Description: India
 - Register: https://luma.com/5426n7o6
 - Detail page: https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
@@ -383,7 +383,7 @@ eChai Ventures.
 - Cost: See event page (approval required)
 - Category: meetup
 - Tags: AI Agents, APIs, Postman, Developers
-- Status: Upcoming
+- Status: Past
 - Description: A Postman-hosted developer meetup on AI agents and APIs — talks, live demos, networking and small bites for the Mumbai developer community.
 - Register: https://luma.com/july-mumbai-meetup
 - Detail page: https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
@@ -397,11 +397,461 @@ eChai Ventures.
 - Cost: Free (visitor registration)
 - Category: expo
 - Tags: Automation, Robotics, IIoT, Industry 4.0, Smart Manufacturing
-- Status: Upcoming
+- Status: Past
 - Description: The 19th edition of Asia
 - Register: https://www.automationindiaexpo.com/
 - Website: https://www.automationindiaexpo.com/
 - Detail page: https://mumbai-events.sagarjethi.com/events/automation-expo-2026
+
+### GitHub Dev Days Mumbai: Agent-Driven Engineering & Copilot in Action
+- ID: 48
+- Date: Sep 5
+- Start: 2026-09-05
+- Venue: Paytm Office, Andheri East, Mumbai
+- Time: 9:00 AM – 3:30 PM
+- Cost: Free (approval required)
+- Category: meetup
+- Tags: GitHub, Copilot, AI Agents, Developers, Paytm
+- Status: Upcoming
+- Description: A builder-first GitHub Dev Days edition hosted at the Paytm office - deep dives on autonomous AI agents, multi-agent orchestration and taking issues from backlog to merge with the GitHub Copilot app and CLI.
+- Register: https://luma.com/s1905j5v
+- Detail page: https://mumbai-events.sagarjethi.com/events/github-dev-days-mumbai-agent-driven-engineering-copilot-in-action
+
+### ZERO ONE: Ghost in the Ledger CTF Finals
+- ID: 49
+- Date: Sep 5
+- Start: 2026-09-05
+- Venue: Mumbai (venue emailed to qualifying teams)
+- Time: 10:00 AM – 6:00 PM
+- Cost: Free (top 20 teams from the online qualifier)
+- Category: cybersecurity
+- Tags: CTF, Cybersecurity, Web Exploitation, Cryptography, Forensics
+- Status: Upcoming
+- Description: Cyber Unbound × Zeron
+- Register: https://luma.com/ay8ehg6p
+- Detail page: https://mumbai-events.sagarjethi.com/events/zero-one-ghost-in-the-ledger-ctf-finals
+
+### Pre-GFF Reception: UK–India Fintech Leaders
+- ID: 29
+- Date: Sep 7
+- Start: 2026-09-07
+- Venue: Mumbai (venue shared with invitees)
+- Time: 7:30 PM – 9:30 PM
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, UK–India, Regulators, GFF Week
+- Status: Upcoming
+- Description: A closed-door reception the evening before GFF opens, convening leaders from fintech, financial services, investment and regulation - including UK trade commissioners and representatives from the FCA, Bank of England and City of London Corporation.
+- Register: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/pre-gff-reception-uk-india-fintech-leaders
+
+### Global Fintech Fest 2026
+- ID: 28
+- Date: Sep 8–11
+- Start: 2026-09-08  End: 2026-09-11
+- Venue: Jio World Centre & Trident BKC, Bandra Kurla Complex, Mumbai
+- Time: 8:00 AM – 5:30 PM daily
+- Cost: Delegate passes ₹15,000 (Silver) / ₹35,000 (Gold) / ₹75,000 (Platinum) + taxes; 25% off for PCI & FCC members
+- Category: conference
+- Tags: Fintech, Agentic AI, Tokenisation, Quantum, Payments, GFF Week
+- Status: Upcoming
+- Description: The world
+- Register: https://register.globalfintechfest.com/
+- Website: https://www.globalfintechfest.com/
+- Detail page: https://mumbai-events.sagarjethi.com/events/global-fintech-fest-2026
+
+### Fraud Intelligence: In the Boardroom with Cedar Hill Capital
+- ID: 30
+- Date: Sep 8
+- Start: 2026-09-08
+- Venue: BKC, Mumbai (address shared on approval)
+- Time: 3:00 PM – 5:00 PM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: Fintech, Fraud, AI, Banking, GFF Week
+- Status: Upcoming
+- Description: A closed-door roundtable during GFF week bringing together senior leaders from financial institutions, fraud-intelligence founders, enterprise tech leaders and investors for candid peer conversations on emerging fraud risks, AI and behavioural intelligence, and real-time detection.
+- Register: https://luma.com/sct8n6ck
+- Detail page: https://mumbai-events.sagarjethi.com/events/fraud-intelligence-in-the-boardroom-with-cedar-hill-capital
+
+### Leadership Social: The Product Folks × Mixpanel
+- ID: 31
+- Date: Sep 8
+- Start: 2026-09-08
+- Venue: BKC, Mumbai (address shared on approval)
+- Time: 7:00 PM – 9:00 PM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: Product, Leadership, Analytics, GFF Week
+- Status: Upcoming
+- Description: An intimate evening for founders, directors, VPs and C-suite leaders across product, engineering, data and analytics - conversations and connections away from the conference floor on the opening night of GFF.
+- Register: https://luma.com/hznhj5u3
+- Detail page: https://mumbai-events.sagarjethi.com/events/leadership-social-the-product-folks-mixpanel
+
+### GFF 2026 Hackathon Grand Finales (SBI, SEBI TechSprint, NABARD, PSB Series)
+- ID: 58
+- Date: Sep 8–11
+- Start: 2026-09-08  End: 2026-09-11
+- Venue: Jio World Centre & Trident BKC, Mumbai
+- Time: During GFF (finale slots per hackathon)
+- Cost: Finalists only (applications closed); open to delegates to watch
+- Category: hackathon
+- Tags: Hackathon, Agentic AI, RegTech, Rural Fintech, Cybersecurity, GFF Week
+- Prize: ₹2,50,000
+- Status: Upcoming
+- Description: Four official hackathons pitch and award on the GFF floor: the SBI Agentic AI Hackathon (₹2.5L top prize), the SEBI Securities Market TechSprint (₹2.5L top prize, four RegTech and WealthTech tracks), the NABARD rural-credit hackathon (₹1L) and the DFS/IBA PSB Hackathon Series on GenAI, cybersecurity and fraud.
+- Register: https://www.globalfintechfest.com/gff-hackathons/sbi-hackathon
+- Website: https://www.globalfintechfest.com/gff-hackathons/sebi-techsprint
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-2026-hackathon-grand-finales-sbi-sebi-techsprint-nabard-psb-series
+
+### Fintech Sundowner: Decoding the Agentic Future
+- ID: 32
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: BKC, Mumbai - a short walk from Jio World Centre (venue shared on approval)
+- Time: 4:30 PM – 7:00 PM
+- Cost: Free (approval required, limited capacity)
+- Category: networking
+- Tags: Fintech, Open Source, Tokenization, Digital Identity, Agentic AI, Road to Devcon, GFF Week
+- Status: Upcoming
+- Description: LF Decentralized Trust India Chapter × Road to Devcon India host an intimate GFF-week evening on how open source, tokenisation, digital identity, cryptography and agentic AI are reshaping fintech, payments and trusted digital infrastructure - sharp short-form talks, then food, drinks and real time to connect with builders, founders and investors.
+- Register: https://luma.com/u9eclpg2
+- Website: https://www.lfdecentralizedtrust.org/
+- Detail page: https://mumbai-events.sagarjethi.com/events/fintech-sundowner-decoding-the-agentic-future
+
+### CCCL Claude: From AI to ROI - Curated for Fintech Leaders
+- ID: 33
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: BKC, Mumbai (address shared on approval)
+- Time: 4:00 PM – 7:00 PM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: AI, Claude, Fintech, Insurance, BFSI, GFF Week
+- Status: Upcoming
+- Description: Claude Ambassador Vikram Pawar (cccl.ai) with Symbo and KnackLabs put a curated group of fintech, insurance and enterprise leaders in one room during GFF week to answer a narrow question: beyond pilots and chatbots, what has AI actually changed in BFSI?
+- Register: https://luma.com/claude-kxvd
+- Detail page: https://mumbai-events.sagarjethi.com/events/cccl-claude-from-ai-to-roi-curated-for-fintech-leaders
+
+### Fintech Happy Hour by Playbook, Vobiz & Assurekit
+- ID: 34
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: BKC, Mumbai - 5 min from the convention centre (venue shared on approval)
+- Time: 6:00 PM – 10:00 PM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: Fintech, Networking, This Week in Fintech, GFF Week
+- Status: Upcoming
+- Description: The sundowner to close out GFF Day 1 - registration at 6, a short welcome, then snacks, cocktails and open networking until 10 with the This Week in Fintech and Product Folks crowd. Sponsored by Playbook Partners, Vobiz and Assurekit.
+- Register: https://luma.com/z3hqvtey
+- Detail page: https://mumbai-events.sagarjethi.com/events/fintech-happy-hour-by-playbook-vobiz-assurekit
+
+### CEOs
+- ID: 35
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Jasmine, Jio World Convention Centre, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, Payments, RuPay, Leadership, GFF Week
+- Status: Upcoming
+- Description: An exclusive dinner bringing fintech CEOs together to connect with peers, celebrate innovation and unwind after the first open day of GFF. Request an invite through the GFF networking page.
+- Register: https://forms.globalfintechfest.com/ia/form/CEOsDinner/formperma/EwsRhNv9_78JX5N6TBC3ALWiMGvDImhEmo0vxjowreY
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/ceos
+
+### Rewiring Financial Flows: AI, Real-Time Rails & Global Services (Citi)
+- ID: 36
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Lotus 1, Jio World Convention Centre, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, Payments, AI, Citi, GFF Week
+- Status: Upcoming
+- Description: A Citi-hosted invitation-only dinner discussion on the convergence of AI and real-time payment infrastructure - and what it means for the next decade of global financial services.
+- Register: https://forms.globalfintechfest.com/ia/form/CitibankNetworkingDinner/formperma/Pn5_sDo0qNNRkuVxPNjfNsnmE5DF1ouq6V3cYKZgX8c
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/rewiring-financial-flows-ai-real-time-rails-global-services-citi
+
+### Innovation Leadership Dinner by HSBC India
+- ID: 37
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Indian Accent, NMACC, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, Banking, HSBC, Agentic AI, GFF Week
+- Status: Upcoming
+- Description: HSBC India co-hosts a leadership dinner at Indian Accent on GFF
+- Register: https://forms.globalfintechfest.com/ia/form/HSBCDinner/formperma/h-BNsfM1RmJEhX4BpTn2qk3CLwCpoxM834k0bXQKRPE
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/innovation-leadership-dinner-by-hsbc-india
+
+### Persistent Leadership Circle: Reimagining Financial Services in the Age of AI
+- ID: 38
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Hall 206 A&B, Jio World Convention Centre, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, AI, BFSI, Persistent Systems, GFF Week
+- Status: Upcoming
+- Description: An invitation-only dinner from Persistent Systems for senior leaders across banking, financial services, insurance, payments and fintech on where AI is genuinely moving the needle in financial services.
+- Register: https://forms.globalfintechfest.com/ia/form/RequestanInviteforthePersistentSystemDinner/formperma/Vx6Hovc6x3wxcyM6jztlRI2C2gkbYvgR1tBRof_1kwc
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/persistent-leadership-circle-reimagining-financial-services-in-the-age-of-ai
+
+### Global Fintech Awards 2026
+- ID: 56
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: NMACC, Jio World Centre, BKC, Mumbai
+- Time: 5:00 PM onwards
+- Cost: For GFF delegates and nominees
+- Category: conference
+- Tags: Fintech, Awards, Banking Tech, AI in BFSI, GFF Week
+- Status: Upcoming
+- Description: GFF
+- Register: https://awards.globalfintechfest.com/
+- Website: https://www.globalfintechfest.com/
+- Detail page: https://mumbai-events.sagarjethi.com/events/global-fintech-awards-2026
+
+### GFF 2026 CXO Roundtables
+- ID: 57
+- Date: Sep 9–10
+- Start: 2026-09-09  End: 2026-09-10
+- Venue: Halls 102–206 & Arts Cafe, Jio World Convention Centre, BKC, Mumbai
+- Time: Across both days (slot per roundtable)
+- Cost: Invite only (request per roundtable)
+- Category: conference
+- Tags: Fintech, CXO, Agentic AI, Cybersecurity, DPI, GFF Week
+- Status: Upcoming
+- Description: 17 invitation-only, moderator-free roundtables for C-suite, regulators and policymakers - AI-native banks, agentic security, composable wealth, SOC capacity, the India–UK fintech corridor and more. Request an invite per session on the GFF roundtables page.
+- Register: https://www.globalfintechfest.com/gff-roundtables
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables
+
+### Global Fintech Women
+- ID: 39
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Hall 206 A&B, Jio World Convention Centre, BKC, Mumbai
+- Time: 8:00 AM onwards
+- Cost: For registered GFF delegates
+- Category: networking
+- Tags: Fintech, Women in Fintech, Mentorship, GFF Week
+- Status: Upcoming
+- Description: A curated breakfast for women leaders in finance and technology - mentorship, dialogue and connections before the Day 2 sessions begin.
+- Register: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/global-fintech-women
+
+### Scapia Sundowner with Salim–Sulaiman
+- ID: 40
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: The Grand Theatre, NMACC, BKC, Mumbai
+- Time: 7:00 PM onwards (gates 6:15 PM)
+- Cost: For registered GFF delegates (limited seating)
+- Category: networking
+- Tags: Fintech, Music, Scapia, GFF Week
+- Status: Upcoming
+- Description: An electrifying musical sundowner at the Grand Theatre with a live Salim–Sulaiman performance - open to registered GFF delegates, seats limited, so express interest early.
+- Register: https://forms.globalfintechfest.com/ia/form/ScapiaSundowner/formperma/GPnQUntTYgJyKmT4BdlHyn_klw8S60F2h9S69_BuTtE
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/scapia-sundowner-with-salim-sulaiman
+
+### AI Sundowner: Activate × AWS × Anthropic (GFF 2026 Soirée)
+- ID: 41
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Amadeo by Oberoi, NMACC, BKC, Mumbai
+- Time: 7:00 PM – 9:00 PM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: AI, Fintech, AWS, Anthropic, BFSI, GFF Week
+- Status: Upcoming
+- Description: A private evening for 100 founders, CXOs and senior decision-makers from Mumbai
+- Register: https://luma.com/e9th4uti
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/ai-sundowner-activate-aws-anthropic-gff-2026-soir-e
+
+### Off the Record with ElevenLabs & Lightspeed
+- ID: 42
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: O Pedro, BKC, Mumbai
+- Time: 7:00 PM – 10:00 PM
+- Cost: Free (invite only, approval required)
+- Category: networking
+- Tags: AI, Voice AI, ElevenLabs, Lightspeed, Fintech, GFF Week
+- Status: Upcoming
+- Description: An invite-only evening at O Pedro for peers building with AI across financial services - a candid fireside chat, then drinks, dinner and conversations with founders, executives and tech leaders, plus a limited-run ElevenLabs merch pop-up.
+- Register: https://luma.com/elevenlabs-gff-off-the-record
+- Detail page: https://mumbai-events.sagarjethi.com/events/off-the-record-with-elevenlabs-lightspeed
+
+### Adyen: Beyond the Dialogue
+- ID: 43
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Indian Accent, NMACC, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, Payments, Adyen, GFF Week
+- Status: Upcoming
+- Description: A relaxed, intimate Adyen evening at Indian Accent - no presentations, no rigid schedule, just meaningful conversations and networking with payments and commerce leaders.
+- Register: https://forms.globalfintechfest.com/ia/form/RequestanInvitefortheAdyenDinner/formperma/IA-Ytjo8KIByl_R2o2aR2-6O9_fH7mnS5hkku-bePdI
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/adyen-beyond-the-dialogue
+
+### The Impact Leadership Dinner by Karix
+- ID: 44
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Lotus 1, Jio World Convention Centre, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Invite only
+- Category: networking
+- Tags: Fintech, Customer Engagement, AI, Karix, GFF Week
+- Status: Upcoming
+- Description: A Karix-hosted dinner for senior leaders on how AI is changing customer engagement across banking, financial services and insurance.
+- Register: https://forms.globalfintechfest.com/ia/form/RequestanInvitefortheKarixDinner/formperma/8ND7lNq6wCaIM_ho3vyCNLhNx7zUzjkQlaKnTNnRhmo
+- Website: https://www.globalfintechfest.com/gff-networking
+- Detail page: https://mumbai-events.sagarjethi.com/events/the-impact-leadership-dinner-by-karix
+
+### GFF Night Fest by Open Financial
+- ID: 45
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: SodaBottleOpenerWala, BKC, Mumbai
+- Time: 8:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, Open Financial, GFF Week
+- Status: Upcoming
+- Description: The official GFF after-hours - after a day of bold ideas and fintech innovation, unwind and celebrate with music, high energy and the Open Financial crowd at SodaBottleOpenerWala.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyOpenFinancial/formperma/jUX9Z_vniwqY6vZ4WuK9tAbW9rVLVmxyDqwE2AZwBIU
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-open-financial
+
+### Uptik After Dark
+- ID: 46
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Social, BKC, Mumbai
+- Time: 8:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, Uptik, GFF Week
+- Status: Upcoming
+- Description: An exclusive GFF evening at Social BKC where fintech minds unwind, reconnect and have effortless conversations over great food - informal networking, fun and memorable moments.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyUptik/formperma/h6SDH1CEVE7vOiruHzNZfF9oj7gWoyDr4HhBP3uGn_M
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/uptik-after-dark
+
+### GFF Night Fest by GetePay
+- ID: 47
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Taftoon, BKC, Mumbai
+- Time: 8:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, GetePay, GFF Week
+- Status: Upcoming
+- Description: A GetePay-hosted night at Taftoon for fintech leaders - engaging conversations, vibrant networking and great food to close out GFF Day 2.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyGetepay/formperma/LyVFjJj85vNWONffQnU0BxOZ0cpwiwMXEh2jsr34AKc
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-getepay
+
+### The Bioeconomy Table
+- ID: 50
+- Date: Sep 11
+- Start: 2026-09-11
+- Venue: 3 Art House, Bandra, Mumbai
+- Time: 3:30 PM – 6:00 PM
+- Cost: Free (approval required)
+- Category: startup
+- Tags: Biotech, Climate Tech, Deep Tech, Founders, Investors
+- Status: Upcoming
+- Description: Mumbai
+- Register: https://luma.com/rny3szqq
+- Detail page: https://mumbai-events.sagarjethi.com/events/the-bioeconomy-table
+
+### Bitcoin Wallet Architecture (Bitshala)
+- ID: 51
+- Date: Sep 12
+- Start: 2026-09-12
+- Venue: Andheri, Mumbai (address shared on approval)
+- Time: 11:00 AM – 2:00 PM
+- Cost: Free (approval required)
+- Category: web3
+- Tags: Bitcoin, Cryptography, Wallets, Self-custody
+- Status: Upcoming
+- Description: A technical Bitshala meetup that goes beneath wallet interfaces - how entropy, mnemonic phrases, elliptic-curve keys, HD derivation paths and output descriptors combine into a usable self-custody system.
+- Register: https://luma.com/e9wu2nfb
+- Detail page: https://mumbai-events.sagarjethi.com/events/bitcoin-wallet-architecture-bitshala
+
+### Ship It: Replit × The Product Folks
+- ID: 52
+- Date: Sep 12
+- Start: 2026-09-12
+- Venue: BKC, Mumbai (address shared on approval)
+- Time: 12:00 PM – 4:00 PM
+- Cost: Free (approval required)
+- Category: meetup
+- Tags: Replit, Vibe Coding, AI, Builders, Product
+- Status: Upcoming
+- Description: A hands-on build session - open floor to build on Replit, live demos from the room, on-the-spot teaming up, food and drinks on the house. No coding experience needed; walk out with a working app and Replit credits.
+- Register: https://luma.com/b37r69rs
+- Detail page: https://mumbai-events.sagarjethi.com/events/ship-it-replit-the-product-folks
+
+### Elastic AI Connect: Mumbai
+- ID: 53
+- Date: Sep 26
+- Start: 2026-09-26
+- Venue: BKC, Mumbai (address shared on approval)
+- Time: 10:00 AM – 2:00 PM
+- Cost: Free (approval required)
+- Category: meetup
+- Tags: Elastic, GenAI, AI Agents, Search, Observability
+- Status: Upcoming
+- Description: An Elastic community meetup on GenAI, AI agents, search relevance, observability and security - practical use cases and community conversations ahead of ElasticON Mumbai 2026.
+- Register: https://luma.com/ssouxw3c
+- Detail page: https://mumbai-events.sagarjethi.com/events/elastic-ai-connect-mumbai
+
+### JS Mumbai #3
+- ID: 54
+- Date: Sep 26
+- Start: 2026-09-26
+- Venue: Waterstones Hotel, Andheri East, Mumbai
+- Time: 10:00 AM – 3:00 PM
+- Cost: Free (Lu.ma registration mandatory, auto-approved)
+- Category: meetup
+- Tags: JavaScript, Frontend, Web, Developers, Paytm
+- Status: Upcoming
+- Description: One Saturday, a room full of JavaScript developers - talks, hiring conversations and framework arguments with people who get it. Community partner Paytm; registration on Lu.ma is mandatory for entry.
+- Register: https://luma.com/jolbsr2c
+- Detail page: https://mumbai-events.sagarjethi.com/events/js-mumbai-3
+
+### Claude Conversation: Mumbai
+- ID: 55
+- Date: Sep 26
+- Start: 2026-09-26
+- Venue: South Mumbai (address shared on approval)
+- Time: 11:00 AM – 1:30 PM
+- Cost: Free (approval required, ~30 seats)
+- Category: meetup
+- Tags: AI, Claude, Anthropic, Community, Future of Work
+- Status: Upcoming
+- Description: India
+- Register: https://luma.com/claude-ley0
+- Detail page: https://mumbai-events.sagarjethi.com/events/claude-conversation-mumbai
 
 
 ---

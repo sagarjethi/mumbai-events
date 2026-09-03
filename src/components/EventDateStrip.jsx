@@ -11,12 +11,12 @@
 
 import { useEffect, useMemo, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { CATEGORIES } from '../data';
+import { CATEGORIES, events as ALL_EVENTS } from '../data';
 
-const DEFAULT_MONTHS = [
-  { year: 2026, monthNum: 6, short: 'June' },
-  { year: 2026, monthNum: 7, short: 'July' },
-];
+import { monthsWithEvents } from '../utils/time';
+
+// Months shown when the caller passes none: every month that has events.
+const DEFAULT_MONTHS = monthsWithEvents(ALL_EVENTS);
 
 function pad(n) { return n < 10 ? `0${n}` : `${n}`; }
 function todayIso() {

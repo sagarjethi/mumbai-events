@@ -1,18 +1,26 @@
-// Homepage calendar — single horizontal strip across June 2026.
-// Visual + behaviour live in <EventDateStrip>; this component just wires up
-// the homepage scope (all events) and the after-select scroll.
+// Homepage calendar - one horizontal strip across every month that has
+// events. Visual + behaviour live in <EventDateStrip>; this component wires
+// up the homepage scope (all events) and the after-select scroll.
 
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CalendarRange } from 'lucide-react';
 import { events as ALL_EVENTS, CATEGORIES } from '../data';
 import EventDateStrip from './EventDateStrip';
+import { monthsWithEvents } from '../utils/time';
 
 export default function HomeCalendar({ selectedDate, onDateSelect }) {
-  const monthCounts = useMemo(() => ({
-    jun: ALL_EVENTS.filter((e) => (e.startDate || '').startsWith('2026-06')).length,
-    jul: ALL_EVENTS.filter((e) => (e.startDate || '').startsWith('2026-07')).length,
-  }), []);
+  const months = useMemo(() => monthsWithEvents(ALL_EVENTS), []);
+  const monthCounts = useMemo(
+    () => months.map((m) => ({
+      ...m,
+      count: ALL_EVENTS.filter((e) => (e.startDate || '').startsWith(`${m.year}-${String(m.monthNum).padStart(2, '0')}`)).length,
+    })),
+    [months],
+  );
+  const rangeLabel = months.length
+    ? `${months[0].short}–${months[months.length - 1].short} ${months[months.length - 1].year}`
+    : '';
 
   const onAfterSelect = () => {
     requestAnimationFrame(() => {
@@ -22,18 +30,21 @@ export default function HomeCalendar({ selectedDate, onDateSelect }) {
   };
 
   return (
-    <section id="calendar" aria-label="Event calendar — June–July 2026" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <section id="calendar" aria-label={`Event calendar, ${rangeLabel}`} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="inline-flex items-center gap-2 text-sm text-slate-500">
           <CalendarRange className="w-4 h-4 text-slate-400" />
           <span className="font-medium text-slate-700">Event calendar</span>
           <span className="text-slate-300">·</span>
-          <span className="text-xs text-slate-500">June–July 2026</span>
+          <span className="text-xs text-slate-500">{rangeLabel}</span>
         </div>
         <div className="hidden sm:inline-flex items-center gap-1.5 text-xs text-slate-500">
-          <span className="font-medium text-slate-700">June {monthCounts.jun}</span>
-          <span className="text-slate-300">·</span>
-          <span className="font-medium text-slate-700">July {monthCounts.jul}</span>
+          {monthCounts.map((m, i) => (
+            <span key={`${m.year}-${m.monthNum}`} className="inline-flex items-center gap-1.5">
+              {i > 0 && <span className="text-slate-300">·</span>}
+              <span className="font-medium text-slate-700">{m.short} {m.count}</span>
+            </span>
+          ))}
         </div>
       </div>
 
@@ -43,6 +54,7 @@ export default function HomeCalendar({ selectedDate, onDateSelect }) {
         onDateSelect={onDateSelect}
         onAfterSelect={onAfterSelect}
         accent="slate"
+        months={months}
       />
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">

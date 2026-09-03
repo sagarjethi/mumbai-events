@@ -36,11 +36,15 @@
 export { events } from './events/index';
 export { juneEvents } from './events/june-2026';
 export { julyEvents } from './events/july-2026';
+export { septemberEvents } from './events/september-2026';
 
 // Reference / chrome data
 export { CATEGORIES } from './categories';
 export { calendarDays } from './calendar-days';
 export { platforms } from './platforms';
+
+// Event series (GFF week etc.)
+export { SERIES, SIDE_TYPES, ACCESS, seriesOf } from './series';
 
 // Curated landing pages
 export { COLLECTIONS, isFree, matchesAi, matchesWeb3 } from './seo-collections';

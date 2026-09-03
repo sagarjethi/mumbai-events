@@ -10,5 +10,6 @@ export const CATEGORIES = {
   music: { label: 'Music & Culture', color: 'bg-rose-50 text-rose-500', dot: 'bg-rose-500' },
   sports: { label: 'Sports', color: 'bg-emerald-50 text-emerald-700', dot: 'bg-emerald-600' },
   expo: { label: 'Expo', color: 'bg-slate-100 text-slate-600', dot: 'bg-slate-500' },
+  networking: { label: 'Networking', color: 'bg-orange-50 text-orange-700', dot: 'bg-orange-500' },
   cybersecurity: { label: 'Cybersecurity', color: 'bg-rose-50 text-rose-600', dot: 'bg-rose-600' },
 };

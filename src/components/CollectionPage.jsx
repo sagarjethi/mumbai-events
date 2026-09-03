@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import { events, CATEGORIES } from '../data/events';
 import { toSlug } from '../utils/slug';
-import { COLLECTIONS, isFree, matchesAi, matchesWeb3 } from '../data/seo-collections';
+import { COLLECTIONS } from '../data/seo-collections';
 import EventCard from './EventCard';
 import EmailCapture from './EmailCapture';
 import Footer from './Footer';
@@ -19,10 +19,6 @@ import Footer from './Footer';
 const SITE = 'https://mumbai-events.sagarjethi.com';
 
 function pad(n) { return n < 10 ? `0${n}` : `${n}`; }
-function todayIso() {
-  const d = new Date();
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-}
 function nextWeekendRange() {
   const d = new Date();
   const dow = d.getDay(); // 0 Sun .. 6 Sat
@@ -68,19 +64,22 @@ export default function CollectionPage({ slug: propSlug }) {
   }, [slug]);
 
   const cfg = config || dynConfig;
-  if (!cfg) return <Navigate to="/events" replace />;
 
+  // Hooks stay above the early return so their order never changes.
   const filtered = useMemo(() => {
+    if (!cfg) return [];
     return events
       .filter(cfg.filter)
       .sort((a, b) => (a.startDate || '').localeCompare(b.startDate || ''));
   }, [cfg]);
 
-  const accent = ACCENT_CLASSES[cfg.accent] || ACCENT_CLASSES.primary;
-  const Icon = cfg.icon;
-
   // Scroll to top on slug change
   useEffect(() => { window.scrollTo({ top: 0 }); }, [slug]);
+
+  if (!cfg) return <Navigate to="/events" replace />;
+
+  const accent = ACCENT_CLASSES[cfg.accent] || ACCENT_CLASSES.primary;
+  const Icon = cfg.icon;
 
   const itemListJsonLd = {
     '@context': 'https://schema.org',

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Clock, Tag, ExternalLink, Trophy, Ticket } from 'lucide-react';
-import { CATEGORIES } from '../data';
+import { CATEGORIES, ACCESS, seriesOf } from '../data';
 import { toSlug } from '../utils/slug';
 import { addUtm } from '../utils/utm';
 import EventCover from './EventCover';
@@ -56,6 +56,8 @@ export default function EventCard({ event }) {
   const isPast = relevance?.tone === 'past';
   const bestDiscount = (event.coupons || []).find((c) => c.discount)?.discount;
   const couponCount = (event.coupons || []).length;
+  const series = seriesOf(event);
+  const access = event.access && event.access !== 'open' ? ACCESS[event.access] : null;
 
   return (
     <article
@@ -72,11 +74,22 @@ export default function EventCard({ event }) {
       <EventCover event={event} className="h-32 sm:h-36 w-full">
         {/* Top ribbons */}
         <div className="absolute top-2.5 left-2.5 right-2.5 flex items-start justify-between gap-2">
-          {event.featured ? (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-white/90 text-primary-700 shadow-sm backdrop-blur-sm">
-              ★ Featured
-            </span>
-          ) : <span />}
+          <span className="flex items-center gap-1.5">
+            {event.featured && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-white/90 text-primary-700 shadow-sm backdrop-blur-sm">
+                ★ Featured
+              </span>
+            )}
+            {series && (
+              <Link
+                to={`/${series.slug}`}
+                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-[#2323e0] text-white shadow-sm hover:bg-[#1a19b3]"
+                aria-label={`Part of ${series.weekLabel}`}
+              >
+                {series.short} week
+              </Link>
+            )}
+          </span>
           {bestDiscount && (
             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500 text-white shadow-sm">
               <Ticket className="w-3 h-3" aria-hidden="true" />
@@ -106,6 +119,11 @@ export default function EventCard({ event }) {
           {isFree && (
             <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700">
               Free
+            </span>
+          )}
+          {access && (
+            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600">
+              {access.label}
             </span>
           )}
           {couponCount > 0 && (

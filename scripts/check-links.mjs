@@ -5,7 +5,7 @@
 
 import fs from 'node:fs';
 
-const FILES = ['src/data/events/april-2026.js', 'src/data/events/may-2026.js', 'src/data/events/other.js'];
+const FILES = ['src/data/events/june-2026.js', 'src/data/events/july-2026.js', 'src/data/events/september-2026.js'];
 const includeAll = process.argv.includes('--all');
 
 function todayIso() {

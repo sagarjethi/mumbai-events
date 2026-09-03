@@ -12,6 +12,8 @@ import SEO from './components/SEO';
 import ErrorBoundary from './components/ErrorBoundary';
 import SubscribeBar from './components/SubscribeBar';
 import CardsCallout from './components/CardsCallout';
+import FeaturedSpotlight from './components/FeaturedSpotlight';
+import SeriesBanner from './components/SeriesBanner';
 
 // Below-the-fold on home: lazy so the homepage TTI is faster.
 const Platforms = lazy(() => import('./components/Platforms'));
@@ -30,6 +32,7 @@ const AboutPage = lazy(() => import('./components/AboutPage'));
 const EditorialPage = lazy(() => import('./components/EditorialPage'));
 const CardsPage = lazy(() => import('./components/CardsPage'));
 const DealsPage = lazy(() => import('./components/DealsPage'));
+const FintechWeekPage = lazy(() => import('./components/FintechWeekPage'));
 
 // Minimal route-level loading fallback. Keeps CLS low — same height as a hero.
 function RouteFallback() {
@@ -48,6 +51,7 @@ function HomePage() {
       <SEO />
       <Header />
       <Stats />
+      <FeaturedSpotlight />
       <CardsCallout />
       <HomeCalendar selectedDate={selectedDate} onDateSelect={setSelectedDate} />
       <EventsGrid selectedDate={selectedDate} onClearDate={() => setSelectedDate(null)} />
@@ -63,6 +67,7 @@ export default function App() {
   return (
     <ErrorBoundary>
       <Navigation />
+      <SeriesBanner />
       <SubscribeBar />
       <Suspense fallback={<RouteFallback />}>
         <Routes>
@@ -70,7 +75,11 @@ export default function App() {
           <Route path="/events" element={<MonthsIndexPage />} />
           <Route path="/events/june-2026" element={<MonthEventsPage month="june-2026" />} />
           <Route path="/events/july-2026" element={<MonthEventsPage month="july-2026" />} />
+          <Route path="/events/september-2026" element={<MonthEventsPage month="september-2026" />} />
           <Route path="/events/:slug" element={<EventDetail />} />
+
+          {/* Event series hubs */}
+          <Route path="/fintech-week-mumbai-2026" element={<FintechWeekPage />} />
 
           {/* SEO landing pages — generic CollectionPage with config-driven filters */}
           <Route path="/free-tech-events-mumbai" element={<CollectionPage slug="free-tech-events-mumbai" />} />

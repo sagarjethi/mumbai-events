@@ -6,7 +6,7 @@
 
 import fs from 'node:fs';
 
-const FILES = ['src/data/events/april-2026.js', 'src/data/events/may-2026.js'];
+const FILES = ['src/data/events/june-2026.js', 'src/data/events/july-2026.js', 'src/data/events/september-2026.js'];
 
 function todayIso() {
   const d = new Date();

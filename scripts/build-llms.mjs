@@ -19,7 +19,7 @@ const todayLabel = today.toLocaleDateString('en-US', { weekday: 'long', month: '
 // ---------- Read events ----------
 function loadEvents() {
   const out = [];
-  for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js']) {
+  for (const f of ['src/data/events/june-2026.js', 'src/data/events/july-2026.js', 'src/data/events/september-2026.js']) {
     if (!fs.existsSync(f)) continue;
     const txt = fs.readFileSync(f, 'utf8');
     const arrStart = txt.indexOf('[');

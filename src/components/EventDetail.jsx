@@ -37,7 +37,7 @@ function LinkedInIcon({ className = 'w-4 h-4' }) {
 }
 import EventMap from './EventMap';
 import CouponCard from './CouponCard';
-import { events, CATEGORIES } from '../data/events';
+import { events, CATEGORIES, SIDE_TYPES, ACCESS, seriesOf } from '../data';
 import { findEventBySlug, toSlug } from '../utils/slug';
 import { addUtm } from '../utils/utm';
 import { buildGoogleCalendarUrl, downloadIcs } from '../utils/calendar';
@@ -57,6 +57,7 @@ function getCategoryGradient(category) {
     expo: 'from-slate-600 to-slate-800',
     cybersecurity: 'from-rose-600 to-rose-800',
     workshop: 'from-indigo-600 to-indigo-800',
+    networking: 'from-orange-500 to-rose-700',
   };
   return gradients[category] || 'from-primary-600 to-primary-800';
 }
@@ -73,6 +74,7 @@ function getCategoryIcon(category) {
     expo: '🏛️',
     cybersecurity: '🔒',
     workshop: '🛠️',
+    networking: '🥂',
   };
   return icons[category] || '📅';
 }
@@ -100,9 +102,15 @@ function getDaysUntil(startDate) {
 }
 
 function getRelatedEvents(event) {
-  return events
-    .filter((e) => e.id !== event.id && (e.category === event.category || e.tags.some((t) => event.tags.includes(t))))
-    .slice(0, 3);
+  // Same-series events first (same day preferred), then category / tag matches.
+  const sameSeries = event.series
+    ? events
+        .filter((e) => e.id !== event.id && e.series === event.series && e.seriesRole !== 'headline')
+        .sort((a, b) => (a.startDate === event.startDate ? -1 : 1) - (b.startDate === event.startDate ? -1 : 1) || a.startDate.localeCompare(b.startDate))
+    : [];
+  const rest = events
+    .filter((e) => e.id !== event.id && !sameSeries.includes(e) && (e.category === event.category || e.tags.some((t) => event.tags.includes(t))));
+  return [...sameSeries, ...rest].slice(0, 3);
 }
 
 export default function EventDetail() {
@@ -140,6 +148,9 @@ export default function EventDetail() {
   const daysUntil = getDaysUntil(event.startDate);
   const related = getRelatedEvents(event);
   const eventUrl = `https://mumbai-events.sagarjethi.com/events/${slug}`;
+  const series = seriesOf(event);
+  const sideType = event.sideType ? SIDE_TYPES[event.sideType] : null;
+  const access = event.access ? ACCESS[event.access] : null;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -347,6 +358,32 @@ export default function EventDetail() {
                 </div>
               </div>
 
+              {/* Series banner: this event is part of a bigger week */}
+              {series && (
+                <Link
+                  to={`/${series.slug}`}
+                  className="group flex items-center gap-4 rounded-xl bg-[#12118a] text-white p-4 sm:p-5 ring-1 ring-[#2323e0]/40 hover:bg-[#1a19b3] transition-colors"
+                >
+                  <img src={series.image} alt="" className="hidden sm:block w-20 h-14 rounded-lg object-cover shrink-0" loading="lazy" decoding="async" />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs font-semibold text-[#7dd3fc]">{series.weekLabel}</p>
+                    <p className="font-semibold leading-snug">
+                      {event.seriesRole === 'headline'
+                        ? `The headline event of ${series.weekLabel.toLowerCase()}. See every side event around it.`
+                        : event.seriesRole === 'programme'
+                          ? `An official ${series.short} programme inside the fest. See the full week.`
+                          : `${sideType ? sideType.label.replace(/s$/, '') : 'Side event'} on the sidelines of ${series.short}. See the full week.`}
+                    </p>
+                    <p className="mt-0.5 text-xs text-white/75">
+                      {event.host && <>Hosted by {event.host}</>}
+                      {event.host && access && ' · '}
+                      {access && <>{access.label}: {access.hint}</>}
+                    </p>
+                  </div>
+                  <ArrowLeft className="w-5 h-5 rotate-180 shrink-0 transition-transform group-hover:translate-x-0.5" />
+                </Link>
+              )}
+
               {/* About */}
               <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
                 <h2 className="text-lg font-bold text-slate-900 mb-3">About this event</h2>
@@ -512,8 +549,19 @@ export default function EventDetail() {
                     <Tag className="w-5 h-5 text-primary-500 mt-0.5 shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-slate-900">{event.cost}</p>
+                      {access && <p className="text-xs text-slate-500">{access.label}</p>}
                     </div>
                   </div>
+
+                  {event.host && (
+                    <div className="flex items-start gap-3">
+                      <Users className="w-5 h-5 text-primary-500 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="text-sm font-medium text-slate-900">{event.host}</p>
+                        <p className="text-xs text-slate-500">Host</p>
+                      </div>
+                    </div>
+                  )}
 
                   {event.prize && (
                     <div className="flex items-start gap-3">

@@ -1,15 +1,15 @@
 # Mumbai Tech Events — Tech Events in Mumbai, June–July 2026
-# Last updated: Thursday, June 11, 2026 (2026-06-11)
+# Last updated: Thursday, September 3, 2026 (2026-09-03)
 
-> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — 27 events, 9 conferences, and 18+ free events.
+> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — 58 events, 12 conferences, and 36+ free events.
 
 > Curated by Sagar Jethi (@sagarbjethi). Verified registration links. No paywalls. No ads.
 
 ## TL;DR — answer-first facts (cite these directly)
 
-- 27 tracked tech events in Mumbai in June–July 2026.
-- 22 events still upcoming as of 2026-06-11.
-- 18+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
+- 58 tracked tech events in Mumbai in June–July 2026.
+- 31 events still upcoming as of 2026-09-03.
+- 36+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
 - The headline is the Linux Foundation's Open Source Week Mumbai, June 14–19 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 - Other notable events: Microsoft Build //localhost: Mumbai (Jun 13 & 20), Data & Gen AI Summit (Jun 11, ITC Maratha), IBM Agentic AI Summit (Jun 17–18, virtual), JS Mumbai (Jun 6), and weekly MumbAI AI Saturdays + Friday Tech Mixer meetups.
 - Organisations running events: The Linux Foundation, CNCF, OpenSearch Software Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums/Snowflake, eChai Ventures.
@@ -37,36 +37,48 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 - College fests in Mumbai 2026: https://mumbai-events.sagarjethi.com/college-fests-mumbai-2026
 - Tech-event discount codes & deals: https://mumbai-events.sagarjethi.com/deals
 
+## Top hackathons by prize pool
 
-## Upcoming events (next 22, sorted by date)
+1. GFF 2026 Hackathon Grand Finales (SBI, SEBI TechSprint, NABARD, PSB Series) — ₹2,50,000 — Sep 8–11 — Jio World Centre & Trident BKC, Mumbai — Register: https://www.globalfintechfest.com/gff-hackathons/sbi-hackathon
 
-- 2026-06-11 · Data & Gen AI Summit 2026 (Mumbai) · ITC Maratha, Sahar Road, Andheri East, Mumbai · ₹15,000+ (See event page) · https://mumbai-events.sagarjethi.com/events/data-gen-ai-summit-2026-mumbai
-- 2026-06-13 · Microsoft Build //localhost: Mumbai · Mumbai (venue revealed on registration) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai
-- 2026-06-13 · Mumbai Founders Breakfast Club 2026 · Mutuswami Cafe, Ramee Guestline Hotel, Dadar East, Mumbai · ₹1,000 · https://mumbai-events.sagarjethi.com/events/mumbai-founders-breakfast-club-2026
-- 2026-06-13 · How Food Brands Scale Through Franchisees — Mumbai Edition (eChai) · DevX, 215 Atrium, J B Nagar, Andheri East, Mumbai · Free · https://mumbai-events.sagarjethi.com/events/how-food-brands-scale-through-franchisees-mumbai-edition-echai
-- 2026-06-14..2026-06-15 · MCP Dev Summit Mumbai · Jio World Convention Centre, BKC, Mumbai · ₹11,500 (Academic ₹2,300) · https://mumbai-events.sagarjethi.com/events/mcp-dev-summit-mumbai
-- 2026-06-15..2026-06-16 · OpenSearchCon India 2026 · Jio World Convention Centre, BKC, Mumbai · $149 / ₹13,400 (Academic $49) · https://mumbai-events.sagarjethi.com/events/opensearchcon-india-2026
-- 2026-06-16..2026-06-17 · Open Source Summit India 2026 · Jio World Convention Centre, BKC, Mumbai · $225 / ₹20,000 (Academic & Hobbyist $55) · https://mumbai-events.sagarjethi.com/events/open-source-summit-india-2026
-- 2026-06-17..2026-06-18 · Agentic AI Summit 2026 (IBM Developer Accelerator — Mumbai) · Virtual · Free · https://mumbai-events.sagarjethi.com/events/agentic-ai-summit-2026-ibm-developer-accelerator-mumbai
-- 2026-06-17 · Agents, Graphs & The Road to Production (AI Mumbai × Neo4j) · ATLAS SkillTech University, Bldg 2, BKC, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/agents-graphs-the-road-to-production-ai-mumbai-neo4j
-- 2026-06-17 · Distributed SQL Summit (DSS) Mumbai 2026 · Trident BKC, Bandra Kurla Complex, Mumbai (≈5 min from KubeCon) · Free (registration required) · https://mumbai-events.sagarjethi.com/events/distributed-sql-summit-dss-mumbai-2026
-- 2026-06-17 · VKS Community Day: Building AI-Ready Platforms (Broadcom) · Novotel Mumbai International Airport, Mumbai · Free (separate registration required) · https://mumbai-events.sagarjethi.com/events/vks-community-day-building-ai-ready-platforms-broadcom
-- 2026-06-17 · After Open Source Summit India: Community Mixer Mumbai · Bandra Kurla Complex, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/after-open-source-summit-india-community-mixer-mumbai
-- 2026-06-17 · Investor of the Month feat. Sasha Mirchandani (Kae Capital) · Launchpad by Spotlight, Chakala, Andheri East, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/investor-of-the-month-feat-sasha-mirchandani-kae-capital
-- 2026-06-18..2026-06-19 · KubeCon + CloudNativeCon India 2026 · Jio World Convention Centre, BKC, Mumbai · Corporate $299 · Individual $99 · Academic $50 · https://mumbai-events.sagarjethi.com/events/kubecon-cloudnativecon-india-2026
-- 2026-06-19 · Bharat MSME Expo 2026 — Mumbai · Mumbai (venue on registration) · See event page · https://mumbai-events.sagarjethi.com/events/bharat-msme-expo-2026-mumbai
-- 2026-06-19 · Vibe Coding / Father · Mumbai (venue revealed on registration) · Free · https://mumbai-events.sagarjethi.com/events/vibe-coding-father
-- 2026-06-19 · OpenStack & StarlingX Meetup (OpenInfra India User Group) · Pondichéry Café, Sofitel Mumbai BKC, Bandra East, Mumbai · Free (RSVP required, first-come) · https://mumbai-events.sagarjethi.com/events/openstack-starlingx-meetup-openinfra-india-user-group
-- 2026-06-20 · Microsoft Build //localhost: Mumbai (Mumbai Technology Meetup) · Microsoft Office, Central Salsette Tramway Rd, Andheri East, Mumbai · Free · https://mumbai-events.sagarjethi.com/events/microsoft-build-localhost-mumbai-mumbai-technology-meetup
-- 2026-06-27 · EDGE Masterclass: Those Who Tell Stories, Rule the World (Capt. Raghu Raman) · The Quorum, One World Center, Lower Parel, Mumbai · By application (30 seats) · https://mumbai-events.sagarjethi.com/events/edge-masterclass-those-who-tell-stories-rule-the-world-capt-raghu-raman
-- 2026-06-27 · Mumbai | Claude Impact Lab · Mumbai (venue revealed on registration) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/mumbai-claude-impact-lab
-- 2026-07-18 · Agents & APIs Mumbai Developer Meetup (Postman) · Mumbai (Andheri East area, venue on RSVP) · See event page (approval required) · https://mumbai-events.sagarjethi.com/events/agents-apis-mumbai-developer-meetup-postman
-- 2026-07-22..2026-07-25 · Automation Expo 2026 · Bombay Exhibition Centre (NESCO), Goregaon East, Mumbai · Free (visitor registration) · https://mumbai-events.sagarjethi.com/events/automation-expo-2026
+## Upcoming events (next 31, sorted by date)
+
+- 2026-09-05 · GitHub Dev Days Mumbai: Agent-Driven Engineering & Copilot in Action · Paytm Office, Andheri East, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/github-dev-days-mumbai-agent-driven-engineering-copilot-in-action
+- 2026-09-05 · ZERO ONE: Ghost in the Ledger CTF Finals · Mumbai (venue emailed to qualifying teams) · Free (top 20 teams from the online qualifier) · https://mumbai-events.sagarjethi.com/events/zero-one-ghost-in-the-ledger-ctf-finals
+- 2026-09-07 · Pre-GFF Reception: UK–India Fintech Leaders · Mumbai (venue shared with invitees) · Invite only · https://mumbai-events.sagarjethi.com/events/pre-gff-reception-uk-india-fintech-leaders
+- 2026-09-08..2026-09-11 · Global Fintech Fest 2026 · Jio World Centre & Trident BKC, Bandra Kurla Complex, Mumbai · Delegate passes ₹15,000 (Silver) / ₹35,000 (Gold) / ₹75,000 (Platinum) + taxes; 25% off for PCI & FCC members · https://mumbai-events.sagarjethi.com/events/global-fintech-fest-2026
+- 2026-09-08 · Fraud Intelligence: In the Boardroom with Cedar Hill Capital · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/fraud-intelligence-in-the-boardroom-with-cedar-hill-capital
+- 2026-09-08 · Leadership Social: The Product Folks × Mixpanel · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/leadership-social-the-product-folks-mixpanel
+- 2026-09-08..2026-09-11 · GFF 2026 Hackathon Grand Finales (SBI, SEBI TechSprint, NABARD, PSB Series) · Jio World Centre & Trident BKC, Mumbai · Finalists only (applications closed); open to delegates to watch · https://mumbai-events.sagarjethi.com/events/gff-2026-hackathon-grand-finales-sbi-sebi-techsprint-nabard-psb-series
+- 2026-09-09 · Fintech Sundowner: Decoding the Agentic Future · BKC, Mumbai - a short walk from Jio World Centre (venue shared on approval) · Free (approval required, limited capacity) · https://mumbai-events.sagarjethi.com/events/fintech-sundowner-decoding-the-agentic-future
+- 2026-09-09 · CCCL Claude: From AI to ROI - Curated for Fintech Leaders · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/cccl-claude-from-ai-to-roi-curated-for-fintech-leaders
+- 2026-09-09 · Fintech Happy Hour by Playbook, Vobiz & Assurekit · BKC, Mumbai - 5 min from the convention centre (venue shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/fintech-happy-hour-by-playbook-vobiz-assurekit
+- 2026-09-09 · CEOs · Jasmine, Jio World Convention Centre, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/ceos
+- 2026-09-09 · Rewiring Financial Flows: AI, Real-Time Rails & Global Services (Citi) · Lotus 1, Jio World Convention Centre, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/rewiring-financial-flows-ai-real-time-rails-global-services-citi
+- 2026-09-09 · Innovation Leadership Dinner by HSBC India · Indian Accent, NMACC, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/innovation-leadership-dinner-by-hsbc-india
+- 2026-09-09 · Persistent Leadership Circle: Reimagining Financial Services in the Age of AI · Hall 206 A&B, Jio World Convention Centre, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/persistent-leadership-circle-reimagining-financial-services-in-the-age-of-ai
+- 2026-09-09 · Global Fintech Awards 2026 · NMACC, Jio World Centre, BKC, Mumbai · For GFF delegates and nominees · https://mumbai-events.sagarjethi.com/events/global-fintech-awards-2026
+- 2026-09-09..2026-09-10 · GFF 2026 CXO Roundtables · Halls 102–206 & Arts Cafe, Jio World Convention Centre, BKC, Mumbai · Invite only (request per roundtable) · https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables
+- 2026-09-10 · Global Fintech Women · Hall 206 A&B, Jio World Convention Centre, BKC, Mumbai · For registered GFF delegates · https://mumbai-events.sagarjethi.com/events/global-fintech-women
+- 2026-09-10 · Scapia Sundowner with Salim–Sulaiman · The Grand Theatre, NMACC, BKC, Mumbai · For registered GFF delegates (limited seating) · https://mumbai-events.sagarjethi.com/events/scapia-sundowner-with-salim-sulaiman
+- 2026-09-10 · AI Sundowner: Activate × AWS × Anthropic (GFF 2026 Soirée) · Amadeo by Oberoi, NMACC, BKC, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/ai-sundowner-activate-aws-anthropic-gff-2026-soir-e
+- 2026-09-10 · Off the Record with ElevenLabs & Lightspeed · O Pedro, BKC, Mumbai · Free (invite only, approval required) · https://mumbai-events.sagarjethi.com/events/off-the-record-with-elevenlabs-lightspeed
+- 2026-09-10 · Adyen: Beyond the Dialogue · Indian Accent, NMACC, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/adyen-beyond-the-dialogue
+- 2026-09-10 · The Impact Leadership Dinner by Karix · Lotus 1, Jio World Convention Centre, BKC, Mumbai · Invite only · https://mumbai-events.sagarjethi.com/events/the-impact-leadership-dinner-by-karix
+- 2026-09-10 · GFF Night Fest by Open Financial · SodaBottleOpenerWala, BKC, Mumbai · Express interest (free for GFF delegates) · https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-open-financial
+- 2026-09-10 · Uptik After Dark · Social, BKC, Mumbai · Express interest (free for GFF delegates) · https://mumbai-events.sagarjethi.com/events/uptik-after-dark
+- 2026-09-10 · GFF Night Fest by GetePay · Taftoon, BKC, Mumbai · Express interest (free for GFF delegates) · https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-getepay
+- 2026-09-11 · The Bioeconomy Table · 3 Art House, Bandra, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/the-bioeconomy-table
+- 2026-09-12 · Bitcoin Wallet Architecture (Bitshala) · Andheri, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/bitcoin-wallet-architecture-bitshala
+- 2026-09-12 · Ship It: Replit × The Product Folks · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/ship-it-replit-the-product-folks
+- 2026-09-26 · Elastic AI Connect: Mumbai · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/elastic-ai-connect-mumbai
+- 2026-09-26 · JS Mumbai #3 · Waterstones Hotel, Andheri East, Mumbai · Free (Lu.ma registration mandatory, auto-approved) · https://mumbai-events.sagarjethi.com/events/js-mumbai-3
+- 2026-09-26 · Claude Conversation: Mumbai · South Mumbai (address shared on approval) · Free (approval required, ~30 seats) · https://mumbai-events.sagarjethi.com/events/claude-conversation-mumbai
 
 ## Frequently asked (answer-first)
 
 Q: How many tech events are happening in Mumbai in June 2026?
-A: 27 tracked tech events in June 2026 — 9 conferences, 9 meetups, 5 startup events. 22 are still upcoming as of Thursday, June 11, 2026.
+A: 58 tracked tech events in June 2026 — 12 conferences, 14 meetups, 6 startup events. 31 are still upcoming as of Thursday, September 3, 2026.
 
 Q: What is the biggest tech event in Mumbai in June 2026?
 A: The Linux Foundation's Open Source Week (Jun 14–19 at the Jio World Convention Centre, BKC) — KubeCon + CloudNativeCon India, Open Source Summit India, OpenSearchCon India and the MCP Dev Summit — is the headline, expected to draw thousands of attendees.
@@ -75,7 +87,7 @@ Q: When and where is Open Source Week Mumbai 2026?
 A: June 14–19, 2026 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 
 Q: Are tech events in Mumbai free?
-A: Yes — 18+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
+A: Yes — 36+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
 
 Q: Where can I find AI events in Mumbai?
 A: The full AI-focused list lives at https://mumbai-events.sagarjethi.com/ai-events-mumbai-2026. Notable in June: the MCP Dev Summit, the Open AI & Data track at Open Source Summit India, the IBM Agentic AI Summit, the Data & Gen AI Summit, and Microsoft Build //localhost.
@@ -90,7 +102,7 @@ Q: When is KubeCon + CloudNativeCon India 2026?
 A: June 18–19, 2026 at the Jio World Convention Centre, BKC, Mumbai — CNCF's flagship India cloud-native conference, part of Open Source Week Mumbai. Tickets: corporate $299, individual $99, academic $50.
 
 Q: Is there an event happening today?
-A: Yes, 1 event on 2026-06-11: Data & Gen AI Summit 2026 (Mumbai). See https://mumbai-events.sagarjethi.com/events for details.
+A: As of 2026-09-03 there are no events in the directory specifically on today's date — see the upcoming list above for the next event day.
 
 ## About
 

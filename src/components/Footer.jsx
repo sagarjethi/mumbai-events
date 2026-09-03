@@ -33,6 +33,13 @@ export default function Footer() {
             </a>
           </p>
 
+          <p className="text-xs text-slate-500">
+            Powered by{' '}
+            <a href="https://hoppon.events/" target="_blank" rel="noopener noreferrer" className="text-slate-800 hover:text-primary-600 font-semibold">
+              Hoppon
+            </a>
+          </p>
+
           <p className="text-xs text-slate-400">
             Curated by{' '}
             <a href="https://sagarjethi.com" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-medium">

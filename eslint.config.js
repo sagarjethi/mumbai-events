@@ -5,7 +5,8 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  // scripts/events-block.js is a paste-ready fragment, not a module.
+  globalIgnores(['dist', 'scripts/events-block.js']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [
@@ -23,7 +24,14 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      // Capitalised names are React components (often destructured as
+      // `icon: Icon`) and are used in JSX, which this config does not track.
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]', argsIgnorePattern: '^[A-Z_]' }],
     },
+  },
+  {
+    // Serverless function + build scripts run under Node.
+    files: ['api/**/*.js', 'scripts/**/*.{js,mjs}', 'vite.config.js'],
+    languageOptions: { globals: { ...globals.node } },
   },
 ])

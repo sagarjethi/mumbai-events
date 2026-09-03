@@ -4,13 +4,14 @@ import {
   CalendarRange, Code, Rocket, Menu, X, ChevronDown,
   MapPin, MessageCircle, GraduationCap, Wrench, Tag, Bot, Ticket,
   Trophy, Coins, CalendarClock, BookOpen, ArrowUpRight,
-  Image as ImageIcon,
+  Image as ImageIcon, Landmark,
 } from 'lucide-react';
 
 const TOPMATE = 'https://topmate.io/sagarjethi';
 
 // Top-level: kept to 3 high-traffic destinations.
 const PRIMARY = [
+  { to: '/fintech-week-mumbai-2026', label: 'Fintech Week', icon: Landmark, highlight: true },
   { to: '/events', label: 'Events', icon: CalendarRange },
   { to: '/accelerators', label: 'Accelerators', icon: Rocket },
 ];
@@ -62,11 +63,14 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close dropdown on route change
-  useEffect(() => {
+  // Close menus on route change. Adjusting state during render (keyed on the
+  // previous pathname) avoids a setState-in-effect cascade.
+  const [prevPath, setPrevPath] = useState(location.pathname);
+  if (prevPath !== location.pathname) {
+    setPrevPath(location.pathname);
     setDiscoverOpen(false);
     setMobileOpen(false);
-  }, [location.pathname]);
+  }
 
   // Click-outside / escape
   useEffect(() => {
@@ -116,13 +120,13 @@ export default function Navigation() {
             </span>
             <span className="flex flex-col leading-none">
               <span className="text-base font-extrabold tracking-tight text-slate-900">Mumbai Tech Events</span>
-              <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">June 2026</span>
+              <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Jun – Sep 2026</span>
             </span>
           </Link>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-1">
-            {PRIMARY.map(({ to, label, icon: Icon }) => {
+            {PRIMARY.map(({ to, label, icon: Icon, highlight }) => {
               const active = isPrimaryActive(to);
               return (
                 <Link
@@ -135,6 +139,7 @@ export default function Navigation() {
                 >
                   <Icon className="w-4 h-4" />
                   {label}
+                  {highlight && !active && <span className="ml-0.5 w-1.5 h-1.5 rounded-full bg-orange-500" aria-hidden="true" />}
                 </Link>
               );
             })}

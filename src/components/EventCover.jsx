@@ -16,6 +16,7 @@ const GRADIENTS = {
   expo: 'from-slate-500 via-slate-600 to-slate-800',
   cybersecurity: 'from-rose-500 via-rose-600 to-rose-800',
   workshop: 'from-indigo-500 via-indigo-600 to-indigo-800',
+  networking: 'from-orange-400 via-orange-500 to-rose-600',
 };
 
 const GLYPHS = {
@@ -29,9 +30,10 @@ const GLYPHS = {
   expo: '🏛️',
   cybersecurity: '🔒',
   workshop: '🛠️',
+  networking: '🥂',
 };
 
-export function coverGradient(category) {
+function coverGradient(category) {
   return GRADIENTS[category] || GRADIENTS.conference;
 }
 
