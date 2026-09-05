@@ -83,7 +83,7 @@ export default function FeaturedSpotlight({ compact = false }) {
               <article key={e.id} className="relative flex flex-col rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-[#2323e0]/40 hover:shadow-lg transition-all">
                 <div className="flex gap-4 p-4">
                   <Link to={`/events/${slug}`} className="shrink-0 w-24 h-24 rounded-xl overflow-hidden bg-gradient-to-br from-orange-400 to-rose-600">
-                    {e.image && <img src={e.image} alt="" className="w-full h-full object-cover" loading="lazy" decoding="async" />}
+                    {e.image && <img src={e.image} alt={`${e.name} cover`} className="w-full h-full object-cover" loading="lazy" decoding="async" />}
                   </Link>
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-1.5">

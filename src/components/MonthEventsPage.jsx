@@ -142,7 +142,7 @@ export function MonthsIndexPage() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{`Mumbai Tech Events 2026 — ${total}+ Hackathons, Conferences & Meetups by Month`}</title>
+        <title>{`Mumbai Tech Events 2026 - ${total}+ events by month`}</title>
         <meta
           name="description"
           content={`Every public tech event in Mumbai, organized by month. ${total}+ events · ${totalHackathons} hackathons · ${totalConferences} conferences · ${totalFree}+ free. June 2026.`}
@@ -403,7 +403,7 @@ export default function MonthEventsPage({ month: propMonth }) {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>{`Mumbai Tech Events — ${meta.label} | ${monthEvents.length} Events`}</title>
+        <title>{`Mumbai Tech Events - ${meta.label} | ${monthEvents.length} events`}</title>
         <meta
           name="description"
           content={`Complete list of ${monthEvents.length} tech events in Mumbai, ${meta.label}. ${meta.blurb}`}

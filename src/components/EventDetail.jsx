@@ -151,6 +151,10 @@ export default function EventDetail() {
   const series = seriesOf(event);
   const sideType = event.sideType ? SIDE_TYPES[event.sideType] : null;
   const access = event.access ? ACCESS[event.access] : null;
+  const eventImage = event.image
+    ? (event.image.startsWith('http') ? event.image : `https://mumbai-events.sagarjethi.com${event.image}`)
+    : 'https://mumbai-events.sagarjethi.com/og-image.png';
+  const pageTitle = `${event.name} - ${event.date} 2026, Mumbai | Mumbai Tech Events`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -181,9 +185,9 @@ export default function EventDetail() {
         }),
     url: eventUrl,
     ...(event.website ? { sameAs: event.website } : {}),
-    image: 'https://mumbai-events.sagarjethi.com/og-image.png',
-    organizer: { '@type': 'Organization', name: event.tags?.[0] || 'Mumbai Events' },
-    performer: { '@type': 'Organization', name: event.tags?.[0] || 'Mumbai Events' },
+    image: eventImage,
+    organizer: { '@type': 'Organization', name: event.host || event.tags?.[0] || 'Mumbai Tech Events' },
+    ...(series ? { superEvent: { '@type': 'Event', name: series.name, url: `https://mumbai-events.sagarjethi.com/${series.slug}` } } : {}),
     author: { '@id': 'https://mumbai-events.sagarjethi.com/#sagar' },
     publisher: { '@id': 'https://mumbai-events.sagarjethi.com/#organization' },
     dateModified: new Date().toISOString().slice(0, 10),
@@ -217,24 +221,22 @@ export default function EventDetail() {
   return (
     <>
       <Helmet>
-        <title>{event.name} — Mumbai Events June 2026</title>
-        <meta name="description" content={`${event.description} | ${event.date} at ${event.venue}, Mumbai.`} />
-        <meta name="keywords" content={`${event.tags.join(', ')}, Mumbai, ${event.category}, June 2026`} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={`${event.description} ${event.date} 2026 at ${event.venue}, Mumbai. ${event.cost}.`} />
+        <meta name="keywords" content={`${event.tags.join(', ')}, Mumbai, ${event.category}, ${event.date} 2026`} />
         <link rel="canonical" href={eventUrl} />
-        <meta property="og:title" content={`${event.name} — Mumbai Events`} />
-        <meta property="og:description" content={`${event.description} | ${event.date} at ${event.venue}`} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={`${event.description} ${event.date} at ${event.venue}`} />
         <meta property="og:url" content={eventUrl} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://mumbai-events.sagarjethi.com/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={`${event.name} — Mumbai Events June 2026`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={eventImage} />
+        <meta property="og:image:alt" content={`${event.name} cover`} />
         <meta property="og:locale" content="en_IN" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${event.name} — Mumbai Events`} />
+        <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={event.description} />
-        <meta name="twitter:image" content="https://mumbai-events.sagarjethi.com/og-image.png" />
-        <meta name="twitter:image:alt" content={`${event.name} — Mumbai Events June 2026`} />
+        <meta name="twitter:image" content={eventImage} />
+        <meta name="twitter:image:alt" content={`${event.name} cover`} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 

@@ -33,9 +33,10 @@ function generateAllEventsJsonLd() {
             },
             ...(event.lat && event.lng ? { geo: { '@type': 'GeoCoordinates', latitude: event.lat, longitude: event.lng } } : {}),
           },
-      organizer: { '@type': 'Organization', name: event.tags?.[0] || 'Mumbai Events' },
-      performer: { '@type': 'Organization', name: event.tags?.[0] || 'Mumbai Events' },
-      image: 'https://mumbai-events.sagarjethi.com/og-image.png',
+      organizer: { '@type': 'Organization', name: event.host || event.tags?.[0] || 'Mumbai Tech Events' },
+      image: event.image
+        ? (event.image.startsWith('http') ? event.image : `https://mumbai-events.sagarjethi.com${event.image}`)
+        : 'https://mumbai-events.sagarjethi.com/og-image.png',
       ...(event.cost === 'Free' || event.cost?.toLowerCase().includes('free')
         ? {
             isAccessibleForFree: true,

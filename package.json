@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run verify:resources && vite build && node scripts/prerender.mjs",
+    "build": "npm run verify:resources && vite build && node scripts/build-static-shells.mjs && node scripts/prerender.mjs",
     "build:fast": "vite build",
-    "build:prerender": "vite build && node scripts/prerender.mjs",
+    "build:prerender": "vite build && node scripts/build-static-shells.mjs && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
-    "verify:resources": "node scripts/verify-resources.mjs"
+    "verify:resources": "node scripts/verify-resources.mjs",
+    "build:shells": "vite build && node scripts/build-static-shells.mjs"
   },
   "dependencies": {
     "html-to-image": "^1.11.13",

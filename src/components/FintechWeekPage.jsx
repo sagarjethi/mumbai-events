@@ -138,7 +138,7 @@ export default function FintechWeekPage() {
 
   useEffect(() => { window.scrollTo({ top: 0 }); }, []);
 
-  const title = 'Fintech Week in Mumbai 2026: Global Fintech Fest + every side event';
+  const title = `${series.weekLabel} 2026: ${series.name} + every side event | Mumbai Tech Events`;
   const description = `Global Fintech Fest 2026 (Sep 8–11, Jio World Centre & Trident BKC) plus ${sideEvents.length} side events: official GFF dinners, sundowners, night fests and community meetups, filterable by day, type and access.`;
   const itemListJsonLd = {
     '@context': 'https://schema.org',
@@ -235,7 +235,7 @@ export default function FintechWeekPage() {
                   </div>
                   <div className="mt-3 flex gap-3">
                     <Link to={`/events/${toSlug(spotlight.name)}`} className="shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gradient-to-br from-orange-400 to-rose-600">
-                      {spotlight.image && <img src={spotlight.image} alt="" className="w-full h-full object-cover" loading="eager" decoding="async" />}
+                      {spotlight.image && <img src={spotlight.image} alt={`${spotlight.name} cover`} className="w-full h-full object-cover" loading="eager" decoding="async" />}
                     </Link>
                     <div className="min-w-0">
                       <h2 className="font-bold leading-snug line-clamp-2">
@@ -343,7 +343,7 @@ export default function FintechWeekPage() {
                 return (
                   <article key={e.id} className="flex flex-col rounded-2xl border border-[#2323e0]/30 bg-white overflow-hidden hover:shadow-lg transition-shadow">
                     <Link to={`/events/${slug}`} className="relative block h-36 bg-gradient-to-br from-orange-400 to-rose-600">
-                      {e.image && <img src={e.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />}
+                      {e.image && <img src={e.image} alt={`${e.name} cover`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />}
                       <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-full bg-[#2323e0] text-white text-[11px] font-bold px-2 py-0.5">
                         <Sparkles className="w-3 h-3" /> Featured
                       </span>
@@ -641,7 +641,7 @@ function AgendaRow({ event: e }) {
       </div>
       <Link to={`/events/${slug}`} className="hidden sm:block w-24 h-16 rounded-lg overflow-hidden bg-gradient-to-br from-orange-400 to-rose-600 relative">
         {e.image ? (
-          <img src={e.image} alt="" className="w-full h-full object-cover" loading="lazy" decoding="async" />
+          <img src={e.image} alt={`${e.name} cover`} className="w-full h-full object-cover" loading="lazy" decoding="async" />
         ) : (
           <span className="absolute inset-0 flex items-center justify-center text-white/80 text-2xl" aria-hidden="true">{TYPE_GLYPH[e.sideType] || '🥂'}</span>
         )}
