@@ -82,6 +82,13 @@ export default function FintechWeekPage() {
       .sort((a, b) => a.startDate.localeCompare(b.startDate) || (a.startTime || '').localeCompare(b.startTime || '')),
     [],
   );
+  const featuredSides = useMemo(
+    () => sideEvents.filter((e) => e.featured && e.endDate >= today),
+    [sideEvents, today],
+  );
+  // The hero "don't miss" box: Sagar's own LFDT sundowner first, else the
+  // earliest upcoming featured side event.
+  const spotlight = featuredSides.find((e) => e.link.includes('u9eclpg2')) || featuredSides[0] || null;
   const alsoThisMonth = useMemo(
     () => events.filter((e) => !e.series && e.startDate.startsWith('2026-09') && e.endDate >= today).slice(0, 6),
     [today],
@@ -170,13 +177,13 @@ export default function FintechWeekPage() {
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       </Helmet>
 
-      {/* ── Hero: the GFF banner, rebuilt ─────────────────────────────── */}
+      {/* ── Hero: compact GFF banner + "don't miss" box ───────────────── */}
       <header className="relative overflow-hidden bg-[#12118a] text-white">
         <img src={series.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="eager" decoding="async" fetchPriority="high" />
         <div className="absolute inset-0 bg-[#1a19b3]/80" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#12118a] via-[#12118a]/60 to-transparent" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8 sm:pt-8 sm:pb-10">
-          <nav className="flex items-center gap-2 text-sm text-white/70 mb-4" aria-label="Breadcrumb">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-6 sm:pt-6 sm:pb-7">
+          <nav className="flex items-center gap-2 text-xs text-white/70 mb-3" aria-label="Breadcrumb">
             <Link to="/" className="hover:text-white">Home</Link>
             <span className="text-white/40">/</span>
             <Link to="/events" className="hover:text-white">Events</Link>
@@ -184,188 +191,184 @@ export default function FintechWeekPage() {
             <span className="text-white font-medium">{series.weekLabel}</span>
           </nav>
 
-          <div className="grid lg:grid-cols-12 gap-10 items-end">
-            <div className="lg:col-span-7">
-              <p className="text-base font-semibold text-[#7dd3fc]">{series.weekLabel}</p>
-              <h1 className="mt-1 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.02]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
+            <div className="min-w-0 lg:col-span-7">
+              <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-[1.02]">
                 Global Fintech Fest <span className="text-[#7dd3fc]">2026</span>
               </h1>
-              <p className="mt-3 text-lg sm:text-xl font-bold">8 to 11 September, 2026</p>
-              <p className="mt-1 inline-flex items-center gap-1.5 text-sm sm:text-base text-white/90">
-                <MapPin className="w-4 h-4" /> Jio World Centre | Trident BKC, Mumbai, India
+              <p className="mt-2 text-base sm:text-lg font-bold">
+                8 to 11 September, 2026
+                <span className="font-normal text-white/85"> · Jio World Centre | Trident BKC, Mumbai</span>
               </p>
-              <div className="mt-4">
-                <p className="text-base sm:text-lg font-bold">{series.theme}</p>
-                <p className="text-base sm:text-lg font-bold text-[#ff7a4d]">{series.tracks.join(' | ')}</p>
-                <p className="mt-1 text-sm sm:text-base text-white/85">{series.tagline}</p>
-              </div>
-              <div className="mt-5 flex flex-wrap gap-2.5">
+              <p className="mt-2 text-sm sm:text-base font-bold text-[#ff7a4d]">
+                {series.theme} <span className="text-white/60 font-normal">·</span> {series.tracks.join(' | ')}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
                 <a
                   href={addUtm(series.register, 'fintech-week-hero', 'gff-2026')}
                   target="_blank" rel="noopener noreferrer nofollow"
-                  className="inline-flex items-center gap-2 rounded-full bg-white text-[#1a19b3] font-semibold px-5 py-2.5 hover:bg-[#e6f6ff] transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
+                  className="inline-flex items-center gap-2 rounded-full bg-white text-[#1a19b3] text-sm font-semibold px-4 py-2 hover:bg-[#e6f6ff] transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
                 >
                   Get a delegate pass <ArrowUpRight className="w-4 h-4" />
                 </a>
                 <button
                   type="button"
                   onClick={scrollToAgenda}
-                  className="inline-flex items-center gap-2 rounded-full border border-white/40 text-white font-semibold px-5 py-2.5 hover:bg-white/10 transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/40 text-white text-sm font-semibold px-4 py-2 hover:bg-white/10 transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]"
                 >
                   Browse {sideEvents.length} side events <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
             </div>
 
-            {/* Week ribbon: the memorable bit. Day cells double as the day filter. */}
-            <div className="lg:col-span-5">
-              <p className="text-sm text-white/80 mb-2">Side events by day. Tap a day to filter.</p>
-              <div className="grid grid-cols-6 gap-1.5" role="tablist" aria-label="Filter side events by day">
-                {weekDays.map((iso) => {
-                  const p = dateParts(iso);
-                  const on = day === iso;
-                  const core = iso >= series.coreStart && iso <= series.coreEnd;
-                  const isToday = iso === today;
-                  return (
-                    <button
-                      key={iso}
-                      type="button"
-                      role="tab"
-                      aria-selected={on}
-                      onClick={() => { setParam('day', on ? '' : iso); if (!on) scrollToAgenda(); }}
-                      className={[
-                        'group relative flex flex-col items-center rounded-xl px-1 pt-2.5 pb-2 transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-[#7dd3fc]',
-                        on ? 'bg-white text-[#1a19b3]' : 'bg-white/10 hover:bg-white/20 text-white',
-                      ].join(' ')}
+            {/* Don't-miss box: the top featured side event */}
+            {spotlight && (
+              <aside className="min-w-0 lg:col-span-5" aria-label="Featured side event">
+                <div className="rounded-2xl bg-white text-slate-900 p-4 shadow-xl shadow-black/20 ring-1 ring-white/40">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="inline-flex items-center gap-1.5 text-xs font-bold text-[#2323e0]">
+                      <Sparkles className="w-3.5 h-3.5" /> Don't miss this during GFF week
+                    </p>
+                    <span className="text-[11px] font-semibold text-emerald-700 bg-emerald-50 rounded-full px-2 py-0.5">
+                      {isFree(spotlight) ? 'Free · RSVP' : spotlight.cost}
+                    </span>
+                  </div>
+                  <div className="mt-3 flex gap-3">
+                    <Link to={`/events/${toSlug(spotlight.name)}`} className="shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-gradient-to-br from-orange-400 to-rose-600">
+                      {spotlight.image && <img src={spotlight.image} alt="" className="w-full h-full object-cover" loading="eager" decoding="async" />}
+                    </Link>
+                    <div className="min-w-0">
+                      <h2 className="font-bold leading-snug line-clamp-2">
+                        <Link to={`/events/${toSlug(spotlight.name)}`} className="hover:text-[#2323e0]">{spotlight.name}</Link>
+                      </h2>
+                      <p className="mt-1 text-xs text-slate-600">
+                        {dateParts(spotlight.startDate).dowLong} {dateParts(spotlight.startDate).day} Sep · {spotlight.time}
+                      </p>
+                      {spotlight.host && <p className="text-xs text-slate-500 truncate">By {spotlight.host}</p>}
+                    </div>
+                  </div>
+                  <div className="mt-3 flex gap-2">
+                    <a
+                      href={addUtm(spotlight.link, 'fintech-week-hero-spotlight', toSlug(spotlight.name))}
+                      target="_blank" rel="noopener noreferrer nofollow ugc"
+                      className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-lg bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-3 py-2 transition-colors"
                     >
-                      <span className={`text-[10px] font-semibold ${on ? 'text-[#1a19b3]/70' : 'text-white/70'}`}>{p.dow}</span>
-                      <span className="text-2xl font-extrabold leading-none mt-0.5">{p.day}</span>
-                      <span className={`mt-1.5 text-[11px] font-semibold tabular-nums ${on ? 'text-[#1a19b3]' : 'text-[#7dd3fc]'}`}>
-                        {countByDay[iso]} {countByDay[iso] === 1 ? 'event' : 'events'}
-                      </span>
-                      <span className={`mt-1.5 h-1 w-6 rounded-full ${core ? (on ? 'bg-[#ff7a4d]' : 'bg-[#ff7a4d]/90') : 'bg-transparent'}`} aria-hidden="true" />
-                      {isToday && <span className="absolute -top-1.5 rounded-full bg-[#ff7a4d] text-white text-[9px] font-bold px-1.5 py-px">Today</span>}
-                    </button>
-                  );
-                })}
-              </div>
-              <p className="mt-2 text-xs text-white/70 inline-flex items-center gap-1.5">
-                <span className="h-1 w-4 rounded-full bg-[#ff7a4d]" aria-hidden="true" /> GFF main-stage days
-              </p>
-            </div>
+                      Register now <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                    <Link to={`/events/${toSlug(spotlight.name)}`} className="inline-flex items-center justify-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-3 py-2 transition-colors">
+                      Details
+                    </Link>
+                  </div>
+                </div>
+              </aside>
+            )}
           </div>
         </div>
       </header>
 
+      {/* ── Week ribbon: side events per day, doubles as the day filter ── */}
+      <div className="bg-white border-b border-slate-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center gap-3 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <p className="hidden sm:block shrink-0 text-xs font-semibold text-slate-500 w-24 leading-tight">Side events by day</p>
+          <div className="flex gap-1.5 flex-1 min-w-0" role="tablist" aria-label="Filter side events by day">
+            {weekDays.map((iso) => {
+              const p = dateParts(iso);
+              const on = day === iso;
+              const core = iso >= series.coreStart && iso <= series.coreEnd;
+              const isToday = iso === today;
+              return (
+                <button
+                  key={iso}
+                  type="button"
+                  role="tab"
+                  aria-selected={on}
+                  onClick={() => { setParam('day', on ? '' : iso); if (!on) scrollToAgenda(); }}
+                  className={[
+                    'relative shrink-0 flex-1 min-w-[4.25rem] flex flex-col items-center rounded-xl px-1 py-1.5 border transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2323e0]/50',
+                    on ? 'bg-[#2323e0] border-[#2323e0] text-white' : 'bg-white border-slate-200 hover:border-slate-300 text-slate-900',
+                  ].join(' ')}
+                >
+                  <span className={`text-[10px] font-semibold ${on ? 'text-white/80' : 'text-slate-500'}`}>{p.dow} {p.day}</span>
+                  <span className={`text-sm font-bold tabular-nums ${on ? 'text-white' : 'text-slate-900'}`}>{countByDay[iso]}</span>
+                  <span className={`mt-1 h-0.5 w-5 rounded-full ${core ? 'bg-[#ff7a4d]' : 'bg-transparent'}`} aria-hidden="true" />
+                  {isToday && <span className="absolute -top-1.5 rounded-full bg-[#ff7a4d] text-white text-[9px] font-bold px-1.5 py-px">Today</span>}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* ── Headline event ───────────────────────────────────────────── */}
+        {/* ── Headline event: compact strip ─────────────────────────────── */}
         {headline && (
-          <section aria-labelledby="headline-heading" className="pt-12">
-            <h2 id="headline-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">The headline</h2>
-            <p className="mt-1 text-sm text-slate-500">Four days at BKC. Everything else on this page orbits it.</p>
-
-            <article className="mt-5 grid lg:grid-cols-12 rounded-2xl border border-slate-200 overflow-hidden bg-white">
-              <Link to={`/events/${toSlug(headline.name)}`} className="lg:col-span-5 relative min-h-[220px] bg-[#1a19b3]">
-                <img src={series.image} alt={`${headline.name} exhibition floor`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#12118a]/80 to-transparent" />
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <p className="text-xs font-semibold text-white/80">Organised by</p>
-                  <p className="text-sm font-semibold">{series.organisers.join(' · ')}</p>
-                </div>
+          <section aria-label="Headline event" className="pt-8">
+            <article className="flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4">
+              <Link to={`/events/${toSlug(headline.name)}`} className="shrink-0 w-full sm:w-28 h-24 sm:h-20 rounded-xl overflow-hidden bg-[#1a19b3]">
+                <img src={series.image} alt="" className="w-full h-full object-cover" loading="lazy" decoding="async" />
               </Link>
-              <div className="lg:col-span-7 p-6 sm:p-8">
-                <h3 className="text-2xl font-bold text-slate-900">
+              <div className="min-w-0 flex-1">
+                <p className="text-xs font-semibold text-[#2323e0]">The headline</p>
+                <h2 className="font-bold text-slate-900 leading-snug">
                   <Link to={`/events/${toSlug(headline.name)}`} className="hover:text-[#2323e0]">{headline.name}</Link>
-                </h3>
-                <p className="mt-2 text-slate-600 leading-relaxed">{headline.description}</p>
-
-                <dl className="mt-5 grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">
-                  <div className="flex gap-3">
-                    <Clock className="w-4 h-4 text-[#2323e0] mt-0.5 shrink-0" />
-                    <div>
-                      <dt className="font-semibold text-slate-900">Sep 8</dt>
-                      <dd className="text-slate-600">Invitation-only sessions (Special Invitation Pass)</dd>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <Clock className="w-4 h-4 text-[#2323e0] mt-0.5 shrink-0" />
-                    <div>
-                      <dt className="font-semibold text-slate-900">Sep 9 to 11</dt>
-                      <dd className="text-slate-600">Open sessions, 8:00 AM to 5:30 PM, all delegate passes</dd>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <MapPin className="w-4 h-4 text-[#2323e0] mt-0.5 shrink-0" />
-                    <div>
-                      <dt className="font-semibold text-slate-900">Venue</dt>
-                      <dd className="text-slate-600">{headline.venue}</dd>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <Ticket className="w-4 h-4 text-[#2323e0] mt-0.5 shrink-0" />
-                    <div>
-                      <dt className="font-semibold text-slate-900">Passes</dt>
-                      <dd className="text-slate-600">{headline.cost}</dd>
-                    </div>
-                  </div>
-                </dl>
-
-                <div className="mt-5 flex flex-wrap gap-1.5">
-                  {series.tracks.map((t) => (
-                    <span key={t} className="rounded-full bg-[#eef0ff] text-[#2323e0] px-3 py-1 text-xs font-semibold">{t}</span>
-                  ))}
-                </div>
-
-                <div className="mt-6 flex flex-wrap gap-2">
-                  <a href={addUtm(headline.link, 'fintech-week-headline', 'gff-2026')} target="_blank" rel="noopener noreferrer nofollow ugc" className="inline-flex items-center gap-2 rounded-xl bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-4 py-2.5 transition-colors">
-                    Register <ExternalLink className="w-4 h-4" />
-                  </a>
-                  <a href={addUtm(series.website, 'fintech-week-headline', 'gff-2026')} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-sm font-semibold px-4 py-2.5 transition-colors">
-                    <Globe className="w-4 h-4" /> Official site
-                  </a>
-                  <a href={buildGoogleCalendarUrl(headline)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 hover:bg-slate-50 text-slate-800 text-sm font-semibold px-4 py-2.5 transition-colors">
-                    <CalendarPlus className="w-4 h-4" /> Add to calendar
-                  </a>
-                  <Link to={`/events/${toSlug(headline.name)}`} className="inline-flex items-center gap-1 text-sm font-semibold text-[#2323e0] px-2 py-2.5">
-                    Event page <ChevronRight className="w-4 h-4" />
-                  </Link>
-                </div>
+                </h2>
+                <p className="mt-0.5 text-sm text-slate-600 line-clamp-2">
+                  Sep 8 invite-only sessions; Sep 9 to 11 open to delegates, 8:00 AM to 5:30 PM. {headline.cost}.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 sm:shrink-0">
+                <a href={addUtm(headline.link, 'fintech-week-headline', 'gff-2026')} target="_blank" rel="noopener noreferrer nofollow ugc" className="inline-flex items-center gap-1.5 rounded-lg bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-3.5 py-2 transition-colors">
+                  Register <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+                <a href={buildGoogleCalendarUrl(headline)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 text-sm font-semibold px-3.5 py-2 transition-colors">
+                  <CalendarPlus className="w-3.5 h-3.5" /> Calendar
+                </a>
+                <Link to={`/events/${toSlug(headline.name)}`} className="inline-flex items-center gap-1 rounded-lg border border-slate-200 hover:bg-slate-50 text-slate-800 text-sm font-semibold px-3.5 py-2 transition-colors">
+                  Details <ChevronRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </article>
           </section>
         )}
 
-        {/* ── Official programmes inside the fest ───────────────────────── */}
-        {programmes.length > 0 && (
-          <section aria-labelledby="programmes-heading" className="pt-14">
-            <h2 id="programmes-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Inside the fest</h2>
-            <p className="mt-1 text-sm text-slate-500">Official GFF programmes that run on the convention floor. A delegate pass or an invite gets you in.</p>
-            <div className="mt-5 grid md:grid-cols-3 gap-4">
-              {programmes.map((e) => {
+        {/* ── Featured side events first ────────────────────────────────── */}
+        {featuredSides.length > 0 && (
+          <section aria-labelledby="featured-heading" className="pt-10">
+            <h2 id="featured-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Featured side events</h2>
+            <p className="mt-1 text-sm text-slate-500">Our picks for the week. Free to attend, RSVP needed.</p>
+            <div className="mt-4 grid sm:grid-cols-2 gap-4">
+              {featuredSides.map((e) => {
+                const type = SIDE_TYPES[e.sideType];
                 const slug = toSlug(e.name);
-                const cat = CATEGORIES[e.category];
                 return (
-                  <article key={e.id} className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 hover:border-[#2323e0]/40 hover:shadow-lg transition-all">
-                    <div className="flex items-center gap-2 text-xs">
-                      <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 text-slate-700 px-2 py-0.5 font-semibold">
-                        <span className={`w-1.5 h-1.5 rounded-full ${cat?.dot || 'bg-slate-400'}`} /> {cat?.label}
+                  <article key={e.id} className="flex flex-col rounded-2xl border border-[#2323e0]/30 bg-white overflow-hidden hover:shadow-lg transition-shadow">
+                    <Link to={`/events/${slug}`} className="relative block h-36 bg-gradient-to-br from-orange-400 to-rose-600">
+                      {e.image && <img src={e.image} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />}
+                      <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-full bg-[#2323e0] text-white text-[11px] font-bold px-2 py-0.5">
+                        <Sparkles className="w-3 h-3" /> Featured
                       </span>
-                      <span className="text-slate-500">{e.date} · {e.time}</span>
-                    </div>
-                    <h3 className="mt-3 text-lg font-bold text-slate-900 leading-snug">
-                      <Link to={`/events/${slug}`} className="hover:text-[#2323e0]">{e.name}</Link>
-                    </h3>
-                    <p className="mt-2 text-sm text-slate-600 leading-relaxed line-clamp-4">{e.description}</p>
-                    <ul className="mt-3 space-y-1 text-xs text-slate-600">
-                      <li className="flex items-center gap-1.5"><MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" /> <span className="truncate">{e.venue}</span></li>
-                      {e.prize && <li className="flex items-center gap-1.5"><Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" /> Top prize {e.prize}</li>}
-                      <li className="flex items-center gap-1.5"><Ticket className="w-3.5 h-3.5 text-slate-400 shrink-0" /> {ACCESS[e.access]?.label}</li>
-                    </ul>
-                    <div className="mt-auto pt-4 flex gap-2">
-                      <a href={addUtm(e.link, 'fintech-week-programme', slug)} target="_blank" rel="noopener noreferrer nofollow ugc" className="inline-flex items-center gap-1.5 rounded-lg bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-3.5 py-2 transition-colors">
-                        Official page <ExternalLink className="w-3.5 h-3.5" />
-                      </a>
-                      <Link to={`/events/${slug}`} className="inline-flex items-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-3.5 py-2 transition-colors">Details</Link>
+                    </Link>
+                    <div className="p-4 flex flex-col flex-1">
+                      <div className="flex flex-wrap items-center gap-1.5">
+                        {type && (
+                          <span className={`inline-flex items-center gap-1 rounded-full ring-1 px-2 py-0.5 text-[11px] font-semibold ${type.chip}`}>
+                            <span className={`w-1.5 h-1.5 rounded-full ${type.dot}`} /> {type.short}
+                          </span>
+                        )}
+                        {isFree(e) && <span className="inline-flex items-center rounded-full bg-emerald-50 text-emerald-700 px-2 py-0.5 text-[11px] font-semibold">Free</span>}
+                        <span className="text-xs text-slate-500">{dateParts(e.startDate).dow} {dateParts(e.startDate).day} Sep · {formatClock(e.startTime)}</span>
+                      </div>
+                      <h3 className="mt-2 font-bold text-slate-900 leading-snug">
+                        <Link to={`/events/${slug}`} className="hover:text-[#2323e0]">{e.name}</Link>
+                      </h3>
+                      <p className="mt-1 text-sm text-slate-600 line-clamp-2">{e.description}</p>
+                      <p className="mt-2 text-xs text-slate-500 truncate">{e.host} · {e.venue}</p>
+                      <div className="mt-auto pt-4 flex gap-2">
+                        <a href={addUtm(e.link, 'fintech-week-featured', slug)} target="_blank" rel="noopener noreferrer nofollow ugc" className="inline-flex items-center gap-1.5 rounded-lg bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-3.5 py-2 transition-colors">
+                          Register <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                        <Link to={`/events/${slug}`} className="inline-flex items-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-3.5 py-2 transition-colors">Details</Link>
+                      </div>
                     </div>
                   </article>
                 );
@@ -375,7 +378,7 @@ export default function FintechWeekPage() {
         )}
 
         {/* ── Side events agenda ───────────────────────────────────────── */}
-        <section ref={agendaRef} id="side-events" aria-labelledby="side-heading" className="pt-14 scroll-mt-16">
+        <section ref={agendaRef} id="side-events" aria-labelledby="side-heading" className="pt-10 scroll-mt-16">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
               <h2 id="side-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Side events, day by day</h2>
@@ -475,6 +478,45 @@ export default function FintechWeekPage() {
             </div>
           )}
         </section>
+
+        {/* ── Official programmes inside the fest ───────────────────────── */}
+        {programmes.length > 0 && (
+          <section aria-labelledby="programmes-heading" className="pt-14">
+            <h2 id="programmes-heading" className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Inside the fest</h2>
+            <p className="mt-1 text-sm text-slate-500">Official GFF programmes that run on the convention floor. A delegate pass or an invite gets you in.</p>
+            <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-4">
+              {programmes.map((e) => {
+                const slug = toSlug(e.name);
+                const cat = CATEGORIES[e.category];
+                return (
+                  <article key={e.id} className="min-w-0 flex flex-col rounded-2xl border border-slate-200 bg-white p-5 hover:border-[#2323e0]/40 hover:shadow-lg transition-all">
+                    <div className="flex flex-wrap items-center gap-2 text-xs">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 text-slate-700 px-2 py-0.5 font-semibold">
+                        <span className={`w-1.5 h-1.5 rounded-full ${cat?.dot || 'bg-slate-400'}`} /> {cat?.label}
+                      </span>
+                      <span className="text-slate-500">{e.date} · {e.time}</span>
+                    </div>
+                    <h3 className="mt-3 text-lg font-bold text-slate-900 leading-snug">
+                      <Link to={`/events/${slug}`} className="hover:text-[#2323e0]">{e.name}</Link>
+                    </h3>
+                    <p className="mt-2 text-sm text-slate-600 leading-relaxed line-clamp-4">{e.description}</p>
+                    <ul className="mt-3 space-y-1 text-xs text-slate-600">
+                      <li className="flex items-center gap-1.5"><MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" /> <span className="truncate">{e.venue}</span></li>
+                      {e.prize && <li className="flex items-center gap-1.5"><Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" /> Top prize {e.prize}</li>}
+                      <li className="flex items-center gap-1.5"><Ticket className="w-3.5 h-3.5 text-slate-400 shrink-0" /> {ACCESS[e.access]?.label}</li>
+                    </ul>
+                    <div className="mt-auto pt-4 flex gap-2">
+                      <a href={addUtm(e.link, 'fintech-week-programme', slug)} target="_blank" rel="noopener noreferrer nofollow ugc" className="inline-flex items-center gap-1.5 rounded-lg bg-[#2323e0] hover:bg-[#1a19b3] text-white text-sm font-semibold px-3.5 py-2 transition-colors">
+                        Official page <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                      <Link to={`/events/${slug}`} className="inline-flex items-center rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-3.5 py-2 transition-colors">Details</Link>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         {/* ── Map ──────────────────────────────────────────────────────── */}
         <section aria-labelledby="map-heading" className="pt-14">
@@ -593,7 +635,7 @@ function AgendaRow({ event: e }) {
     <li className="py-4 grid grid-cols-[5.5rem_1fr] sm:grid-cols-[5.5rem_6rem_1fr_auto] gap-x-4 gap-y-3 items-start">
       <div className="pt-0.5">
         <p className="text-sm font-bold text-slate-900 tabular-nums leading-tight">{formatClock(e.startTime) || 'TBA'}</p>
-        <p className="text-[11px] text-slate-500 leading-tight mt-0.5 inline-flex items-center gap-1 whitespace-nowrap">
+        <p className="text-[11px] text-slate-500 leading-tight mt-0.5 inline-flex items-center gap-1 sm:whitespace-nowrap">
           {late && <Moon className="w-3 h-3" aria-hidden="true" />}{endLabel(e.time)}
         </p>
       </div>
