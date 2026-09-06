@@ -1,9 +1,9 @@
 # Mumbai Tech Events — June 2026
 
-> 58 events | 36 free | 12 conferences | Open Source Week Mumbai (Jun 14–19)
+> 61 events | 39 free | 12 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
-> Last updated: Thursday, September 3, 2026 (2026-09-03)
+> Last updated: Sunday, September 6, 2026 (2026-09-06)
 
 ## Conference
 

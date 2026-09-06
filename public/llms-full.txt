@@ -3,13 +3,13 @@
 # in Mumbai, India · June 2026
 # Website: https://mumbai-events.sagarjethi.com
 # Author: Sagar Jethi (@sagarbjethi)
-# Last updated: Thursday, September 3, 2026 (2026-09-03)
+# Last updated: Sunday, September 6, 2026 (2026-09-06)
 
 ## Summary
 
-58 tracked tech events. 31 upcoming as of 2026-09-03.
+61 tracked tech events. 32 upcoming as of 2026-09-06.
 12 conferences · 14 meetups · 6 startup events.
-36+ free to attend.
+39+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -412,7 +412,7 @@ eChai Ventures.
 - Cost: Free (approval required)
 - Category: meetup
 - Tags: GitHub, Copilot, AI Agents, Developers, Paytm
-- Status: Upcoming
+- Status: Past
 - Description: A builder-first GitHub Dev Days edition hosted at the Paytm office - deep dives on autonomous AI agents, multi-agent orchestration and taking issues from backlog to merge with the GitHub Copilot app and CLI.
 - Register: https://luma.com/s1905j5v
 - Detail page: https://mumbai-events.sagarjethi.com/events/github-dev-days-mumbai-agent-driven-engineering-copilot-in-action
@@ -426,7 +426,7 @@ eChai Ventures.
 - Cost: Free (top 20 teams from the online qualifier)
 - Category: cybersecurity
 - Tags: CTF, Cybersecurity, Web Exploitation, Cryptography, Forensics
-- Status: Upcoming
+- Status: Past
 - Description: Cyber Unbound × Zeron
 - Register: https://luma.com/ay8ehg6p
 - Detail page: https://mumbai-events.sagarjethi.com/events/zero-one-ghost-in-the-ledger-ctf-finals
@@ -607,6 +607,21 @@ eChai Ventures.
 - Website: https://www.globalfintechfest.com/gff-networking
 - Detail page: https://mumbai-events.sagarjethi.com/events/persistent-leadership-circle-reimagining-financial-services-in-the-age-of-ai
 
+### Uptik After Dark: GFF Night Fest
+- ID: 46
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Amadeo by Oberoi, NMACC, Jio World Centre, BKC, Mumbai
+- Time: 7:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, Uptik, GFF Week
+- Status: Upcoming
+- Description: Leave the boardroom behind and step into Uptik after dark at Amadeo by Oberoi - informal networking, food and memorable moments, plus the launch of the Uptik 2.0 application.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyUptik/formperma/h6SDH1CEVE7vOiruHzNZfF9oj7gWoyDr4HhBP3uGn_M
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/uptik-after-dark-gff-night-fest
+
 ### Global Fintech Awards 2026
 - ID: 56
 - Date: Sep 9
@@ -635,6 +650,36 @@ eChai Ventures.
 - Description: 17 invitation-only, moderator-free roundtables for C-suite, regulators and policymakers - AI-native banks, agentic security, composable wealth, SOC capacity, the India–UK fintech corridor and more. Request an invite per session on the GFF roundtables page.
 - Register: https://www.globalfintechfest.com/gff-roundtables
 - Detail page: https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables
+
+### GFF Night Fest by Paysprint
+- ID: 59
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: SodaBottleOpenerWala, BKC, Mumbai
+- Time: 8:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, Paysprint, Payments, GFF Week
+- Status: Upcoming
+- Description: Paysprint hosts the Day 1 night fest at SodaBottleOpenerWala - unwind after the opening day of GFF with music, food and the payments crowd.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyPaysprint/formperma/GDkK1Y-4BqhDFzURrK2m7pnsdBnGGw4fGb8z3qVE1Fs
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-paysprint
+
+### GFF Night Fest by Infobip
+- ID: 60
+- Date: Sep 9
+- Start: 2026-09-09
+- Venue: Social, BKC, Mumbai
+- Time: 8:00 PM onwards
+- Cost: Express interest (free for GFF delegates)
+- Category: networking
+- Tags: Fintech, Night Fest, Infobip, Customer Engagement, GFF Week
+- Status: Upcoming
+- Description: Infobip takes over Social BKC on GFF Day 1 night - informal networking, food and drinks for fintech leaders, builders and the conversational-messaging crowd.
+- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyInfobip/formperma/F0RaGPex8cMAVsUZivp8dcyrJSmnkf6QaSv1fhd4eKE
+- Website: https://www.globalfintechfest.com/gff-night-fest
+- Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-infobip
 
 ### Global Fintech Women
 - ID: 39
@@ -670,7 +715,7 @@ eChai Ventures.
 - Date: Sep 10
 - Start: 2026-09-10
 - Venue: Amadeo by Oberoi, NMACC, BKC, Mumbai
-- Time: 7:00 PM – 9:00 PM
+- Time: 7:00 PM – 10:00 PM
 - Cost: Free (approval required)
 - Category: networking
 - Tags: AI, Fintech, AWS, Anthropic, BFSI, GFF Week
@@ -739,21 +784,6 @@ eChai Ventures.
 - Website: https://www.globalfintechfest.com/gff-night-fest
 - Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-open-financial
 
-### Uptik After Dark
-- ID: 46
-- Date: Sep 10
-- Start: 2026-09-10
-- Venue: Social, BKC, Mumbai
-- Time: 8:00 PM onwards
-- Cost: Express interest (free for GFF delegates)
-- Category: networking
-- Tags: Fintech, Night Fest, Uptik, GFF Week
-- Status: Upcoming
-- Description: An exclusive GFF evening at Social BKC where fintech minds unwind, reconnect and have effortless conversations over great food - informal networking, fun and memorable moments.
-- Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyUptik/formperma/h6SDH1CEVE7vOiruHzNZfF9oj7gWoyDr4HhBP3uGn_M
-- Website: https://www.globalfintechfest.com/gff-night-fest
-- Detail page: https://mumbai-events.sagarjethi.com/events/uptik-after-dark
-
 ### GFF Night Fest by GetePay
 - ID: 47
 - Date: Sep 10
@@ -768,6 +798,20 @@ eChai Ventures.
 - Register: https://forms.globalfintechfest.com/ia/form/GFF2026NightFestbyGetepay/formperma/LyVFjJj85vNWONffQnU0BxOZ0cpwiwMXEh2jsr34AKc
 - Website: https://www.globalfintechfest.com/gff-night-fest
 - Detail page: https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-getepay
+
+### No KYC Required: A BFSI Mixer at Global Fintech Fest
+- ID: 61
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Butterfly High, BKC, Mumbai
+- Time: 8:00 PM – 12:00 AM
+- Cost: Free (approval required)
+- Category: networking
+- Tags: Fintech, BFSI, Mixer, Networking, GFF Week
+- Status: Upcoming
+- Description: A late-night BFSI mixer at Butterfly High on GFF Day 2 - no badges, no pitches, just bankers, fintech operators and founders unwinding over drinks after the exhibition floor closes.
+- Register: https://luma.com/e2g1t4ei
+- Detail page: https://mumbai-events.sagarjethi.com/events/no-kyc-required-a-bfsi-mixer-at-global-fintech-fest
 
 ### The Bioeconomy Table
 - ID: 50

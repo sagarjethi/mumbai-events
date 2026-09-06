@@ -182,5 +182,12 @@
       "source": "/((?!api|assets|llms|events\\.md|sitemap|robots|favicon|og-image|apple-touch-icon|icons|\\.well-known).*)",
       "destination": "/index.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/events/uptik-after-dark",
+      "destination": "/events/uptik-after-dark-gff-night-fest",
+      "permanent": true
+    }
   ]
 }
