@@ -177,6 +177,7 @@ for (const s of Object.values(SERIES)) {
     <h1>${esc(s.name)}: ${esc(s.weekLabel)}</h1>
     <p><strong>${esc(humanRange(s.coreStart, s.coreEnd))}</strong> · ${esc(s.venue)}</p>
     <p>${esc(s.theme)}: ${s.tracks.map(esc).join(' | ')}. ${esc(s.tagline)}.</p>
+    ${s.stats ? `<h2>GFF by the numbers</h2><ul>${s.stats.map((x) => `<li>${x.value.toLocaleString('en-IN')}${x.suffix || ''} ${esc(x.label.toLowerCase())}</li>`).join('')}</ul><p>Source: <a href="${esc(s.statsSource)}" rel="nofollow noopener">globalfintechfest.com</a></p>` : ''}
     ${headline ? `<h2>The headline</h2><p><a href="/events/${toSlug(headline.name)}">${esc(headline.name)}</a> - ${esc(headline.description)}</p>` : ''}
     <h2>Featured side events</h2>${eventListHtml(sides.filter((e) => e.featured))}
     <h2>Side events, day by day</h2>

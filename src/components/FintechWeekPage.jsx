@@ -346,6 +346,39 @@ export default function FintechWeekPage() {
           </section>
         )}
 
+        {/* ── GFF by the numbers ────────────────────────────────────────── */}
+        {series.stats && (
+          <section aria-labelledby="numbers-heading" className="pt-8">
+            <div className="rounded-2xl bg-[#12118a] text-white p-5 sm:p-7 overflow-hidden relative">
+              <div className="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-[#2323e0]/60 blur-3xl" aria-hidden="true" />
+              <div className="relative flex flex-wrap items-end justify-between gap-3">
+                <div>
+                  <h2 id="numbers-heading" className="text-xl sm:text-2xl font-bold">GFF by the numbers</h2>
+                  <p className="mt-1 text-sm text-white/75">What the organisers are planning for this edition, per globalfintechfest.com.</p>
+                </div>
+                <a href={series.statsSource} target="_blank" rel="noopener noreferrer nofollow" className="text-xs font-semibold text-[#7dd3fc] hover:text-white inline-flex items-center gap-1">
+                  Source <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+              </div>
+              <dl className="relative mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+                {series.stats.filter((s) => s.key).map((s) => (
+                  <div key={s.label} className="rounded-xl bg-white/10 ring-1 ring-white/15 px-4 py-3">
+                    <dd className="text-2xl sm:text-3xl font-extrabold tabular-nums leading-none">
+                      {s.value.toLocaleString('en-IN')}<span className="text-[#7dd3fc]">{s.suffix}</span>
+                    </dd>
+                    <dt className="mt-1.5 text-xs text-white/80">{s.label}</dt>
+                  </div>
+                ))}
+              </dl>
+              <ul className="relative mt-4 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-white/80">
+                {series.stats.filter((s) => !s.key).map((s) => (
+                  <li key={s.label}><span className="font-semibold text-white">{s.value.toLocaleString('en-IN')}{s.suffix}</span> {s.label.toLowerCase()}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
         {/* ── Featured side events first ────────────────────────────────── */}
         {featuredSides.length > 0 && (
           <section aria-labelledby="featured-heading" className="pt-10">

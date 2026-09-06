@@ -62,6 +62,11 @@ export default function FeaturedSpotlight({ compact = false }) {
             <p className="mt-2 text-base sm:text-lg font-semibold">8 to 11 September, 2026</p>
             <p className="inline-flex items-center gap-1.5 text-sm text-white/85"><MapPin className="w-3.5 h-3.5" /> Jio World Centre | Trident BKC, Mumbai</p>
             <p className="mt-3 text-sm font-semibold text-[#ff8a5c]">{series.tracks.join('  |  ')}</p>
+            {series.stats && (
+              <p className="mt-2 text-xs text-white/85">
+                {series.stats.filter((s) => s.key).slice(0, 4).map((s) => `${s.value.toLocaleString('en-IN')}${s.suffix} ${s.label.toLowerCase()}`).join(' · ')}
+              </p>
+            )}
             <div className="mt-4 flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-white text-[#1a19b3] text-sm font-semibold px-4 py-2 group-hover:bg-[#e6f6ff] transition-colors">
                 See the whole week <ArrowRight className="w-4 h-4" />
