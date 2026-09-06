@@ -9,7 +9,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import {
   ArrowRight, ArrowUpRight, CalendarPlus, ChevronRight, Clock, ExternalLink,
-  Globe, MapPin, Search, Sparkles, Ticket, Users, X, Moon,
+  Globe, MapPin, Search, Sparkles, Ticket, Users, X, Moon, List, LayoutGrid,
 } from 'lucide-react';
 import { events, SERIES, SIDE_TYPES, ACCESS, CATEGORIES } from '../data';
 import { toSlug } from '../utils/slug';
@@ -39,6 +39,10 @@ const DAY_NOTES = {
 
 function isFree(e) { return /\bfree\b/i.test(e.cost || ''); }
 
+function readStoredView() {
+  try { return localStorage.getItem('fintech-week-view'); } catch { return null; }
+}
+
 // '7:00 PM – 9:00 PM' -> 'to 9:00 PM'; '7:00 PM onwards' -> 'onwards';
 // '7:00 PM onwards (gates 6:15 PM)' -> 'onwards (gates 6:15 PM)'
 function endLabel(time = '') {
@@ -56,6 +60,13 @@ export default function FintechWeekPage() {
   const access = params.get('access') || '';
   const free = params.get('free') === '1';
   const q = params.get('q') || '';
+  // 'list' (time-rail rows) or 'grid' (event cards). URL wins, then the
+  // viewer's last choice on this browser, then list.
+  const view = params.get('view') === 'grid' || (!params.get('view') && readStoredView() === 'grid') ? 'grid' : 'list';
+  const setView = (v) => {
+    try { localStorage.setItem('fintech-week-view', v); } catch { /* storage unavailable */ }
+    setParam('view', v === 'grid' ? 'grid' : '');
+  };
   const agendaRef = useRef(null);
   const today = todayIso();
 
@@ -64,7 +75,11 @@ export default function FintechWeekPage() {
     if (value) next.set(key, value); else next.delete(key);
     setParams(next, { replace: true });
   };
-  const clearAll = () => setParams(new URLSearchParams(), { replace: true });
+  const clearAll = () => {
+    const next = new URLSearchParams();
+    if (params.get('view')) next.set('view', params.get('view'));
+    setParams(next, { replace: true });
+  };
   const scrollToAgenda = () => {
     requestAnimationFrame(() => agendaRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
   };
@@ -386,7 +401,26 @@ export default function FintechWeekPage() {
                 Official GFF networking and night fests, plus the Lu.ma sidelines. {freeCount} are free with an RSVP.
               </p>
             </div>
-            <div className="relative w-full sm:w-72">
+            <div className="flex items-center gap-2 w-full sm:w-auto">
+              <div className="inline-flex shrink-0 rounded-full border border-slate-200 bg-white p-0.5" role="group" aria-label="View as list or grid">
+                {[['list', List, 'List'], ['grid', LayoutGrid, 'Grid']].map(([id, Icon, label]) => (
+                  <button
+                    key={id}
+                    type="button"
+                    onClick={() => setView(id)}
+                    aria-pressed={view === id}
+                    title={`${label} view`}
+                    className={[
+                      'inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2323e0]/50',
+                      view === id ? 'bg-[#2323e0] text-white' : 'text-slate-600 hover:bg-slate-50',
+                    ].join(' ')}
+                  >
+                    <Icon className="w-4 h-4" />
+                    <span className="hidden sm:inline">{label}</span>
+                  </button>
+                ))}
+              </div>
+            <div className="relative flex-1 sm:w-72">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
               <input
                 type="search"
@@ -401,6 +435,7 @@ export default function FintechWeekPage() {
                   <X className="w-3.5 h-3.5" />
                 </button>
               )}
+            </div>
             </div>
           </div>
 
@@ -469,9 +504,15 @@ export default function FintechWeekPage() {
                       <span className="ml-auto sm:order-3 text-xs text-slate-500 tabular-nums whitespace-nowrap">{list.length} {list.length === 1 ? 'event' : 'events'}</span>
                       <span className="basis-full sm:basis-auto sm:order-2 text-sm text-slate-500">{DAY_NOTES[iso]}</span>
                     </div>
-                    <ol className="divide-y divide-slate-100">
-                      {list.map((e) => <AgendaRow key={e.id} event={e} />)}
-                    </ol>
+                    {view === 'grid' ? (
+                      <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {list.map((e) => <EventCard key={e.id} event={e} />)}
+                      </div>
+                    ) : (
+                      <ol className="divide-y divide-slate-100">
+                        {list.map((e) => <AgendaRow key={e.id} event={e} />)}
+                      </ol>
+                    )}
                   </section>
                 );
               })}
