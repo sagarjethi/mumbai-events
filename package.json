@@ -14,6 +14,7 @@
     "build:shells": "vite build && node scripts/build-static-shells.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "html-to-image": "^1.11.13",
     "jszip": "^3.10.1",
     "leaflet": "^1.9.4",
