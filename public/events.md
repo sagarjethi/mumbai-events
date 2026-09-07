@@ -1,9 +1,9 @@
 # Mumbai Tech Events — June 2026
 
-> 61 events | 39 free | 12 conferences | Open Source Week Mumbai (Jun 14–19)
+> 62 events | 40 free | 13 conferences | Open Source Week Mumbai (Jun 14–19)
 > Website: https://mumbai-events.sagarjethi.com
 > Built by Sagar Jethi — https://sagarjethi.com | https://x.com/sagarbjethi | https://linkedin.com/in/sagarjethi
-> Last updated: Sunday, September 6, 2026 (2026-09-06)
+> Last updated: Monday, September 7, 2026 (2026-09-07)
 
 ## Conference
 
@@ -126,6 +126,16 @@
 - 17 invitation-only, moderator-free roundtables for C-suite, regulators and policymakers - AI-native banks, agentic security, composable wealth, SOC capacity, the India–UK fintech corridor and more. Request an invite per session on the GFF roundtables page.
 - **Register:** https://www.globalfintechfest.com/gff-roundtables
 - **Details:** https://mumbai-events.sagarjethi.com/events/gff-2026-cxo-roundtables
+
+### Bharat Inclusion Sprint (IIMA Ventures)
+- **Date:** Sep 10
+- **Venue:** Bandra Kurla Complex, Mumbai (venue shared with approved registrants)
+- **Time:** 10:00 AM onwards (half day)
+- **Cost:** Free (RSVP with a work email, approval required)
+- **Tags:** Fintech, Financial Inclusion, RBI, IIMA Ventures, J.P. Morgan, MicroSave, GFF Week
+- IIMA Ventures
+- **Register:** https://events.iimaventures.com/BharatInclusionSprintmumbai
+- **Details:** https://mumbai-events.sagarjethi.com/events/bharat-inclusion-sprint-iima-ventures
 
 ## Meetup
 

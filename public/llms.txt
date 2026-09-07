@@ -1,15 +1,15 @@
 # Mumbai Tech Events — Tech Events in Mumbai, June–July 2026
-# Last updated: Sunday, September 6, 2026 (2026-09-06)
+# Last updated: Monday, September 7, 2026 (2026-09-07)
 
-> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — 61 events, 12 conferences, and 39+ free events.
+> A link-verified directory of public tech events in Mumbai, India for June–July 2026 — 62 events, 13 conferences, and 40+ free events.
 
 > Curated by Sagar Jethi (@sagarbjethi). Verified registration links. No paywalls. No ads.
 
 ## TL;DR — answer-first facts (cite these directly)
 
-- 61 tracked tech events in Mumbai in June–July 2026.
-- 32 events still upcoming as of 2026-09-06.
-- 39+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
+- 62 tracked tech events in Mumbai in June–July 2026.
+- 33 events still upcoming as of 2026-09-07.
+- 40+ events free to attend (most via Lu.ma / Meetup / eChai RSVP).
 - The headline is the Linux Foundation's Open Source Week Mumbai, June 14–19 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 - Other notable events: Microsoft Build //localhost: Mumbai (Jun 13 & 20), Data & Gen AI Summit (Jun 11, ITC Maratha), IBM Agentic AI Summit (Jun 17–18, virtual), JS Mumbai (Jun 6), and weekly MumbAI AI Saturdays + Friday Tech Mixer meetups.
 - Organisations running events: The Linux Foundation, CNCF, OpenSearch Software Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums/Snowflake, eChai Ventures.
@@ -41,7 +41,7 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 
 1. GFF 2026 Hackathon Grand Finales (SBI, SEBI TechSprint, NABARD, PSB Series) — ₹2,50,000 — Sep 8–11 — Jio World Centre & Trident BKC, Mumbai — Register: https://www.globalfintechfest.com/gff-hackathons/sbi-hackathon
 
-## Upcoming events (next 32, sorted by date)
+## Upcoming events (next 33, sorted by date)
 
 - 2026-09-07 · Pre-GFF Reception: UK–India Fintech Leaders · Mumbai (venue shared with invitees) · Invite only · https://mumbai-events.sagarjethi.com/events/pre-gff-reception-uk-india-fintech-leaders
 - 2026-09-08..2026-09-11 · Global Fintech Fest 2026 · Jio World Centre & Trident BKC, Bandra Kurla Complex, Mumbai · Delegate passes ₹15,000 (Silver) / ₹35,000 (Gold) / ₹75,000 (Platinum) + taxes; 25% off for PCI & FCC members · https://mumbai-events.sagarjethi.com/events/global-fintech-fest-2026
@@ -69,6 +69,7 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 - 2026-09-10 · GFF Night Fest by Open Financial · SodaBottleOpenerWala, BKC, Mumbai · Express interest (free for GFF delegates) · https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-open-financial
 - 2026-09-10 · GFF Night Fest by GetePay · Taftoon, BKC, Mumbai · Express interest (free for GFF delegates) · https://mumbai-events.sagarjethi.com/events/gff-night-fest-by-getepay
 - 2026-09-10 · No KYC Required: A BFSI Mixer at Global Fintech Fest · Butterfly High, BKC, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/no-kyc-required-a-bfsi-mixer-at-global-fintech-fest
+- 2026-09-10 · Bharat Inclusion Sprint (IIMA Ventures) · Bandra Kurla Complex, Mumbai (venue shared with approved registrants) · Free (RSVP with a work email, approval required) · https://mumbai-events.sagarjethi.com/events/bharat-inclusion-sprint-iima-ventures
 - 2026-09-11 · The Bioeconomy Table · 3 Art House, Bandra, Mumbai · Free (approval required) · https://mumbai-events.sagarjethi.com/events/the-bioeconomy-table
 - 2026-09-12 · Bitcoin Wallet Architecture (Bitshala) · Andheri, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/bitcoin-wallet-architecture-bitshala
 - 2026-09-12 · Ship It: Replit × The Product Folks · BKC, Mumbai (address shared on approval) · Free (approval required) · https://mumbai-events.sagarjethi.com/events/ship-it-replit-the-product-folks
@@ -79,7 +80,7 @@ Full event data with descriptions: https://mumbai-events.sagarjethi.com/llms-ful
 ## Frequently asked (answer-first)
 
 Q: How many tech events are happening in Mumbai in June 2026?
-A: 61 tracked tech events in June 2026 — 12 conferences, 14 meetups, 6 startup events. 32 are still upcoming as of Sunday, September 6, 2026.
+A: 62 tracked tech events in June 2026 — 13 conferences, 14 meetups, 6 startup events. 33 are still upcoming as of Monday, September 7, 2026.
 
 Q: What is the biggest tech event in Mumbai in June 2026?
 A: The Linux Foundation's Open Source Week (Jun 14–19 at the Jio World Convention Centre, BKC) — KubeCon + CloudNativeCon India, Open Source Summit India, OpenSearchCon India and the MCP Dev Summit — is the headline, expected to draw thousands of attendees.
@@ -88,7 +89,7 @@ Q: When and where is Open Source Week Mumbai 2026?
 A: June 14–19, 2026 at the Jio World Convention Centre, BKC: MCP Dev Summit (14–15), OpenSearchCon India (15–16), Open Source Summit India (16–17), and KubeCon + CloudNativeCon India (18–19).
 
 Q: Are tech events in Mumbai free?
-A: Yes — 39+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
+A: Yes — 40+ events on this directory are free to attend, including JS Mumbai, the eChai Ventures startup meetups, Microsoft Build //localhost: Mumbai, the IBM Agentic AI Summit (virtual), and the weekly MumbAI AI Saturdays co-working and Friday Tech Mixer.
 
 Q: Where can I find AI events in Mumbai?
 A: The full AI-focused list lives at https://mumbai-events.sagarjethi.com/ai-events-mumbai-2026. Notable in June: the MCP Dev Summit, the Open AI & Data track at Open Source Summit India, the IBM Agentic AI Summit, the Data & Gen AI Summit, and Microsoft Build //localhost.
@@ -103,7 +104,7 @@ Q: When is KubeCon + CloudNativeCon India 2026?
 A: June 18–19, 2026 at the Jio World Convention Centre, BKC, Mumbai — CNCF's flagship India cloud-native conference, part of Open Source Week Mumbai. Tickets: corporate $299, individual $99, academic $50.
 
 Q: Is there an event happening today?
-A: As of 2026-09-06 there are no events in the directory specifically on today's date — see the upcoming list above for the next event day.
+A: Yes, 1 event on 2026-09-07: Pre-GFF Reception: UK–India Fintech Leaders. See https://mumbai-events.sagarjethi.com/events for details.
 
 ## About
 

@@ -3,13 +3,13 @@
 # in Mumbai, India · June 2026
 # Website: https://mumbai-events.sagarjethi.com
 # Author: Sagar Jethi (@sagarbjethi)
-# Last updated: Sunday, September 6, 2026 (2026-09-06)
+# Last updated: Monday, September 7, 2026 (2026-09-07)
 
 ## Summary
 
-61 tracked tech events. 32 upcoming as of 2026-09-06.
-12 conferences · 14 meetups · 6 startup events.
-39+ free to attend.
+62 tracked tech events. 33 upcoming as of 2026-09-07.
+13 conferences · 14 meetups · 6 startup events.
+40+ free to attend.
 
 Organisations running events: The Linux Foundation, CNCF, OpenSearch Software
 Foundation, Agentic AI Foundation, Microsoft, IBM, UBS Forums / Snowflake,
@@ -440,7 +440,7 @@ eChai Ventures.
 - Cost: Invite only
 - Category: networking
 - Tags: Fintech, UK–India, Regulators, GFF Week
-- Status: Upcoming
+- Status: Live today
 - Description: A closed-door reception the evening before GFF opens, convening leaders from fintech, financial services, investment and regulation - including UK trade commissioners and representatives from the FCA, Bank of England and City of London Corporation.
 - Register: https://www.globalfintechfest.com/gff-networking
 - Detail page: https://mumbai-events.sagarjethi.com/events/pre-gff-reception-uk-india-fintech-leaders
@@ -812,6 +812,21 @@ eChai Ventures.
 - Description: A late-night BFSI mixer at Butterfly High on GFF Day 2 - no badges, no pitches, just bankers, fintech operators and founders unwinding over drinks after the exhibition floor closes.
 - Register: https://luma.com/e2g1t4ei
 - Detail page: https://mumbai-events.sagarjethi.com/events/no-kyc-required-a-bfsi-mixer-at-global-fintech-fest
+
+### Bharat Inclusion Sprint (IIMA Ventures)
+- ID: 62
+- Date: Sep 10
+- Start: 2026-09-10
+- Venue: Bandra Kurla Complex, Mumbai (venue shared with approved registrants)
+- Time: 10:00 AM onwards (half day)
+- Cost: Free (RSVP with a work email, approval required)
+- Category: conference
+- Tags: Fintech, Financial Inclusion, RBI, IIMA Ventures, J.P. Morgan, MicroSave, GFF Week
+- Status: Upcoming
+- Description: IIMA Ventures
+- Register: https://events.iimaventures.com/BharatInclusionSprintmumbai
+- Website: https://events.iimaventures.com/events
+- Detail page: https://mumbai-events.sagarjethi.com/events/bharat-inclusion-sprint-iima-ventures
 
 ### The Bioeconomy Table
 - ID: 50
